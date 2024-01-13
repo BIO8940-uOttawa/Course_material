@@ -1,8 +1,8 @@
 ---
-title: "BIO8940 course"
-description: |
-  Open science and advanced biostatistics course. A grad student level course at the University of Ottawa.
-site: distill::distill_website
+title: "Advanced statistics and Open science"
+output:
+  html_document:
+    toc: no
 ---
 
 ```{r setup, include=FALSE}
@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = FALSE)
 # https://rstudio.github.io/distill/website.html
 
 ```
-
+ This is a graduate level class at the University of Ottawa
 
 Who: [Julien Martin](https://juliengamartin.github.io/)  
 When: 1430-1720 on Tuesdays (Winter 2024)  

@@ -1,6 +1,8 @@
 ---
 title: "Lecture slides"
-site: distill::distill_article
+output:
+  html_document:
+    toc: no
 ---
 
 ```{r setup, include=FALSE}

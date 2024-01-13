@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Syllabus</title>
+
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162377463-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-162377463-2');
+</script>
+
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BIO8940</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="slides.html">
+    <span class="fa fa-chalkboard"></span>
+     
+    Slides
+  </a>
+</li>
+<li>
+  <a href="syllabus.html">
+    <span class="fa fa-graduation-cap"></span>
+     
+    Syllabus
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Practicals
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://bio8940-uottawa.github.io/class_book/">Manual</a>
+    </li>
+    <li>
+      <a href="https://github.com/BIO8940-uOttawa/practical_data">Data</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="people.html">
+    <span class="fa fa-envelope"></span>
+     
+    Contact
+  </a>
+</li>
+<li>
+  <a href="https://github.com/BIO8940-uOttawa/Course_material">
+    <span class="fab fa-github"></span>
+     
+    Source code
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Syllabus</h1>
+
+</div>
+
+
+<div id="section" class="section level1 tabset">
+<h1 class="tabset"></h1>
+<div id="english" class="section level2">
+<h2>English</h2>
+<div id="description" class="section level3">
+<h3>Description</h3>
+<p>Statistics are a key component of rigorous science and as such there is a need to both understand advanced statistics and properly document the analysis to improve scientific communication transparency and quality. The course aims to:</p>
+<ol style="list-style-type: decimal">
+<li>Provide an understanding of advanced statistical models (including generalized linear mixed models)</li>
+<li>Develop good coding practices (using R and Rmarkdown)</li>
+<li>Improve data and code management (data manipulation and github)</li>
+<li>Present the principles of open science (using OSF, Open Science Framework).</li>
+</ol>
+</div>
+<div id="contents" class="section level3">
+<h3>Contents</h3>
+<ul>
+<li>Statistics (flexible to be define based on attendance interests)
+<ul>
+<li>Mixed models including generalized linear mixed models and multivariate models</li>
+<li>Options:
+<ul>
+<li>Introduction to Bayesian stats</li>
+<li>Path analysis</li>
+<li>Spatial analysis</li>
+<li>Multivariate analysis</li>
+<li>…</li>
+</ul></li>
+</ul></li>
+<li>Open and reproducible science
+<ul>
+<li>R: <code>Rmarkdown</code>, <code>tidyverse</code> and <code>workflowr</code></li>
+<li>git: <code>github</code> and other alternatives</li>
+<li>Open Science Framework with <code>OSF</code></li>
+</ul></li>
+</ul>
+</div>
+<div id="classes" class="section level3">
+<h3>Classes</h3>
+<ul>
+<li>Duration: 1 class of 3h each week</li>
+<li>Style: mix of lecture, discussion and practical</li>
+<li>How: In-person .</li>
+<li>When: Tuedays from 1430 to 1720</li>
+<li>Where:
+<ul>
+<li>Room: DMS 3105 <!--   * Gather: https://gather.town/app/MCa0j7kcdaCNSCvS/AdvStatOpenSci
+* Zoom: https://uottawa-ca.zoom.us/j/93306840602?pwd=bWNsR3AzQ25VQXJOWCszNmh6RWI1UT09 --></li>
+<li>Lab manual: <a href="https://bio8940-uottawa.github.io/class_book/" class="uri">https://bio8940-uottawa.github.io/class_book/</a></li>
+</ul></li>
+</ul>
+</div>
+<div id="assessment" class="section level3">
+<h3>Assessment</h3>
+<p>Based on interactions in classes and on a data analysis project using <code>R</code> and documented with with <code>Rmarkdown</code>, <code>workflowr</code> and <code>github</code>.</p>
+<ul>
+<li>50% in class assessment:
+<ul>
+<li>15 min presentation in small groups on a paper and questions (10% content, 10% delivery, 10% answers questions)</li>
+<li>discussion in class (10% questions prep, 10% discussions)</li>
+</ul></li>
+<li>50% written statistical report using analysis more complex than linear models written using Rmarkdown, published on github in 2 different formats</li>
+</ul>
+<div id="presentation" class="section level4">
+<h4>Presentation</h4>
+<div id="content-10" class="section level5">
+<h5>Content – 10%</h5>
+<ul>
+<li>Introduction: Background of the general ‘big picture’ and specific problem, study system, and specific hypotheses or predictions.</li>
+<li>Methods: Brief outline of data collection and explanation of statistical methods used to address the hypotheses/predictions outlined in the introduction, including key assumptions.</li>
+<li>Results: Visualizations clearly summarizing your results, using parallel structure to methods</li>
+<li>Discussion: Summary of major results, alternative explanations for the observed results, conclusions/implications, future directions</li>
+</ul>
+</div>
+<div id="style-10" class="section level5">
+<h5>Style – 10%</h5>
+<ul>
+<li>Organization</li>
+<li>Clarity</li>
+<li>Delivery: Timing, pace, tone, articulation <!-- - Originality: (5 marks) Creativity, critical thinking --></li>
+</ul>
+</div>
+<div id="answers-and-understanding-10" class="section level5">
+<h5>Answers and understanding – 10%</h5>
+</div>
+</div>
+<div id="written-report" class="section level4">
+<h4>Written report</h4>
+<div id="content-70" class="section level5">
+<h5>Content – 70%</h5>
+<ul>
+<li>Introduction: (10 marks) Background of the general ‘big picture’ and specific problem, study system, and specific hypotheses or predictions.</li>
+<li>Methods: (20 marks) Brief outline of data collection and explanation of statistical methods used to address the hypotheses/predictions outlined in the introduction, including key assumptions.</li>
+<li>Results: (25 marks) Visualizations clearly summarizing your results, using parallel structure to methods</li>
+<li>Discussion: (15 marks) Summary of major results, alternative explanations for the observed results, conclusions/implications, future directions</li>
+</ul>
+</div>
+<div id="style-30" class="section level5">
+<h5>Style – 30%</h5>
+<ul>
+<li>Clarity and reproducibility of code (10 marks)</li>
+<li>Organization (5 marks)</li>
+<li>Clarity of text (10 marks)</li>
+<li>Typos and grammar (5 marks) <!-- - Delivery: (5 marks) Timing, pace, tone, articulation --> <!-- - Originality: (5 marks) Creativity, critical thinking --></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="schedule" class="section level3">
+<h3>Schedule</h3>
+<p>This is a tentative schedule.</p>
+<table>
+<colgroup>
+<col width="40%" />
+<col width="60%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Week</th>
+<th>Subject</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Intro and discussion on Stats and science</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Rmarkdown and importance of reproducibility</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Recap on linear models</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Generalized linear models</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Linear mixed models (including random slopes)</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Generalized linear mixed models (and intro to gamms)</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Reading week</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Intro to Bayesian stats</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Complex mixed models (spatial, temporal autocorrelation, non-independence random effects)</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>PCA and ordinance analysis</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Multivariate mixed models</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Path analysis and causality</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Wrap-up</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="note-on-bilingualism" class="section level3">
+<h3>Note on bilingualism</h3>
+<p>Please note that the class is bilingual. This means that any questions during the class can be asked or answered in either french or english and the prof will translate the answers if needs be. The majority of the course content (slides, lab manual) are provided in english only, but explanation can be provided in either languages.</p>
+</div>
+</div>
+<div id="français" class="section level2">
+<h2>Français</h2>
+<div id="description-et-objectifs" class="section level3">
+<h3>Description et objectifs</h3>
+<p>Les analyses statistiques sont fondamentales à un processus scientifique rigoureux. Par conséquent, il est primordiale de comprendre les statistiques et de reporter correctement les analyses pour améliorer la transparence et la qualité de la science. Les objectifs du cours sont:</p>
+<ol style="list-style-type: decimal">
+<li>Améliorer la compréhension des modèles statistique avancés (incluant les modèles mixtes généralisés)</li>
+<li>Développer de bonnes habitudes pour coder (utilisation de R et Rmarkdown)</li>
+<li>Améliorer la gestion des données et du code statistique (manipulation de données et github)</li>
+<li>Présenter les principes de science ouverte (se basant sur OSF, Open Science Framework)</li>
+</ol>
+</div>
+<div id="contenu" class="section level3">
+<h3>Contenu</h3>
+<ul>
+<li>Statistiques (contenu flexible à définir en fonction de l’intérêt des participants)
+<ul>
+<li>Modèles linéaires généralisés</li>
+<li>Modèles linéaires mixtes (généralisés et multivariés)</li>
+<li>sujets flexibles:
+<ul>
+<li>Introduction aux stats Bayesienne</li>
+<li>Analyse de piste</li>
+<li>analyse spatiale</li>
+<li>analyse multivariée</li>
+<li>analyse en composante principale</li>
+<li>GAM et GAMMs</li>
+<li>…</li>
+</ul></li>
+</ul></li>
+<li>Science ouverte répétable
+<ul>
+<li>R: <code>Rmarkdown</code>, <code>tidyverse</code>, et <code>workflowr</code></li>
+<li>git: <code>github</code> et autre alternative</li>
+<li>Open Science framework avec <code>OSF</code></li>
+</ul></li>
+</ul>
+</div>
+<div id="cours" class="section level3">
+<h3>Cours</h3>
+<ul>
+<li>Durée: 1 cours de 3h par semaine</li>
+<li>Style: mélange de cours, discussion et labo</li>
+<li>Comment: Session Zoom interactive avec tous les participants</li>
+<li>Quand: Mardis 1430 à 1720</li>
+<li>Où:
+<ul>
+<li>Salle: DMS 3105</li>
+<li>Gather: <a href="https://gather.town/app/MCa0j7kcdaCNSCvS/AdvStatOpenSci" class="uri">https://gather.town/app/MCa0j7kcdaCNSCvS/AdvStatOpenSci</a></li>
+<li>Zoom: <a href="https://uottawa-ca.zoom.us/j/93306840602?pwd=bWNsR3AzQ25VQXJOWCszNmh6RWI1UT09" class="uri">https://uottawa-ca.zoom.us/j/93306840602?pwd=bWNsR3AzQ25VQXJOWCszNmh6RWI1UT09</a></li>
+<li>Manuel de labo: <a href="https://bio8940-uottawa.github.io/class_book/" class="uri">https://bio8940-uottawa.github.io/class_book/</a></li>
+</ul></li>
+</ul>
+</div>
+<div id="évaluation" class="section level3">
+<h3>Évaluation</h3>
+<p>L’évaluation sera basée sur la participation et sur la réalisation d’un projet qui analysera des données en utilisant <code>R</code> et documentera l’analyse avec <code>Rmarkdown</code>, <code>workflowr</code> et <code>github</code>.</p>
+<ul>
+<li>50% évaluation en classe:
+<ul>
+<li>15 min présentation en petit groupes sur un article choisi par les étudiants</li>
+<li>discussion en classe (10% questions, 10% discussions)</li>
+</ul></li>
+<li>50% travail de session présentant une analyse statistique vu en cours (ou plus complexes), rédigé avec Rmardown et publiées sur github</li>
+</ul>
+<div id="présentation" class="section level4">
+<h4>Présentation</h4>
+<div id="contenu-10" class="section level5">
+<h5>Contenu – 10%</h5>
+<ul>
+<li>Introduction: Contexte général, hypothèses et prédictions spécifiques à l’étude.</li>
+<li>Méthodes: Brève description de la collecte des données. Explication des analyses statistiques à la lumière des hypothèses et ou prédictions</li>
+<li>Results: Représentation des clair des résultats</li>
+<li>Discussion: Explications des résultats, limite de l’étude? critique des analyses par rapport aux données et aux hypothèses</li>
+</ul>
+</div>
+<div id="style-10-1" class="section level5">
+<h5>Style – 10%</h5>
+<ul>
+<li>Organisation</li>
+<li>Clarté</li>
+<li>Style: Temps, vitesse, rhytme, ton de la voix, interactions avec audience <!-- - Originality: (5 marks) Creativity, critical thinking --></li>
+</ul>
+</div>
+<div id="réponse-et-compréhension-10" class="section level5">
+<h5>Réponse et compréhension – 10%</h5>
+</div>
+</div>
+<div id="travail-de-session" class="section level4">
+<h4>Travail de session</h4>
+<div id="content-60" class="section level5">
+<h5>Content – 60%</h5>
+<ul>
+<li>Introduction: (10 marks) Contexte général, hypothèses et prédictions spécifiques à l’étude.</li>
+<li>Methods: (20 marks) Brève description de la collecte des données. Explication des analyses statistiques à la lumière des hypothèses et ou prédictions</li>
+<li>Results: (20 marks) Représentation des clair (incluants graphiques) des résultats</li>
+<li>Discussion: (10 marks) Explications des résultats, limite de l’étude? critique des analyses par rapport aux données et aux hypothèses</li>
+</ul>
+</div>
+<div id="style-40" class="section level5">
+<h5>Style – 40%</h5>
+<ul>
+<li>Clarté et reproducibilité du code (20 marks)</li>
+<li>Organisation (5 marks)</li>
+<li>Clarté du texte (10 marks)</li>
+<li>Orthographe et grammaire (5 marks) <!-- - Delivery: (5 marks) Timing, pace, tone, articulation --> <!-- - Originality: (5 marks) Creativity, critical thinking --></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="calendrier" class="section level3">
+<h3>Calendrier</h3>
+<table>
+<colgroup>
+<col width="40%" />
+<col width="60%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Semaine</th>
+<th>Subject</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Intro and discussion on Stats and science</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Rmarkdown and importance of reproducibility</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Intro to Github</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Generalized linear models</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Linear mixed models (including random slopes)</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Generalized linear mixed models (and intro to gamms)</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Reading week</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Intro to Bayesian stats</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Complex mixed models (spatial, temporal autocorrelation, non-independence random effects)</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>PCA and ordinance analysis</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Multivariate mixed models</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Path analysis and causality</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Wrap-up</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="note-sur-le-bilinguisme" class="section level3">
+<h3>Note sur le bilinguisme</h3>
+<p>Le cours est un cours bilingue. Cela signifie que l’ensemble des interactions orales peuvent avoir lieu en français ou en anglais, le prof pouvant fournir les traductions nécessaires pour que l’ensemble des étudiants comprennent la matière. Le contenu du cours (diapo et manuel de laboratoire) seront présenté de manière unilingue en anglais avec possibilité de fournir des explanations en français si besoin.</p>
+</div>
+</div>
+</div>
+<div id="section-1" class="section level1 unnumbered">
+<h1 class="unnumbered"></h1>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

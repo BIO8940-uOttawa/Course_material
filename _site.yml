@@ -1,31 +1,47 @@
-name: "course_site"
+name: "Adv stats and open science"
 title: "BIO8940 course"
-description: |
-  BIO8940 course
 output_dir: "docs"
 include: [".nojekyll"]
 #theme: "theme.css"
 navbar:
+  title: "BIO8940"
   right:
     - text: "Home"
       href: index.html
     - text: Slides
+      icon: fa-chalkboard
       href: slides.html
     - text: "Syllabus"
-      menu:
-        - text: English
-          href: syllabus_en.html
-        - text: Français
-          href: syllabus_fr.html
+      icon: fa-graduation-cap
+      href: syllabus.html
     - text: "Practicals"
       menu:
         - text: "Manual"
           href:  https://bio8940-uottawa.github.io/class_book/
         - text: "Data"
           href: https://github.com/BIO8940-uOttawa/practical_data
-    - text: "About"
-      href: about.html
-    - icon: fab fa-github
+    - text: "Contact"
+      icon: fa-envelope
+      href: people.html
+    - text: "Source code"
+      icon: fab fa-github
       href: https://github.com/BIO8940-uOttawa/Course_material
 
-output: distill::distill_article
+output:
+  html_document:
+    theme: yeti
+    highlight: kate
+    toc: true
+    toc_depth: 2
+    toc_float:
+      collapsed: false
+    fig_align: center
+    # anchor_sections = FALSE
+    includes:
+      in_header: GA_script.html
+    # css: 'styles.css'
+    # css:
+    #  - https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css
+    #  - styles.css
+
+exclude: ["LICENSE", "README.md", "*.Rproj", "*.key", "*.psd"]
