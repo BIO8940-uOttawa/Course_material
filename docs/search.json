@@ -6,15 +6,15 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2024-01-12T19:19:57-05:00"
+      "last_modified": "2024-01-12T19:25:20-05:00"
     },
     {
       "path": "index.html",
       "title": "BIO8940 course",
       "description": "Open science and advanced biostatistics course\n",
       "author": [],
-      "contents": "\nBIO 8940 Open Science and applied biostatistics\nHere you find all the slides of the course and a link to github with the source code to generate them\nIntroduction class\nIntroduction to Rmarkdown\n\n\n\n",
-      "last_modified": "2024-01-12T19:19:57-05:00"
+      "contents": "\nHere you find all the slides of the course and a link to github with the source code to generate them\nIntroduction class\nIntroduction to Rmarkdown\n\n\n\n",
+      "last_modified": "2024-01-12T19:25:21-05:00"
     }
   ],
   "collections": []
