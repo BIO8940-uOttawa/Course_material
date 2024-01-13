@@ -13,6 +13,6 @@ knitr::opts_chunk$set(echo = FALSE)
 Here you find all the slides of the course and a link to github with the source code to generate them
 
 
-1. [Introduction class](../slides/L1_course_intro.html)
-2. [Introduction to Rmarkdown](../slides/L2_rmarkdown_intro.html)
+1. [Introduction class](slides/L1_course_intro.html)
+2. [Introduction to Rmarkdown](slides/L2_rmarkdown_intro.html)
 3. ...
