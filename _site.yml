@@ -1,0 +1,17 @@
+name: "course_site"
+title: "BIO8940 course"
+description: |
+  BIO8940 course
+output_dir: "docs"
+include: [".nojekyll"]
+#theme: "theme.css"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - icon: fab fa-github
+      href: https://github.com/BIO8940-uOttawa/Course_material
+
+output: distill::distill_article
