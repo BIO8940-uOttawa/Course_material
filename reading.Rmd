@@ -1,7 +1,8 @@
 ---
 title: Reading list
 output:
-  html_document: default
+  html_document:
+    toc: no
 ---
 
 # Week 1
