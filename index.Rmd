@@ -1,7 +1,7 @@
 ---
 title: "BIO8940 course"
 description: |
-  Open science and advanced biostatistics course
+  Open science and advanced biostatistics course. A grad student level course at the University of Ottawa.
 site: distill::distill_website
 ---
 
@@ -13,9 +13,39 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-Here you find all the slides of the course and a link to github with the source code to generate them
+
+Who: [Julien Martin](https://juliengamartin.github.io/)  
+When: 1430-1720 on Tuesdays (Winter 2024)  
+Where: CRC-C316  
+
+# Course info
+
+* [Lecture slides](slides.html)
+* [Practical manual](https://bio8940-uottawa.github.io/class_book/)
+* Syllabus ([english](syllabus_en.html) and [french](syllabus_fr.html))
 
 
-1. [Introduction class](../slides/L1_course_intro.html)
-2. [Introduction to Rmarkdown](../slides/L2_rmarkdown_intro.html)
- 
+# Requirements
+
+<!-- * Download and install [Git](https://git-scm.com/downloads). -->
+
+* You will need a GitHub account, you can easily set up a free account [here](https://github.com/).
+
+* Install [`R`](https://cloud.r-project.org/) and your favourite R IDE [`RStudio`](https://rstudio.com/products/rstudio/download/#download) or [`VSCode`](https://code.visualstudio.com/Download)
+
+<!-- * Have Git, GitHub and RStudio talk to each other following [these guidelines (section 2.2.2 Configuration only)](https://inbo.github.io/git-course/course_rstudio.html#222_configuration). -->
+
+<!-- * Install the following `R` packages: `tidyverse`, `sf`, `emo`, `janitor`, `palmerpenguins`, `usethis` and `lubridate.` You can install them all at once by running the following code in the `R` command line: -->
+
+```{r eval = FALSE, echo = FALSE}
+install.packages(c("tidyverse", "sf", "emo", "janitor", "palmerpenguins", "usethis", "lubridate"))
+```
+
+## Corrections {.appendix}
+
+If you see mistakes or want to suggest changes, please [create an issue](https://github.com/BIO8940-uOttawa/Course_material/issues) on the source repository.
+
+## Reuse {.appendix}
+
+Text and figures are licensed under Creative Commons Attribution [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Any computer code (R, HTML, CSS, etc.) in slides and worksheets, including in slide and worksheet sources, is also licensed under [MIT](https://github.com/BIO8940-uOttawa/Course_material/blob/master/LICENSE.md). 
+

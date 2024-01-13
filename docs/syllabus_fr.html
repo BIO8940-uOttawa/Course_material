@@ -87,29 +87,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>BIO8940 course: About this site</title>
+  <title>BIO8940 course: Syllabus</title>
 
-  <meta property="description" itemprop="description" content="Some additional details about the website"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="BIO8940 course: About this site"/>
+  <meta property="og:title" content="BIO8940 course: Syllabus"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Some additional details about the website"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="BIO8940 course"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="BIO8940 course: About this site"/>
-  <meta property="twitter:description" content="Some additional details about the website"/>
+  <meta property="twitter:title" content="BIO8940 course: Syllabus"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["About this site"]},{"type":"character","attributes":{},"value":["Some additional details about the website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","output"]}},"value":[{"type":"character","attributes":{},"value":["Syllabus"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"NULL"}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2118,7 +2115,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"About this site","description":"Some additional details about the website","authors":[]}
+{"title":"Syllabus","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2166,15 +2163,183 @@ Practicals
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>About this site</h1>
+<h1>Syllabus</h1>
 
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Some additional details about the website</p></p>
+
 </div>
 
 
 <div class="d-article">
+<div class="layout-chunk" data-layout="l-body">
+
+</div>
+<h2 id="description-et-objectifs">Description et objectifs</h2>
+<p>Les analyses statistiques sont fondamentales à un processus scientifique rigoureux. Par conséquent, il est primordiale de comprendre les statistiques et de reporter correctement les analyses pour améliorer la transparence et la qualité de la science.
+Les objectifs du cours sont:</p>
+<ol type="1">
+<li>Améliorer la compréhension des modèles statistique avancés (incluant les modèles mixtes généralisés)</li>
+<li>Développer de bonnes habitudes pour coder (utilisation de R et Rmarkdown)</li>
+<li>Améliorer la gestion des données et du code statistique (manipulation de données et github)</li>
+<li>Présenter les principes de science ouverte (se basant sur OSF, Open Science Framework)</li>
+</ol>
+<h2 id="contenu">Contenu</h2>
+<ul>
+<li>Statistiques (contenu flexible à définir en fonction de l’intérêt des participants)
+<ul>
+<li>Modèles linéaires généralisés</li>
+<li>Modèles linéaires mixtes (généralisés et multivariés)</li>
+<li>sujets flexibles:
+<ul>
+<li>Introduction aux stats Bayesienne</li>
+<li>Analyse de piste</li>
+<li>analyse spatiale</li>
+<li>analyse multivariée</li>
+<li>analyse en composante principale</li>
+<li>GAM et GAMMs</li>
+<li>…</li>
+</ul></li>
+</ul></li>
+<li>Science ouverte répétable
+<ul>
+<li>R: <code>Rmarkdown</code>, <code>tidyverse</code>, et <code>workflowr</code></li>
+<li>git: <code>github</code> et autre alternative</li>
+<li>Open Science framework avec <code>OSF</code></li>
+</ul></li>
+</ul>
+<h2 id="cours">Cours</h2>
+<ul>
+<li>Durée: 1 cours de 3h par semaine</li>
+<li>Style: mélange de cours, discussion et labo</li>
+<li>Comment: Session Zoom interactive avec tous les participants</li>
+<li>Quand: Mardis 1430 à 1720</li>
+<li>Où:
+<ul>
+<li>Salle: DMS 3105</li>
+<li>Gather: <a href="https://gather.town/app/MCa0j7kcdaCNSCvS/AdvStatOpenSci" class="uri">https://gather.town/app/MCa0j7kcdaCNSCvS/AdvStatOpenSci</a></li>
+<li>Zoom: <a href="https://uottawa-ca.zoom.us/j/93306840602?pwd=bWNsR3AzQ25VQXJOWCszNmh6RWI1UT09" class="uri">https://uottawa-ca.zoom.us/j/93306840602?pwd=bWNsR3AzQ25VQXJOWCszNmh6RWI1UT09</a></li>
+<li>Manuel de labo: <a href="https://bio8940-uottawa.github.io/class_book/" class="uri">https://bio8940-uottawa.github.io/class_book/</a></li>
+</ul></li>
+</ul>
+<h2 id="évaluation">Évaluation</h2>
+<p>L’évaluation sera basée sur la participation et sur la réalisation d’un projet qui analysera des données en utilisant <code>R</code> et documentera l’analyse avec <code>Rmarkdown</code>, <code>workflowr</code> et <code>github</code>.</p>
+<ul>
+<li>50% évaluation en classe:
+<ul>
+<li>15 min présentation en petit groupes sur un article choisi par les étudiants</li>
+<li>discussion en classe (10% questions, 10% discussions)</li>
+</ul></li>
+<li>50% travail de session présentant une analyse statistique vu en cours (ou plus complexes), rédigé avec Rmardown et publiées sur github</li>
+</ul>
+<h3 id="présentation">Présentation</h3>
+<h4 id="contenu-10">Contenu – 10%</h4>
+<ul>
+<li>Introduction: Contexte général, hypothèses et prédictions spécifiques à l’étude.</li>
+<li>Méthodes: Brève description de la collecte des données. Explication des analyses statistiques à la lumière des hypothèses et ou prédictions</li>
+<li>Results: Représentation des clair des résultats</li>
+<li>Discussion: Explications des résultats, limite de l’étude? critique des analyses par rapport aux données et aux hypothèses</li>
+</ul>
+<h4 id="style-10">Style – 10%</h4>
+<ul>
+<li>Organisation</li>
+<li>Clarté</li>
+<li>Style: Temps, vitesse, rhytme, ton de la voix, interactions avec audience
+<!-- - Originality: (5 marks) Creativity, critical thinking --></li>
+</ul>
+<h4 id="réponse-et-compréhension-10">Réponse et compréhension – 10%</h4>
+<h3 id="travail-de-session">Travail de session</h3>
+<h4 id="content-60">Content – 60%</h4>
+<ul>
+<li>Introduction: (10 marks) Contexte général, hypothèses et prédictions spécifiques à l’étude.</li>
+<li>Methods: (20 marks) Brève description de la collecte des données. Explication des analyses statistiques à la lumière des hypothèses et ou prédictions</li>
+<li>Results: (20 marks) Représentation des clair (incluants graphiques) des résultats</li>
+<li>Discussion: (10 marks) Explications des résultats, limite de l’étude? critique des analyses par rapport aux données et aux hypothèses</li>
+</ul>
+<h4 id="style-40">Style – 40%</h4>
+<ul>
+<li>Clarté et reproducibilité du code (20 marks)</li>
+<li>Organisation (5 marks)</li>
+<li>Clarté du texte (10 marks)</li>
+<li>Orthographe et grammaire (5 marks)
+<!-- - Delivery: (5 marks) Timing, pace, tone, articulation -->
+<!-- - Originality: (5 marks) Creativity, critical thinking --></li>
+</ul>
+<h2 id="calendrier">Calendrier</h2>
+<table>
+<colgroup>
+<col style="width: 40%" />
+<col style="width: 60%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Semaine</th>
+<th>Subject</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Intro and discussion on Stats and science</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Rmarkdown and importance of reproducibility</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Intro to Github</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Generalized linear models</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Linear mixed models (including random slopes)</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Generalized linear mixed models (and intro to gamms)</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Reading week</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Intro to Bayesian stats</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Complex mixed models (spatial, temporal autocorrelation, non-independence random effects)</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>PCA and ordinance analysis</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Multivariate mixed models</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Path analysis and causality</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Wrap-up</td>
+</tr>
+</tbody>
+</table>
+<h2 id="note-sur-le-bilinguisme">Note sur le bilinguisme</h2>
+<p>Le cours est un cours bilingue. Cela signifie que l’ensemble des interactions orales peuvent avoir lieu en français ou en anglais, le prof pouvant fournir les traductions nécessaires pour que l’ensemble des étudiants comprennent la matière. Le contenu du cours (diapo et manuel de laboratoire) seront présenté de manière unilingue en anglais avec possibilité de fournir des explanations en français si besoin.</p>
+<h2 id="contact">Contact</h2>
+<p>Pr. <strong>Julien Martin</strong></p>
+<ul>
+<li>bureau: Gendron 279</li>
+<li>courriel: <a href="mailto:julien.martin@uottawa.ca" class="email">julien.martin@uottawa.ca</a></li>
+</ul>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

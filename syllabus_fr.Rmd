@@ -1,0 +1,130 @@
+---
+title: "Syllabus"
+output:
+  distill::distill_article:
+---
+
+```{r setup, echo = FALSE}
+start <- 1430
+stop <- 1720
+where <- "DMS 3105"
+```
+
+## Description et objectifs
+
+Les analyses statistiques sont fondamentales à un processus scientifique rigoureux. Par conséquent, il est primordiale de comprendre les statistiques et de reporter correctement les analyses pour améliorer la transparence et la qualité de la science.
+Les objectifs du cours sont:
+
+1. Améliorer la compréhension des modèles statistique avancés (incluant les modèles mixtes généralisés)
+2. Développer de bonnes habitudes pour coder (utilisation de R et Rmarkdown)
+3. Améliorer la gestion des données et du code statistique (manipulation de données et github)
+4. Présenter les principes de science ouverte (se basant sur OSF, Open Science Framework)
+
+
+## Contenu
+
+* Statistiques (contenu flexible à définir en fonction de l'intérêt des participants)
+  * Modèles linéaires généralisés
+  * Modèles linéaires mixtes (généralisés et multivariés)
+  * sujets flexibles:
+    * Introduction aux stats Bayesienne
+    * Analyse de piste
+    * analyse spatiale
+    * analyse multivariée
+    * analyse en composante principale
+    * GAM et GAMMs
+    * ...
+* Science ouverte répétable
+  * R: `Rmarkdown`, `tidyverse`, et `workflowr`
+  * git: `github` et autre alternative
+  * Open Science framework avec `OSF`
+
+## Cours
+
+* Durée: 1 cours de 3h par semaine
+* Style: mélange de  cours, discussion et labo
+* Comment: Session Zoom interactive avec tous les participants
+* Quand: Mardis `r start` à `r stop`
+* Où:
+  * Salle: `r where`
+  * Gather: https://gather.town/app/MCa0j7kcdaCNSCvS/AdvStatOpenSci
+  * Zoom: https://uottawa-ca.zoom.us/j/93306840602?pwd=bWNsR3AzQ25VQXJOWCszNmh6RWI1UT09
+  * Manuel de labo: https://bio8940-uottawa.github.io/class_book/
+
+
+## Évaluation
+
+L'évaluation sera basée sur la participation et sur la réalisation d'un projet qui analysera des données en utilisant `R` et documentera l'analyse avec `Rmarkdown`, `workflowr` et `github`.
+
+* 50% évaluation en classe:
+  * 15 min présentation en petit groupes sur un article choisi par les étudiants
+  * discussion en classe (10% questions, 10% discussions)
+* 50% travail de session présentant une analyse statistique vu en cours (ou plus complexes), rédigé avec Rmardown et publiées sur github
+
+### Présentation
+
+#### Contenu – 10%
+
+- Introduction: Contexte général, hypothèses et prédictions spécifiques à l'étude.
+- Méthodes: Brève description de la collecte des données. Explication des analyses statistiques à la lumière des hypothèses et ou prédictions
+- Results: Représentation des clair des résultats
+- Discussion: Explications des résultats, limite de l'étude? critique des analyses par rapport aux données et aux hypothèses
+
+#### Style – 10%
+
+- Organisation 
+- Clarté 
+- Style: Temps, vitesse, rhytme, ton de la voix, interactions avec audience
+<!-- - Originality: (5 marks) Creativity, critical thinking -->
+
+#### Réponse et compréhension – 10%
+
+### Travail de session
+
+#### Content – 60%
+
+- Introduction: (10 marks) Contexte général, hypothèses et prédictions spécifiques à l'étude.
+- Methods: (20 marks) Brève description de la collecte des données. Explication des analyses statistiques à la lumière des hypothèses et ou prédictions
+- Results: (20 marks) Représentation des clair (incluants graphiques) des résultats
+- Discussion: (10 marks) Explications des résultats, limite de l'étude? critique des analyses par rapport aux données et aux hypothèses
+
+#### Style – 40%
+
+- Clarté et reproducibilité du code (20 marks)
+- Organisation (5 marks)
+- Clarté du texte (10 marks)
+- Orthographe et grammaire (5 marks)
+<!-- - Delivery: (5 marks) Timing, pace, tone, articulation -->
+<!-- - Originality: (5 marks) Creativity, critical thinking -->
+
+
+## Calendrier
+
+
+| Semaine | Subject |
+|------|---------|
+|  1 | Intro and discussion on Stats and science |
+|  2 | Rmarkdown and importance of reproducibility |
+|  3 | Intro to Github |
+|  4 | Generalized linear models |
+|  5 | Linear mixed models (including random slopes) |
+|  6 | Generalized linear mixed models (and intro to gamms) |
+|  7 | Reading week |
+|  8 | Intro to Bayesian stats |
+|  9 | Complex mixed models (spatial, temporal autocorrelation, non-independence random effects) |
+| 10 | PCA and ordinance analysis |
+| 11 | Multivariate mixed models |
+| 12 | Path analysis and causality |
+| 13 | Wrap-up |
+
+
+## Note sur le bilinguisme
+
+Le cours est un cours bilingue. Cela signifie que l'ensemble des interactions orales peuvent avoir lieu en français ou en anglais, le prof pouvant fournir les traductions nécessaires pour que l'ensemble des étudiants comprennent la matière. Le contenu du cours (diapo et manuel de laboratoire) seront présenté de manière unilingue en anglais avec possibilité de fournir des explanations en français si besoin.
+
+## Contact
+
+Pr. **Julien Martin**
+
+* bureau: Gendron 279
+* courriel: julien.martin@uottawa.ca

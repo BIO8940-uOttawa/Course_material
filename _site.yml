@@ -9,6 +9,20 @@ navbar:
   right:
     - text: "Home"
       href: index.html
+    - text: Slides
+      href: slides.html
+    - text: "Syllabus"
+      menu:
+        - text: English
+          href: syllabus_en.html
+        - text: Français
+          href: syllabus_fr.html
+    - text: "Practicals"
+      menu:
+        - text: "Manual"
+          href:  https://bio8940-uottawa.github.io/class_book/
+        - text: "Data"
+          href: https://github.com/BIO8940-uOttawa/practical_data
     - text: "About"
       href: about.html
     - icon: fab fa-github
