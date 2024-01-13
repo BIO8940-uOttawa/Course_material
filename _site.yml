@@ -11,15 +11,18 @@ navbar:
     - text: Slides
       icon: fa-chalkboard
       href: slides.html
-    - text: "Syllabus"
-      icon: fa-graduation-cap
-      href: syllabus.html
+    - text: Reading
+      icon: fa-book
+      href: reading.html
     - text: "Practicals"
       menu:
         - text: "Manual"
           href:  https://bio8940-uottawa.github.io/class_book/
         - text: "Data"
           href: https://github.com/BIO8940-uOttawa/practical_data
+    - text: "Syllabus"
+      icon: fa-graduation-cap
+      href: syllabus.html
     - text: "Contact"
       icon: fa-envelope
       href: people.html
