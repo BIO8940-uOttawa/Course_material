@@ -7,10 +7,6 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
 ```
  This is a graduate level class at the University of Ottawa
 
@@ -20,9 +16,9 @@ Where: CRC-C316
 
 # Course info
 
-* [Lecture slides](slides.html)
-* [Practical manual](https://bio8940-uottawa.github.io/class_book/)
-* Syllabus ([english](syllabus_en.html) and [french](syllabus_fr.html))
+* [Lecture slides](lectures.html)
+* [Practical manual](https://biostats-uottawa.github.io/bio8940_manual/)
+* [Syllabus](syllabus.html)
 
 
 # Requirements

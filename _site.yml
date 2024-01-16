@@ -8,18 +8,18 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: Slides
+    - text: Lectures
       icon: fa-chalkboard
-      href: slides.html
+      href: lectures.html
     - text: Reading
       icon: fa-book
       href: reading.html
     - text: "Practicals"
       menu:
         - text: "Manual"
-          href:  https://bio8940-uottawa.github.io/class_book/
+          href:  https://biostats-uottawa.github.io/bio8940_manual/
         - text: "Data"
-          href: https://github.com/BIO8940-uOttawa/practical_data
+          href: https://github.com/biostats-uOttawa/practical_data
     - text: "Syllabus"
       icon: fa-graduation-cap
       href: syllabus.html
@@ -28,7 +28,7 @@ navbar:
       href: people.html
     - text: "Source code"
       icon: fab fa-github
-      href: https://github.com/BIO8940-uOttawa/Course_material
+      href: https://github.com/biostats-uOttawa/bio8940_course
 
 output:
   html_document:

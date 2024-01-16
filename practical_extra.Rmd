@@ -1,0 +1,16 @@
+---
+title: "Solutions"
+output:
+  html_document:
+    toc: no
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+Here you will find links for the praticals as well as their solutions
+
+# Introduction Rmarkdown {#rmarkdown}
+
+Here are knitted version of the expected output as well as the Rmd file used to generate them.
+
