@@ -1,5 +1,5 @@
 ---
-title: "Lecture slides"
+title: "Lectures"
 output:
   html_document:
     toc: no
@@ -7,15 +7,11 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
 ```
-Here you find all the slides of the course and a link to github with the source code to generate them
+Here you find links for the slides and practicals the course
 
 
-1. [Introduction](slides/L1_course_intro.html)
-2. [Introduction to Rmarkdown](slides/L2_rmarkdown_intro.html)
+1. Introduction [slides: [html](slides/L1_course_intro.html), [PDF](slides/L1_course_intro.pdf)]
+2. Introduction to Rmarkdown: [slides: [html](slides/L2_rmarkdown_intro.html), [PDF](slides/L2_rmarkdown_intro.pdf)][Practical: [Chapter 2](https://biostats-uottawa.github.io/bio8940_manual/2.2-practical.html)
 3. ...
 4. ...
