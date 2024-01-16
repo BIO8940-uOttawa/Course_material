@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Who: [Julien Martin](https://juliengamartin.github.io/)  
 When: 1430-1720 on Tuesdays (Winter 2024)  
-Where: CRC-C316  
+Where: CRX - C323
 
 # Course info
 
