@@ -20,6 +20,8 @@ navbar:
           href:  https://biostats-uottawa.github.io/bio8940_manual/
         - text: "Data"
           href: https://github.com/biostats-uOttawa/practical_data
+        - text: "Extra info"
+          href: practical_extra.html
     - text: "Syllabus"
       icon: fa-graduation-cap
       href: syllabus.html

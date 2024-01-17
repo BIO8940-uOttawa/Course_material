@@ -5,7 +5,7 @@ author: "Julien Martin"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   xaringan::moon_reader:
-    css: ["assets/css/rutgers-bki.css", "assets/css/rutgers-fonts_og.css"]
+    css: ["assets/css/rutgers-img.css", "assets/css/rutgers-fonts_og.css"]
     lib_dir: "assets/libs"
     self_contained: false
     ratio: '16:9'
@@ -15,7 +15,11 @@ output:
       countIncrementalSlides: false
 knit: pagedown::chrome_print
 ---
-
+```{css, echo=FALSE}
+.title-slide {
+  background-image: url(assets/img_l1/bki.png);
+}
+```
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
   echo = TRUE,

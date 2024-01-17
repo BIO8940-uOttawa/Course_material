@@ -52,7 +52,9 @@ The course aims to:
   * Room: `r where`
 <!--   * Gather: https://gather.town/app/MCa0j7kcdaCNSCvS/AdvStatOpenSci
   * Zoom: https://uottawa-ca.zoom.us/j/93306840602?pwd=bWNsR3AzQ25VQXJOWCszNmh6RWI1UT09 -->
-  * Lab manual: https://bio8940-uottawa.github.io/class_book/
+  * Course info and slides: https://biostats-uottawa.github.io/bio8940_course/
+  * Lab manual: https://biostats-uottawa.github.io/bio8940_manual/
+
 
 
 ### Assessment
@@ -164,9 +166,11 @@ Les objectifs du cours sont:
 * Quand: Mardis `r start` à `r stop`
 * Où:
   * Salle: `r where`
-  * Gather: https://gather.town/app/MCa0j7kcdaCNSCvS/AdvStatOpenSci
-  * Zoom: https://uottawa-ca.zoom.us/j/93306840602?pwd=bWNsR3AzQ25VQXJOWCszNmh6RWI1UT09
-  * Manuel de labo: https://bio8940-uottawa.github.io/class_book/
+<!--   * Gather: https://gather.town/app/MCa0j7kcdaCNSCvS/AdvStatOpenSci
+  * Zoom: https://uottawa-ca.zoom.us/j/93306840602?pwd=bWNsR3AzQ25VQXJOWCszNmh6RWI1UT09 -->
+  * Course info and slides: https://biostats-uottawa.github.io/bio8940_course/
+  * Lab manual: https://biostats-uottawa.github.io/bio8940_manual/
+
 
 
 ### Évaluation
