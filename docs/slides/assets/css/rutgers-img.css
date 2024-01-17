@@ -114,11 +114,12 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 
 /* Add image and change bg color */
 .title-slide {
-  background-image: url(rmarkdown.png);
+/*  background-image: url(../img_l3/git.png);*/
   background-position: 50% 35%;
   background-size: 150px;
   background-color: #fff;
-  padding-left: 0px;  /* delete this for 4:3 aspect ratio */
+  padding-left: 0px;
+  /* delete this for 4:3 aspect ratio */
 }
 
 /* H1 fonts */

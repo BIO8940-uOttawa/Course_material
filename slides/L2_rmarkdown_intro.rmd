@@ -5,7 +5,7 @@ author: "Julien Martin"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   xaringan::moon_reader:
-    css: ["assets/css/rutgers-rmarkdown.css", "assets/css/rutgers-fonts_og.css"]
+    css: ["assets/css/rutgers-img.css", "assets/css/rutgers-fonts_og.css"]
     lib_dir: "assets/libs"
     self_contained: false
     nature:
@@ -15,6 +15,11 @@ output:
 # uncomment this line to produce HTML and PDF in RStudio:
 knit: pagedown::chrome_print
 ---
+```{css, echo=FALSE}
+.title-slide {
+  background-image: url(assets/img_l2/rmarkdown.png);
+}
+```
 
 ```{r global_options, include=FALSE}
 knitr::opts_chunk$set(fig.path = 'assets/chunks/', cache.path = "assets/cache/", dpi = 300)
