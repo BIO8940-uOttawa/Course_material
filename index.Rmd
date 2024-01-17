@@ -10,14 +10,14 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
  This is a graduate level class at the University of Ottawa
 
-Who: [Julien Martin](https://juliengamartin.github.io/)  
+Who: [Julien Martin][lab_website]  
 When: 1430-1720 on Tuesdays (Winter 2024)  
 Where: CRX - C323
 
 # Course info
 
 * [Lecture slides](lectures.html)
-* [Practical manual](https://biostats-uottawa.github.io/bio8940_manual/)
+* [Practical manual][manual]
 * [Syllabus](syllabus.html)
 
 
@@ -27,7 +27,7 @@ Where: CRX - C323
 
 * You will need a GitHub account, you can easily set up a free account [here](https://github.com/).
 
-* Install [`R`](https://cloud.r-project.org/) and your favourite R IDE [`RStudio`](https://rstudio.com/products/rstudio/download/#download) or [`VSCode`](https://code.visualstudio.com/Download)
+* Install [`R`][cran] and your favourite R IDE [`RStudio`][rstudio_d] or [`VSCode`][vscode_d]
 
 <!-- * Have Git, GitHub and RStudio talk to each other following [these guidelines (section 2.2.2 Configuration only)](https://inbo.github.io/git-course/course_rstudio.html#222_configuration). -->
 
@@ -45,3 +45,5 @@ If you see mistakes or want to suggest changes, please [create an issue](https:/
 
 Text and figures are licensed under Creative Commons Attribution [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Any computer code (R, HTML, CSS, etc.) in slides and worksheets, including in slide and worksheet sources, is also licensed under [MIT](https://github.com/BIO8940-uOttawa/Course_material/blob/master/LICENSE.md). 
 
+```{r links, child="links.md", include = FALSE}
+```

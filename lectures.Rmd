@@ -12,8 +12,10 @@ Here you can find links for the slides and practicals the course
 
 | Week | Subject | Slides | Practical |
 |:----:|:---------:|:--------|:-----------|
-|  1 | Introduction | [html](slides/L1_course_intro.html) / [PDF](slides/L1_course_intro.pdf) | |
-|  2 | Introduction to Rmarkdown | [html](slides/L2_rmarkdown_intro.html) / [PDF](slides/L2_rmarkdown_intro.pdf) | [Chapter 2](https://biostats-uottawa.github.io/bio8940_manual/2.2-practical.html) |
-<!--|  3 | ... | [html](), [PDF]() | [Chapter ]() | -->
+|  1 | Introduction | [html][L1_html] / [PDF][L1_pdf] |
+|  2 | Introduction to Rmarkdown | [html][L2_html] / [PDF][L2_pdf] | [Chapter 2](p_rmarkdown) |
+|  3 | Introduction to github | [html][L3_html] / [PDF][L3_pdf] | [Chapter 3][p_github] |
+<!--|  X | ... | [html][LX_html] / [PDF][LX_pdf] | [Chapter X][p_] | -->
 
-
+```{r links, child="links.md", include = FALSE}
+```
