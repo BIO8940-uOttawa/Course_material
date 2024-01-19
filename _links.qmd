@@ -6,7 +6,10 @@
 [L3_html]: slides/L3_github_intro.html
 [L3_pdf]: slides/L3_github_intro.pdf
 
-[manual]: https://biostats-uottawa.github.io/bio8940_manual/ 
+[manual_4158]: https://biostats-uottawa.github.io/bio4158_manual/ 
+[manual_4558]: https://biostats-uottawa.github.io/bio4158_manual/ 
+[manual_8940]: https://biostats-uottawa.github.io/bio8940_manual/
+
 [p_rmarkdown]: https://biostats-uottawa.github.io/bio8940_manual/2.2-practical.html
 [p_github]: https://biostats-uottawa.github.io/bio8940_manual/3.2-git_practical.html
 

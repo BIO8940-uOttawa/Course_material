@@ -19,14 +19,14 @@ where <- "CRX-C323"
 
  This is a graduate level class at the University of Ottawa
 
-Who: [Julien Martin][lab_website]  
+Who: [Julien Martin](people.qmd)  
 When: `r start`-`r stop` on Tuesdays (Winter 2024)  
 Where: `r where`
 
 # Course info
 
 * [Lecture slides](lectures.html)
-* [Practical manual][manual]
+* [Practical manual][manual_8940]
 * [Syllabus](syllabus.html)
 
 
