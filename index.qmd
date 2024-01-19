@@ -1,8 +1,8 @@
 ---
 title: "Advanced statistics and Open science"
-output:
-  html_document:
-    toc: no
+format:
+  html:
+    toc: false
 ---
 
 {{< include _links.qmd >}}
@@ -46,11 +46,11 @@ Where: `r where`
 install.packages(c("tidyverse", "sf", "emo", "janitor", "palmerpenguins", "usethis", "lubridate"))
 ```
 
-##### Corrections {-}
+#### Corrections {-}
 
 If you see mistakes or want to suggest changes, please [create an issue](https://github.com/biostats-uOttawa/bio8940-course/issues) on the source repository.
 
-##### Reuse {-}
+#### Reuse {-}
 
 Text and figures are licensed under Creative Commons Attribution [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Any computer code (R, HTML, CSS, etc.) in slides and worksheets, including in slide and worksheet sources, is also licensed under [MIT](https://github.com/biostats-uOttawa/bio8940_course/blob/master/LICENSE.md). 
 

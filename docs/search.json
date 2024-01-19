@@ -35,6 +35,27 @@
     "text": "Here you can find links for the slides and practicals the course\n\n\n\nWeek\nSubject\nSlides\nPractical\n\n\n\n\n1\nIntroduction\nhtml / PDF\n\n\n\n2\nIntroduction to Rmarkdown\nhtml / PDF\nChapter 2\n\n\n3\nIntroduction to github\nhtml / PDF\nChapter 3"
   },
   {
+    "objectID": "dataset.html",
+    "href": "dataset.html",
+    "title": "Data and code for BIO8940",
+    "section": "",
+    "text": "All data and code files in a nice zip"
+  },
+  {
+    "objectID": "dataset.html#data-for-praticals",
+    "href": "dataset.html#data-for-praticals",
+    "title": "Data and code for BIO8940",
+    "section": "Data for praticals",
+    "text": "Data for praticals\n\nBanta_TotalFruits.csv\n\ndragons.csv\nunicorns_aggression.csv"
+  },
+  {
+    "objectID": "dataset.html#r-code-and-functions-used",
+    "href": "dataset.html#r-code-and-functions-used",
+    "title": "Data and code for BIO8940",
+    "section": "R code and functions used",
+    "text": "R code and functions used\n\nextra-funs.R"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Advanced statistics and Open science",

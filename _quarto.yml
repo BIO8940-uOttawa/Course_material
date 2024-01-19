@@ -6,6 +6,7 @@ project:
     - "!slides/"
   resources:
     - "slides/"
+    - "data/"
  
 website:
   title: "BIO8940 course"
@@ -22,7 +23,7 @@ website:
           - text: "Manual"
             href:  https://biostats-uottawa.github.io/bio8940_manual/
           - text: "Data"
-            href: https://github.com/biostats-uOttawa/practical_data
+            href: dataset.qmd
           - text: "Extra info"
             href: practical_extra.qmd
       - text: "Syllabus"
