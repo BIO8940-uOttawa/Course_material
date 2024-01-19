@@ -13,7 +13,7 @@ website:
   description: "Adv stats and open science"
   navbar:
     title: "BIO8940"
-    right:
+    left:
       - text: Lectures
         href: lectures.qmd
       - text: Reading
@@ -40,19 +40,20 @@ website:
             href: https://biostats-uottawa.github.io/R_way/ 
           - text: Chemin de l'enf-R
             href: https://biostats-uottawa.github.io/chemin_R/
-      - text: ""
-        icon: envelope
+    tools:
+      - icon: envelope
         href: people.html
+        text: Contact
       - icon: github
         menu:
         - text: Code
           href: https://github.com/biostats-uOttawa/bio8940_course
         - text: Issues
           href: https://github.com/Biostats-uOttawa/bio8940_course/issues
-  
+
 format:
   html:
-    theme: yeti
+    theme: cosmo
     highlight: kate
     fig_align: center
     css: styles.css
