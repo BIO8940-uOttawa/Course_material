@@ -21,6 +21,11 @@ knit: pagedown::chrome_print
   background-image: url(assets/img_l3/git.png);
 }
 ```
+<!-- To add / change
+
+add about VS Code and github 
+
+  -->
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)

@@ -21,6 +21,13 @@ knit: pagedown::chrome_print
 }
 ```
 
+
+<!-- To add / change
+
+add something about quarto what is it and how is it different
+
+  -->
+  
 ```{r global_options, include=FALSE}
 knitr::opts_chunk$set(fig.path = 'assets/chunks/', cache.path = "assets/cache/", dpi = 300)
 library(tidyverse)
