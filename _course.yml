@@ -1,0 +1,50 @@
+schedule:
+  - week: 1
+    topic: "Introduction"
+    readings: ""
+  - week: 2
+    topic: "Introduction  to Rmarkdown"
+    readings: "[Alston & Rick 2021](https://doi.org/10.1002/bes2.1801)"
+  - week: 3
+    topic: "Introduction  to Github"
+#    tools: ""
+#    assessment: "Assessment 2 **due Fri 6 Oct 11:55 PM**"
+#    readings: "[Spencer (2022, Feb. 17). Data in Wonderland. Section 1.](https://ssp3nc3r.github.io/data_in_wonderland/)"
+  - week: 4
+#    tools: "`rmarkdown`, `distill`, git & github"
+#    topic: "Data storytelling on the web "
+#    readings: "[Quarto Guide](https://quarto.org/docs/guide/)"
+  - week: 5
+  - week: 6
+  - week: 7
+  - week: 8
+  - week: 9
+  - week: 10
+  - week: 11
+#    lecturer: Kate
+#    topic: Guest lecture
+#    tools: ""
+#    readings: ""
+  - week: 12
+    topic: ""
+    assessment: "Final report due **??**"
+
+team:
+  - name: Julien Martin
+    role: lecturer
+    consult: Wed 1100-1200 (in-person & online)
+#  - name: Cynthia Huang
+#    role: tutor
+#    consult:
+#      - Fri 5.00-5.45pm (in-person)
+#  - name: Janith Wanniarachchi
+#    role: tutor
+#    consult: Thu 6.00-6.45pm (in-person)
+
+timetable:
+  - class: "Lecture"
+    when: Tuesdays 1430-1720
+    where: CRX-C323
+#  - class: "Practical"
+#    when: Tuesdays 1430-1720
+#    where: CRX-C323

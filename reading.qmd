@@ -10,7 +10,7 @@ title: Reading list
 
 # Week 2 Reproducible research open science
 
-- Smaldino, P. E., & McElreath, R. (2016). The natural selection of bad science. Royal Society Open Science, 3(9), 160384. https://doi.org/10.1098/rsos.160384
+- Smaldino, P. E., & McElreath, R. (2016). The natural selection of bad science. Royal Society Open Science, 3(9), 160384. <https://doi.org/10.1098/rsos.160384>
 - Alston, J. M., & Rick, J. A. (2021). A Beginner’s Guide to Conducting Reproducible Research. The Bulletin of the Ecological Society of America, 102(2), e01801. https://doi.org/10.1002/bes2.1801
 
 # Week 3:  Reproducible code
