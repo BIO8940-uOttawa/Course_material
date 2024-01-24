@@ -12,12 +12,16 @@ schedule:
 #    readings: "[Spencer (2022, Feb. 17). Data in Wonderland. Section 1.](https://ssp3nc3r.github.io/data_in_wonderland/)"
   - week: 4
 #    tools: "`rmarkdown`, `distill`, git & github"
-#    topic: "Data storytelling on the web "
+    topic: "Generalized linear models (and revision of linear models)"
 #    readings: "[Quarto Guide](https://quarto.org/docs/guide/)"
   - week: 5
+    topic: Causal structure and model building
   - week: 6
+    topic: Introduction to mixed-models
   - week: 7
+    topic: Introduction to Bayesian analysis
   - week: 8
+    topic: Generalised linear mixed models
   - week: 9
   - week: 10
   - week: 11
@@ -34,11 +38,11 @@ team:
     role: lecturer
     consult: Wed 1100-1200 (in-person & online)
 #  - name: Cynthia Huang
-#    role: tutor
+#    role: TA
 #    consult:
 #      - Fri 5.00-5.45pm (in-person)
 #  - name: Janith Wanniarachchi
-#    role: tutor
+#    role: TA
 #    consult: Thu 6.00-6.45pm (in-person)
 
 timetable:
