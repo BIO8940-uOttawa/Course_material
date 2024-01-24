@@ -53,7 +53,9 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: cosmo
+      dark: [cosmo, css/theme-dark.scss]
     highlight: kate
     fig_align: center
     css: styles.css
