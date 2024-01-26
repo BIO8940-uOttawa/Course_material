@@ -6,6 +6,7 @@ title: "Lectures"
 
 ```{r}
 #| echo: false
+#| include: false
 source("_yaml_extract.R")
 ```
 
@@ -50,20 +51,30 @@ timetable_df %>%
 There are no lectures or tutorials during reading week.
 
 ```{r}
+check <- character(0)
 schedule_df <- schedule_df %>%
+rowwise() %>%
   mutate(
-    lecture = file.exists(sprintf("slides/lecture-%.2d.html", week))
+    lecture_file = ifelse(
+      identical(
+        str_subset(
+          list.files("slides/", pattern = "html", full.names = TRUE), pattern = sprintf("lec-%.2d", week)),
+        check),
+      NA,
+      str_subset(
+        list.files("slides/", pattern = "html", full.names = TRUE), pattern = sprintf("lec-%.2d", week))
+    ),
+    lecture = !is.na(lecture_file)
   ) %>%
   mutate(
     slides = case_when(
-      lecture ~ glue("<a class='fa fa-link' href='slides/{sprintf(\"lecture-%.2d.html\", week)}' target='_blank'></a> / <a class='fa fa-file-pdf' href='lectures/{sprintf(\"lecture-%.2d.pdf\", week)}' target='_blank'></a>"),
+      lecture ~ glue("<a class='fa fa-link' href='{lecture_file}' target='_blank'></a> / <a class='fa fa-file-pdf' href='{sub(\"html\",\"pdf\", lecture_file)}' target='_blank'></a>"),
       TRUE ~ ""
     ),
     topic = ifelse(is.na(topic), "", topic),
     assessment = ifelse(is.na(assessment), "", assessment)
   ) %>%
   select(week, topic, slides, assessment)
-
 
 midsem_break <- 6 # after which week
 
@@ -79,8 +90,8 @@ schedule_df %>%
     fixed_thead = T
   ) %>%
   column_spec(1, width = "0.5cm") %>%
- # column_spec(2, width = "3cm") %>%
- # column_spec(3, width = "cm") %>%
+  # column_spec(2, width = "3cm") %>%
+  # column_spec(3, width = "cm") %>%
   group_rows("Reading week Break (1 week)", midsem_break + 1, 12, label_row_css = "background-color: #d9e1e8;") %>%
   add_indent(1:midsem_break) # this needs to be done to match up with above
 ```
