@@ -3,17 +3,17 @@ title: "Introduction to Git and GitHub"
 subtitle: "with RStudio"
 author: "Julien Martin"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
-output:
+output: 
   xaringan::moon_reader:
     css: ["assets/css/rutgers-img.css", "assets/css/rutgers-fonts_og.css"]
     lib_dir: "assets/libs"
-    self_contained: false
+    self_contained: true
+    ratio: '16:9'
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-editor_options:
-  chunk_output_type: console
+# uncomment this line to produce HTML and PDF in RStudio:
 knit: pagedown::chrome_print
 ---
 ```{css, echo=FALSE}

@@ -3,11 +3,12 @@ title: "Writing dynamic and reproducible documents"
 subtitle: "An introduction to R Markdown"
 author: "Julien Martin"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
-output:
+output: 
   xaringan::moon_reader:
     css: ["assets/css/rutgers-img.css", "assets/css/rutgers-fonts_og.css"]
     lib_dir: "assets/libs"
-    self_contained: false
+    self_contained: true
+    ratio: '16:9'
     nature:
       highlightStyle: github
       highlightLines: true
