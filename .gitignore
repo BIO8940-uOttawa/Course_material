@@ -2,3 +2,4 @@
 /.quarto/
 *chunks/
 *_files/
+/docs/
