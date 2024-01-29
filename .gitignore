@@ -2,4 +2,4 @@
 /.quarto/
 *chunks/
 *_files/
-/docs/
+/_site/
