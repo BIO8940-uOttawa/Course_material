@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: "_site"
+  output-dir: docs
   render:
     - "*.qmd"
     - "!slides/"
@@ -26,8 +26,8 @@ website:
             href: practical_extra.qmd
       - text: "Syllabus"
         href: syllabus.qmd
-      - text: Reading
-        href: reading.qmd
+#      - text: Reading
+#        href: reading.qmd
       - text: Other resources
         menu:
           - text: Biostats uOttawa
@@ -61,3 +61,6 @@ format:
     css: css/styles.css
     toc: true
 
+bibliography: [bio8940_zot.bib]
+biblio-style: apalike
+csl: ecology.csl
