@@ -51,37 +51,44 @@ timetable_df %>%
 
 There are no lectures or tutorials during reading week.
 
-```{r}
+```{r, output='asis'}
 check <- character(0)
 schedule_df <- schedule_df %>%
-rowwise() %>%
+  rowwise() %>%
   mutate(
     lecture_file = ifelse(
       identical(
         str_subset(
-          list.files("slides/", pattern = "html", full.names = TRUE), pattern = sprintf("lec-%.2d", week)),
-        check),
+          list.files("slides/", pattern = "html", full.names = TRUE),
+          pattern = sprintf("lec-%.2d", week)
+        ),
+        check
+      ),
       NA,
       str_subset(
-        list.files("slides/", pattern = "html", full.names = TRUE), pattern = sprintf("lec-%.2d", week))
+        list.files("slides/", pattern = "html", full.names = TRUE),
+        pattern = sprintf("lec-%.2d", week)
+      )
     ),
     lecture = !is.na(lecture_file)
   ) %>%
+  ungroup() %>%
   mutate(
     slides = case_when(
       lecture ~ glue("<a class='fa fa-link' href='{lecture_file}' target='_blank'></a> / <a class='fa fa-file-pdf' href='{sub(\"html\",\"pdf\", lecture_file)}' target='_blank'></a>"),
       TRUE ~ ""
     ),
     topic = ifelse(is.na(topic), "", topic),
-    assessment = ifelse(is.na(assessment), "", assessment)
+    assessment = ifelse(is.na(assessment), "", assessment),
+    reading = ifelse(is.na(reading), "", glue("<a href='{link}' target='_blank'>{reading}</a>")),
   ) %>%
   select(week, topic, slides, assessment)
 
 midsem_break <- 6 # after which week
 
 schedule_df %>%
-  kable(
-    escape = FALSE, align = c("c", "c", "c", "c"),
+  kbl(
+    escape = FALSE, align = c("c", "l", "c", "c"),
     col.names = c(
       "Week", "Topic", "Slides", "Assessments"
     )
