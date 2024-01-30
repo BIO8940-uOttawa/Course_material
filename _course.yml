@@ -26,9 +26,10 @@ schedule:
     reading: "@harrison_brief_2018"
   - week: 7
     topic: Introduction to Bayesian analysis
+    reading: "@kruschke_bayesian_2018"
   - week: 8
     topic: Generalised linear mixed models
-    reading: ""
+    reading: "@bolker_generalized_2009"
   - week: 9
   - week: 10
   - week: 11
@@ -53,7 +54,7 @@ team:
 #    consult: Thu 6.00-6.45pm (in-person)
 
 timetable:
-  - class: "Lecture"
+  - class: Lecture
     when: Tuesdays 1430-1720
     where: CRX-C323
 #  - class: "Practical"

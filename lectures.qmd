@@ -93,6 +93,7 @@ schedule_df <- schedule_df %>%
 
 midsem_break <- 6 # after which week
 
+read_week <- paste0()
 schedule_df %>%
   gt() |>
 #  cols_label(week = "Week") |>
