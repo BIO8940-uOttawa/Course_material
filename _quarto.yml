@@ -9,6 +9,7 @@ project:
     - "data/"
  
 website:
+  google-analytics: G-6LLMGL3T2Q
   title: "BIO8940 course"
   description: "Adv stats and open science"
   navbar:
