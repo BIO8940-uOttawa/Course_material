@@ -2,5 +2,7 @@
 /.quarto/
 *chunks/
 *_files/
+*_cache/
 /_site/
 /docs/
+plots/
