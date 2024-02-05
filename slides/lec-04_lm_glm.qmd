@@ -54,9 +54,7 @@ library(tidyverse)
 $$Y_i = \beta_0 + \beta_1 x_i + \epsilon \\
 \epsilon \sim N(0, \sigma^2_{\epsilon})$$
 
-or in distributional notation
-
-$$Y \sim N(\beta_0 + \beta_1 x, \sigma^2_{\epsilon})$$
+or in distributional notation $Y \sim N(\beta_0 + \beta_1 x, \sigma^2_{\epsilon})$
  
 
 ### General linear model
@@ -64,11 +62,7 @@ $$Y \sim N(\beta_0 + \beta_1 x, \sigma^2_{\epsilon})$$
 $$Y_i = \beta_0 + \beta_1 x_{1i} + \beta_1 x_{2i} + ... + \epsilon \\
 \epsilon \sim N(0, \sigma^2_{\epsilon})$$
 
-and 
-
-$$Y \sim N(\beta_0 + \beta_1 x_{1i} + \beta_1 x_{2i} + ..., \sigma^2)$$
-
-
+and $Y \sim N(\beta_0 + \beta_1 x_{1i} + \beta_1 x_{2i} + ..., \sigma^2)$
 
 ## Linear model assumptions
 
@@ -143,9 +137,6 @@ Need to solve:
 $$\frac{\delta ln(L(parameters | data)}{\delta parameters} = 0$$
 
 For multiple regression, the parameters $\beta$s are given by $\beta = (X^T X)^{-1} X^T y$
-
-Equivalent to minimizing residuals (but you don't want to see the proof)
-
 
 
 ## Doing linear models in R

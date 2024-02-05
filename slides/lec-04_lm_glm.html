@@ -421,13 +421,11 @@ Julien Martin
 <h3 id="simple-linear-regression">Simple linear regression</h3>
 <p><span class="math display">\[Y_i = \beta_0 + \beta_1 x_i + \epsilon \\
 \epsilon \sim N(0, \sigma^2_{\epsilon})\]</span></p>
-<p>or in distributional notation</p>
-<p><span class="math display">\[Y \sim N(\beta_0 + \beta_1 x, \sigma^2_{\epsilon})\]</span></p>
+<p>or in distributional notation <span class="math inline">\(Y \sim N(\beta_0 + \beta_1 x, \sigma^2_{\epsilon})\)</span></p>
 <h3 id="general-linear-model">General linear model</h3>
 <p><span class="math display">\[Y_i = \beta_0 + \beta_1 x_{1i} + \beta_1 x_{2i} + ... + \epsilon \\
 \epsilon \sim N(0, \sigma^2_{\epsilon})\]</span></p>
-<p>and</p>
-<p><span class="math display">\[Y \sim N(\beta_0 + \beta_1 x_{1i} + \beta_1 x_{2i} + ..., \sigma^2)\]</span></p>
+<p>and <span class="math inline">\(Y \sim N(\beta_0 + \beta_1 x_{1i} + \beta_1 x_{2i} + ..., \sigma^2)\)</span></p>
 </section>
 <section id="linear-model-assumptions" class="slide level2">
 <h2>Linear model assumptions</h2>
@@ -474,7 +472,6 @@ Julien Martin
 <p>Need to solve:</p>
 <p><span class="math display">\[\frac{\delta ln(L(parameters | data)}{\delta parameters} = 0\]</span></p>
 <p>For multiple regression, the parameters <span class="math inline">\(\beta\)</span>s are given by <span class="math inline">\(\beta = (X^T X)^{-1} X^T y\)</span></p>
-<p>Equivalent to minimizing residuals (but you don’t want to see the proof)</p>
 </section>
 <section id="doing-linear-models-in-r" class="slide level2">
 <h2>Doing linear models in R</h2>
