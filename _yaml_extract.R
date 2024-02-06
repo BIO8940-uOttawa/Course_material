@@ -24,5 +24,3 @@ schedule_df <- make_rectangular(dat$schedule)
 timetable_df <- make_rectangular(dat$timetable)
 nlecturer <- sum(team_df$role == "lecturer")
 ntutor <- sum(team_df$role == "TA")
-
-
