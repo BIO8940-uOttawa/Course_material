@@ -2,7 +2,7 @@
 title: "How do we build a model?"
 subtitle: Variable selection and causality
 author: Julien Martin
-institute: University of Ottawa
+institute: BIO 8940 - Lecture 5
 date: today
 format:
   revealjs: 
@@ -15,6 +15,12 @@ format:
 #    output-location: column-fragment
 #    logo: assets/MAD_logo_small_rb.png
     footer: BIO 8940 - Lecture 5
+    show-notes: false
+ #   output-ext: "_slides.html"
+  html:
+    self-contained: true
+    number-sections: true
+    format-links: false
 editor:
   render-on-save: true
 ---
@@ -24,6 +30,7 @@ editor:
 ```{r}
 #| label: setup
 #| include: false
+#| purl: false
 knitr::opts_chunk$set(
 # fig.path = "assets/img_l5/plots/",
   fig.retina = 2,
@@ -406,6 +413,8 @@ butterfly_bias() |>
 :::
 
 ## Selection bias
+
+::: panel-tabset
 ### Case
 
 ```{r}
@@ -440,7 +449,6 @@ hosp %>%
  theme_dag()
 ```
 
-## Selection bias
 ### Controlled
 
 ```{r}
@@ -455,7 +463,7 @@ theme_dag() +
  scale_adjusted() +
  theme(legend.position = "none")
 ```
-
+:::
 
 ## More complexity
 

@@ -61,14 +61,28 @@ schedule_df <- schedule_df %>%
     lecture_file = ifelse(
       identical(
         str_subset(
-          list.files("slides/", pattern = "html", full.names = TRUE),
+          list.files("slides/", pattern = "slides.html", full.names = TRUE),
           pattern = sprintf("lec-%.2d", week)
         ),
         check
       ),
       NA,
       str_subset(
-        list.files("slides/", pattern = "html", full.names = TRUE),
+        list.files("slides/", pattern = "slides.html", full.names = TRUE),
+        pattern = sprintf("lec-%.2d", week)
+      )
+    ),
+    notes_file =  ifelse(
+      identical(
+        str_subset(
+          list.files("slides/", pattern = "notes", full.names = TRUE),
+          pattern = sprintf("lec-%.2d", week)
+        ),
+        check
+      ),
+      NA,
+      str_subset(
+        list.files("slides/", pattern = "notes", full.names = TRUE),
         pattern = sprintf("lec-%.2d", week)
       )
     ),
@@ -77,7 +91,7 @@ schedule_df <- schedule_df %>%
   ungroup() %>%
   mutate(
     Slides = case_when(
-      lecture ~ glue("<a class='fa fa-link' href='{lecture_file}' target='_blank'></a> <a class='fa fa-file-pdf' href='{sub(\"html\",\"pdf\", lecture_file)}' target='_blank'></a>"),
+      lecture ~ glue("<a class='fa fa-link' href='{lecture_file}' target='_blank'></a> <a class='fa fa-file-pdf' href='{notes_file}' target='_blank'></a>"),
       TRUE ~ ""
     ),
     Topic = ifelse(is.na(topic), "", topic),

@@ -1,0 +1,72 @@
+---
+title: "Introduction to linear mixed models?"
+subtitle: Harnessing random effects
+author: Julien Martin
+institute: University of Ottawa
+date: today
+format:
+  revealjs: 
+#    code-block-background: false
+    width: 1600
+    height: 950
+    chalkboard: true
+    theme: [default]
+    css: [assets/theme_chalk/whiteboard-blue.css]
+#    output-location: column-fragment
+#    logo: assets/MAD_logo_small_rb.png
+    footer: BIO 8940 - Lecture 6
+    show-notes: false
+ #   output-ext: "_slides.html"
+  html:
+    self-contained: true
+    number-sections: true
+    format-links: false
+    css: assets/css/notes.css
+
+
+editor:
+  render-on-save: true
+---
+
+# Why to we build models?
+
+```{r}
+#| label: setup
+#| include: false
+#| purl: false
+knitr::opts_chunk$set(
+# fig.path = "assets/img_l5/plots/",
+  fig.retina = 2,
+  warning = FALSE,
+  error = FALSE,
+  message = FALSE,
+  fig.align = "center",
+  dpi = 300,
+  dev.args = list(bg = "transparent"),
+  cache = TRUE
+)
+
+source("assets/theme_chalk/themes_board.r")
+library(tidyverse)
+theme_set(theme_whiteboard())
+```
+
+## Slides
+
+abc
+
+::: {.notes}
+Speaker notes go here.
+:::
+
+## Slides 2
+
+abc
+
+::: {.notes}
+more Speaker notes go here.
+:::
+
+# Happy modelling {.unnumbered}
+
+![](assets/img_l5/unicorn.png){fig-align="center"}
