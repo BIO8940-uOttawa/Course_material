@@ -91,14 +91,18 @@ theme_set(theme_dag(base_size = 16))
   * Does not not necessarily tell us about the true DGP.
   * Can often inspire questions for further research.
 
+::: {.content-visible when-format="revealjs"}
 . . .
+:::
 
 [Causal]{.caus}: Learn about causal relationships.
 
   * Try to understand how the box works (the true DGP)
   * When you change one factor, how does it change the result?
 
+::: {.content-visible when-format="revealjs"}
 . . .
+:::
 
 [Predictive]{.pred}: Be able to guess the value of one variable from other information
 
@@ -112,14 +116,18 @@ theme_set(theme_dag(base_size = 16))
   * Focus on showing relationships among a few variables.
   * **Give up goal of correctly modeling the true DGP**
 
+::: {.content-visible when-format="revealjs"}
 . . .
+:::
 
 [Prediction]{.pred}:
 
   * Focus on predicting given observed data by any possible means.
   * **Give up goal of correctly modeling the true DGP**
 
+::: {.content-visible when-format="revealjs"}
 . . .
+:::
 
 [Causal inference]{.caus}:
 
@@ -134,7 +142,9 @@ theme_set(theme_dag(base_size = 16))
 
 [**When there are a lot of people wearing shorts, there often is an ice cream truck**]{style="color:green;"}
 
+::: {.content-visible when-format="revealjs"}
 . . .
+:::
 
 [Prediction]{.pred}:
 
@@ -142,7 +152,9 @@ theme_set(theme_dag(base_size = 16))
 
 [**Given how many people are wearing shorts, will an ice cream truck show up?**]{style="color:green;"}
 
+::: {.content-visible when-format="revealjs"}
 . . .
+:::
 
 [Causal inference]{.caus}:
 
@@ -157,14 +169,18 @@ theme_set(theme_dag(base_size = 16))
 * β~n~ represents an association between $X_{n_i}$ and Y~i~.
 * Only a statement about the data, not about the reasons behind the pattern.
 
+::: {.content-visible when-format="revealjs"}
 . . .
+:::
 
 [Prediction]{.pred}: Model does not need to be interpretable.
 
 * Coefficients β~n~ are informative only of predictive power, not causal effects.
 * Model can be treated as a black box.
 
+::: {.content-visible when-format="revealjs"}
 . . .
+:::
 
 [Causal inference]{.caus}:
 
@@ -203,7 +219,9 @@ What methods should we use for each goal?
 
     - Exploratory analysis and regression.
 
+::: {.content-visible when-format="revealjs"}
 . . .
+:::
 
 2. [Causal inference]{.caus}
 
@@ -211,7 +229,9 @@ What methods should we use for each goal?
     - Structural equation modelling
     - Graph theory
 
+::: {.content-visible when-format="revealjs"}
 . . .
+:::
 
 3. [Prediction]{.pred}
 
