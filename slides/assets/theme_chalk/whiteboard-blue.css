@@ -1832,6 +1832,12 @@ code {
   max-width: 100%;
 }
 
+.emph {
+  font-size: 1.5em;
+  color: rgb(222, 112, 47);
+  font-weight: 600;
+}
+
 /* 
 .small{
   font-size: 0.75em;
@@ -1881,6 +1887,7 @@ div.reveal div.slides section.quarto-title-block .subtitle {
   margin-bottom: 2.5rem;
   font-size: 1.5em
 }
+
 #title-slide .date,
 div.reveal div.slides section.quarto-title-block .date {
   text-align: right;
