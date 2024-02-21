@@ -13,6 +13,12 @@ library(gt)
 library(lubridate)
 ```
 
+## Student presentations
+
+
+ Please register for your presentations [here](https://uottawa-my.sharepoint.com/personal/jmartin8_uottawa_ca/_layouts/15/guestaccess.aspx?share=EbAUafs8KSdEhoP6xs0XqiwBG4lI6raInEKrssUN6nbm7w&e=RzBfDv).
+
+ You need to log into your uottawa account to have access
 
 <!-- ### Lecturer {{< fa person-chalkboard >}}  -->
 
@@ -42,7 +48,7 @@ team_df %>%
   ui_list()
 ```
 
-### Schedule {{< fa calendar-days >}}
+## Schedule {{< fa calendar-days >}}
 
 ```{r timetable, results="asis"}
 timetable_df %>%
@@ -50,6 +56,7 @@ timetable_df %>%
   pull(timetable) %>%
   ui_list()
 ```
+
 
 There are no lectures or tutorials during reading week.
 
@@ -91,7 +98,7 @@ schedule_df <- schedule_df %>%
   ungroup() %>%
   mutate(
     Slides = case_when(
-      lecture ~ glue("<a class='fa fa-link' href='{lecture_file}' target='_blank'></a> <a class='fa fa-file-pdf' href='{notes_file}' target='_blank'></a>"),
+      lecture ~ glue("<a class='fa fa-display' href='{lecture_file}' target='_blank'></a> <a class='fa fa-note-sticky' href='{notes_file}' target='_blank'></a>"),
       TRUE ~ ""
     ),
     Topic = ifelse(is.na(topic), "", topic),
@@ -128,6 +135,23 @@ schedule_df %>%
   )
 ```
 
+## About slides {{< fa display >}} and notes {{< fa note-sticky >}}
 
+### Slides {{< fa display >}} 
 
+Slides in `revealjs` format (html). If you want then as a pdf (*note you might loose some functionality or contents due to tabs and scroll sections*):
 
+1. Open the slides in your browser from a link on this page
+2. Press `e` to get into the PDF export mode (*`?print-pdf` should appear near the end of the url and white borders should appear*)
+1. Open the in-browser print dialog (CTRL/CMD+P).
+1. Change the `Destination` setting to `Save as PDF`.
+1. Change the `Layout` to `Landscape`.
+1. Change the `Margins` to `None`.
+1. Enable the Background graphics option (if you want it)
+1. Click Save 🎉
+
+### Notes {{< fa note-sticky >}}
+
+Content of the slides in html format as a single contained downloadable file and including tabs and scroll sections. 
+
+More importantly, notes have the commenting and annotateing tools activated via <https://hypothes.is/>. If you create a free account , you can annotate and comment slides as well as share your annotations/comments with the public or via private or public groups.
