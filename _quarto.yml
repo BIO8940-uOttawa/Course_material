@@ -3,11 +3,12 @@ project:
   output-dir: docs
   render:
     - "*.qmd"
-    - "!slides/"
+#    - "!slides/"
   resources:
     - "slides/"
     - "data/"
- 
+execute:
+  freeze: auto
 website:
   google-analytics: G-6LLMGL3T2Q
   title: "BIO8940 course"

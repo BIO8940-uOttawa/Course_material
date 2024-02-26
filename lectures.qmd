@@ -65,34 +65,28 @@ check <- character(0)
 schedule_df <- schedule_df %>%
   rowwise() %>%
   mutate(
-    lecture_file = ifelse(
+    qmd_file = ifelse(
       identical(
         str_subset(
-          list.files("slides/", pattern = "slides.html", full.names = TRUE),
+          list.files("slides", pattern = "qmd", full.names = TRUE),
           pattern = sprintf("lec-%.2d", week)
         ),
         check
       ),
       NA,
       str_subset(
-        list.files("slides/", pattern = "slides.html", full.names = TRUE),
+        list.files("slides", pattern = "qmd", full.names = TRUE),
         pattern = sprintf("lec-%.2d", week)
       )
     ),
-    notes_file =  ifelse(
-      identical(
-        str_subset(
-          list.files("slides/", pattern = "notes", full.names = TRUE),
-          pattern = sprintf("lec-%.2d", week)
-        ),
-        check
-      ),
-      NA,
-      str_subset(
-        list.files("slides/", pattern = "notes", full.names = TRUE),
-        pattern = sprintf("lec-%.2d", week)
-      )
+    lecture_file = ifelse(!is.na(qmd_file),
+      gsub("qmd","slides.html", qmd_file),
+      NA
     ),
+    notes_file = ifelse(!is.na(qmd_file),
+      gsub("qmd","notes.html", qmd_file),
+      NA
+    ),,
     lecture = !is.na(lecture_file)
   ) %>%
   ungroup() %>%
@@ -105,7 +99,7 @@ schedule_df <- schedule_df %>%
     Assessment = ifelse(is.na(assessment), "", assessment),
     Reading = ifelse(is.na(reading), "", reading),
     Date = as.Date(ifelse(
-      (ymd(dat$date_start) + weeks(week-1)) > ymd(dat$date_read),
+      (ymd(dat$date_start) + weeks(week - 1)) > ymd(dat$date_read),
       ymd(dat$date_start) + weeks(week),
       ymd(dat$date_start) + weeks(week - 1)
     ))
@@ -117,7 +111,7 @@ midsem_break <- 6 # after which week
 read_week <- paste0()
 schedule_df %>%
   gt() |>
-#  cols_label(week = "Week") |>
+  #  cols_label(week = "Week") |>
   fmt_markdown(columns = c("Slides", "Reading")) |>
   fmt_date(
     columns = Date,
@@ -152,6 +146,6 @@ Slides in `revealjs` format (html). If you want then as a pdf (*note you might l
 
 ### Notes {{< fa note-sticky >}}
 
-Content of the slides in html format as a single contained downloadable file and including tabs and scroll sections. 
+Content of the slides in html format as a self-contained downloadable file and including tabs and scroll sections. 
 
 More importantly, notes have the commenting and annotateing tools activated via <https://hypothes.is/>. If you create a free account , you can annotate and comment slides as well as share your annotations/comments with the public or via private or public groups.
