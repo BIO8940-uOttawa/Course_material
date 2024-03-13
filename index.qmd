@@ -25,18 +25,31 @@ Where: `r where`
 
 # Course info
 
-* [Lecture slides](lectures.html)
+* [Course content (lectures & notes)](lectures.qmd)
 * [Practical manual][manual_8940]
-* [Syllabus](syllabus.html)
+* [Syllabus](syllabus.qmd)
+
+# Open science resources
+
+I developed proposal and thesis templates that are 1) useable directly as Quarto a extension, 2) provide brief explanation of the expected content of each section, and 3) generate pdf documents appropriately formatted for uOttawa requirements (at least biology)
+
+* [bio-uo-proposal](https://github.com/JulienGAMartin/quarto-bio-uo-proposal) quarto extension providing 1 new pdf output format (`bio-uo-proposal-pdf`). I am working on a docx version but tweaking the frontpage is tricky with word document. 
+
+* [bio-uo-thesis](https://github.com/JulienGAMartin/quarto-bio-uo-thesis): quarto extension  providing two new output formats for book projects: an html (`bio-uo-thesis-html`) and a pdf (`bio-uo-thesis-pdf`) generating a website (to be hosted on github pages or similar) and a pdf of the thesis adequately formatted for uOttawa (at least biology)
+
 
 
 # Requirements
 
 <!-- * Download and install [Git](https://git-scm.com/downloads). -->
 
-* You will need a GitHub account, you can easily set up a free account [here](https://github.com/).
+* a GitHub account. (Set up a free account [here](https://github.com/)).
 
-* Install [`R`][cran] and your favourite R IDE [`RStudio`][rstudio_d] or [`VSCode`][vscode_d]
+* [`R`][cran] and your favourite R IDE [`RStudio`][rstudio_d] or [`VSCode`][vscode_d]
+
+* [`git`][git_install] software
+
+* [`quarto`][quarto_install] software
 
 <!-- * Have Git, GitHub and RStudio talk to each other following [these guidelines (section 2.2.2 Configuration only)](https://inbo.github.io/git-course/course_rstudio.html#222_configuration). -->
 
@@ -45,6 +58,8 @@ Where: `r where`
 ```{r eval = FALSE, echo = FALSE}
 install.packages(c("tidyverse", "sf", "emoji", "janitor", "palmerpenguins", "usethis", "lubridate"))
 ```
+
+--------------------------------------------------------------------------------
 
 #### Corrections {-}
 

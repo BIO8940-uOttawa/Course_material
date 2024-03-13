@@ -1,11 +1,4 @@
 
-[L1_html]: slides/L1_course_intro.html
-[L1_pdf]: slides/L1_course_intro.pdf
-[L2_html]: slides/L2_rmarkdown_intro.html
-[L2_pdf]: slides/L2_rmarkdown_intro.pdf
-[L3_html]: slides/L3_github_intro.html
-[L3_pdf]: slides/L3_github_intro.pdf
-
 [manual_4158]: https://biostats-uottawa.github.io/bio4158_manual/ 
 [manual_4558]: https://biostats-uottawa.github.io/bio4158_manual/ 
 [manual_8940]: https://biostats-uottawa.github.io/bio8940_manual/
@@ -26,3 +19,7 @@
 [debug_pdf]: practical_extra/tbs_pdf_rmd.html
 [git_cred]: https://usethis.r-lib.org/articles/git-credentials.html
 [happy_git]: https://happygitwithr.com/
+
+[git_install]: https://git-scm.com/downloads
+[quarto_install]: https://quarto.org/docs/get-started/
+[quarto]: https://quarto.org/
