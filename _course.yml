@@ -31,14 +31,20 @@ schedule:
     topic: Generalised linear mixed models
     reading: "@bolker_generalized_2009"
   - week: 9
+    topic: Discussion on data and plans for final projects 
+    reading: "@wasserstein_asa_2016"
   - week: 10
+    topic: 
+    reading: "@vandepol2009"
   - week: 11
+    reading: "@schielzeth_conclusions_2009"
 #    lecturer: Kate
 #    topic: Guest lecture
 #    tools: ""
 #    readings: ""
   - week: 12
     topic: ""
+    reading: "@forstmeier_detecting_2017"
     assessment: "Final report due **??**"
 
 team:
