@@ -34,7 +34,7 @@ schedule:
     topic: Discussion on data and plans for final projects 
     reading: "@wasserstein_asa_2016"
   - week: 10
-    topic: 
+    topic: Multivariate mixed models
     reading: "@vandepol2009"
   - week: 11
     reading: "@schielzeth_conclusions_2009"
@@ -45,7 +45,7 @@ schedule:
   - week: 12
     topic: ""
     reading: "@forstmeier_detecting_2017"
-    assessment: "Final report due **??**"
+    assessment: "Final report due **April 19th by Midnight**"
 
 team:
   - name: Julien Martin
