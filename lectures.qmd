@@ -1,5 +1,5 @@
 ---
-title: "Lectures"
+title: Lectures
 ---
 
 {{< include _links.qmd >}}

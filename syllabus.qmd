@@ -1,5 +1,5 @@
 ---
-title: "Syllabus"
+title: Syllabus
 ---
 
 {{< include _links.qmd >}}
@@ -9,7 +9,9 @@ start <- 1430
 stop <- 1720
 where <- "CRX-C326"
 ```
-::: {.panel-tabset }
+
+[Syllabus **in engligh**](#english) / 
+[Syllabus **en français**](#french)
 
 ## English
 
@@ -124,7 +126,7 @@ This is a tentative schedule.
 
 Please note that the class is bilingual. This means that any questions during the class can be asked or answered in either french or english and the prof will translate the answers if needs be. The majority of the course content (slides, lab manual) are provided in english only, but explanation can be provided in either languages.
 
-## Français
+## Français {#french}
 
 ### Description et objectifs
 
@@ -240,4 +242,4 @@ L'évaluation sera basée sur la participation et sur la réalisation d'un proje
 
 Le cours est un cours bilingue. Cela signifie que l'ensemble des interactions orales peuvent avoir lieu en français ou en anglais, le prof pouvant fournir les traductions nécessaires pour que l'ensemble des étudiants comprennent la matière. Le contenu du cours (diapo et manuel de laboratoire) seront présenté de manière unilingue en anglais avec possibilité de fournir des explanations en français si besoin.
 
-:::
+

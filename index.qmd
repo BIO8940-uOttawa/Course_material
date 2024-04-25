@@ -1,6 +1,6 @@
 ---
 title: | 
-  Advanced statistics and Open science ![](img/bio8940_logo_hex.png){width="150"}
+  Advanced statistics and Open science
 format:
   html:
     toc: false
