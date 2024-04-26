@@ -13,8 +13,9 @@ website:
   google-analytics: G-6LLMGL3T2Q
   title: "BIO8940 course"
   description: "Adv stats and open science"
+  favicon: img/logo_hex.png
   navbar:
-    title: "BIO8940: course"
+    title: '![](img/logo_hex.png){width="50px"} BIO8940: course'
     left:
       - text: Lectures
         href: lectures.qmd
