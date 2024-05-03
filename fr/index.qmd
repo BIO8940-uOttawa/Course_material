@@ -1,6 +1,6 @@
 ---
 title: | 
-  Biostatistiques avancées et science ouverte
+  Statistiques avancées et science ouverte
 format:
   html:
     toc: true

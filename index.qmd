@@ -1,10 +1,16 @@
 ---
 title: | 
-  Advanced statistics and Open science
+  Advanced statistics and Open science </br>
+  Statistiques avancées et science ouverte
 format:
   html:
     toc: false
 ---
+<style>
+  .quarto-title-block .quarto-title{
+  text-align: center;
+}
+</style>
 
 {{< include _links.qmd >}}
 
