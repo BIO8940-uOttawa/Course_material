@@ -1,0 +1,48 @@
+---
+title: Code et données
+format:
+  html:
+    toc: true
+---
+
+
+```{r}
+#| include: false
+
+source("../_yaml_extract.R")
+
+data <- data.frame(
+  Files = list.files("../data/csv"),
+  link = list.files("../data/csv", full.names = TRUE)
+)
+code <- data.frame(
+  Files = list.files("../data/R_code"),
+  link = list.files("../data/R_code", full.names = TRUE)
+)
+if (file.exists("../data/bio8940_data_code.zip")) {
+  file.remove("../data/bio8940_data_code.zip")
+}
+zip("../data/bio8940_data_code.zip", c("data/csv", "data/R code"))
+```
+
+
+Code et fichiers de données utilisés dans les diapos ensemble dans un fichier zip [**zip file**](data/bio8940_data_code.zip)
+
+## Données pour les labos
+
+```{r}
+#| echo: false
+#| output: asis
+apply(data, 1, function(x) paste0("[", x[1], "](", x[2], ")")) %>%
+  ui_list()
+```
+
+## Code R utilisés dans les diapos
+
+```{r}
+#| echo: false
+#| output: asis
+apply(code, 1, function(x) paste0("[", x[1], "](", x[2], ")")) %>%
+  ui_list()
+```
+

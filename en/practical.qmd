@@ -1,0 +1,7 @@
+---
+title: Info about practicals
+---
+
+{{< include ../_links.qmd >}}
+
+

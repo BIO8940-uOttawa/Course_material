@@ -5,30 +5,31 @@ project:
     - "*.qmd"
 #    - "!slides/"
   resources:
-    - "slides/"
+#    - "slides/"
     - "data/"
 execute:
   freeze: auto
 website:
   google-analytics: G-6LLMGL3T2Q
   title: "BIO8940 course"
+#  margin-header: "![](/img/logo_hex.png){width='100px'}"
   description: "Adv stats and open science"
-  favicon: img/logo_hex.png
+  favicon: /img/logo_hex.png
   navbar:
-    title: '![](img/logo_hex.png){width="50px"} BIO8940: course'
+    title: '![](/img/logo_hex.png){width="50px"} BIO8940: course' 
     left:
-      - text: Lectures
-        href: lectures.qmd
-      - text: "Practicals"
-        menu:
-          - text: "Manual"
-            href:  https://biostats-uottawa.github.io/bio8940_manual/
-          - text: "Data"
-            href: dataset.qmd
-          - text: "Extra info"
-            href: practical_extra.qmd
-      - text: "Syllabus"
-        href: syllabus.qmd
+#      - text: Lectures
+#        href: lectures.qmd
+#      - text: "Practicals"
+#        menu:
+#          - text: "Manual"
+#            href:  https://biostats-uottawa.github.io/bio8940_manual/
+#          - text: "Data"
+#            href: dataset.qmd
+#          - text: "Extra info"
+#            href: practical_extra.qmd
+#      - text: "Syllabus"
+#        href: syllabus.qmd
 #      - text: Reading
 #        href: reading.qmd
       - text: Other resources
@@ -44,16 +45,58 @@ website:
           - text: Chemin de l'enf-R (livre R)
             href: https://biostats-uottawa.github.io/R/fr/
     tools:
-      - icon: envelope
-        href: people.html
-        text: Contact
       - icon: github
         menu:
         - text: Code
           href: https://github.com/biostats-uOttawa/bio8940_course
         - text: Issues
           href: https://github.com/Biostats-uOttawa/bio8940_course/issues
-
+  sidebar:
+    - id: fr
+      title: "Français"
+      style: "floating"
+      collapse-level: 2
+      align: left
+      contents:
+        - icon: flag
+          text: English
+          href: en/index.qmd
+        - text: Info générale
+          href: fr/index.qmd
+        - text: Diapos et notes
+          href: fr/lectures.qmd
+        - fr/syllabus.qmd
+        - icon: envelope
+          text: Contact
+          href: fr/people.qmd
+    - id: en
+      title: "English"
+      style: "floating"
+      collapse-level: 2
+      contents:
+        - icon: flag
+          text: Français
+          href: fr/index.qmd
+        - text: Course info
+          href: en/index.qmd
+        - text: Slides and notes
+          href: en/lectures.qmd
+        - section: Practical
+          contents:
+            - text: Info
+              href: en/practical.qmd
+            - text: "Manual"
+              icon: link
+              href:  https://biostats-uottawa.github.io/bio8940_manual/
+        - section: Assessment
+          contents:
+            - en/presentation.qmd
+            - en/report.qmd
+        - en/dataset.qmd
+        - en/syllabus.qmd
+        - icon: envelope
+          text: "Contact"
+          href: en/people.qmd
 format:
   html:
     theme: 

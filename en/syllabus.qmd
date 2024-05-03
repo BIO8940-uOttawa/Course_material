@@ -1,0 +1,124 @@
+---
+title: Syllabus
+---
+
+{{< include ../_links.qmd >}}
+
+
+```{r}
+#| label: timetable
+#| include: false
+source("../_yaml_extract.R")
+dat <- read_yaml("../_course.yml")
+extract_course(dat)
+```
+
+## Description
+
+Statistics are a key component of rigorous science and as such there is a need to both understand advanced statistics and properly document the analysis to improve scientific communication transparency and quality.
+The course aims to:
+
+1. Provide an understanding of advanced statistical models (including generalized linear mixed models)
+2. Develop good coding practices (using R and Rmarkdown)
+3. Improve data and code management (data manipulation and github)
+4. Present the principles of open science (using OSF, Open Science Framework).
+
+
+## Contents
+
+* Statistics (flexible to be define based on attendance interests)
+    * Mixed models including generalized linear mixed models and multivariate models
+    * Options:
+      * Introduction to Bayesian stats
+      * Path analysis
+      * Spatial analysis
+      * Multivariate analysis
+      * ...
+* Open and reproducible science
+    * R: `Rmarkdown`, `tidyverse` and `workflowr`
+    * git: `github` and other alternatives
+    * Open Science Framework with `OSF`
+
+## Classes
+
+* Duration: 1 class of 3h each week
+* Style: mix of lecture, discussion and practical
+* How: In-person . 
+* When: `r timetable_df$day[1]` from `r timetable_df$when[1]`
+* Where: `r timetable_df$where[1]`
+<!--   * Gather: https://gather.town/app/MCa0j7kcdaCNSCvS/AdvStatOpenSci
+  * Zoom: https://uottawa-ca.zoom.us/j/93306840602?pwd=bWNsR3AzQ25VQXJOWCszNmh6RWI1UT09 -->
+* Course info and slides: <https://biostats-uottawa.github.io/bio8940_course/>
+* Lab manual: <https://biostats-uottawa.github.io/bio8940_manual/>
+
+
+
+## Assessment
+
+Based on interactions in classes and on a data analysis project using `R` and documented with with `Rmarkdown`, `workflowr` and `github`.
+
+* 50% in class assessment:
+  * 15 min presentation in small groups on a paper and questions (30%)
+  * discussion in class (10% questions prep, 10% discussions)
+* 50% written statistical report using analysis more complex than linear models written using Rmarkdown, published on github in 2 different formats
+
+### Presentation – 30%
+
+#### Content – 60%
+
+- Introduction: Background of the general ‘big picture’ and specific problem, study system, and specific hypotheses or predictions.
+- Methods: Brief outline of data collection  and explanation of statistical methods used to address the hypotheses/predictions outlined in the introduction, including key assumptions.
+- Results: Visualizations clearly summarizing your results, using parallel structure to methods
+- Discussion: Summary of major results, alternative explanations for the observed results, conclusions/implications, future directions
+
+#### Style – 30%
+
+- Organization 
+- Clarity 
+- Delivery: Timing, pace, tone, articulation
+<!-- - Originality: (5 marks) Creativity, critical thinking -->
+
+#### Answers and understanding – 10%
+
+### Written report – 50%
+
+#### Content – 70%
+
+- Introduction: (10 marks) Background of the general ‘big picture’ and specific problem, study system, and specific hypotheses or predictions.
+- Methods: (20 marks) Brief outline of data collection  and explanation of statistical methods used to address the hypotheses/predictions outlined in the introduction, including key assumptions.
+- Results: (25 marks) Visualizations clearly summarizing your results, using parallel structure to methods
+- Discussion: (15 marks) Summary of major results, alternative explanations for the observed results, conclusions/implications, future directions
+
+#### Style – 30%
+
+- Clarity and reproducibility of code (10 marks)
+- Organization (5 marks)
+- Clarity of text (10 marks)
+- Typos and grammar (5 marks)
+<!-- - Delivery: (5 marks) Timing, pace, tone, articulation -->
+<!-- - Originality: (5 marks) Creativity, critical thinking -->
+
+
+## Schedule
+
+This is a tentative schedule.
+
+| Week | Subject |
+|------|---------|
+|  1 | Intro and discussion on Stats and science |
+|  2 | Rmarkdown and importance of reproducibility |
+|  3 | Recap on linear models |
+|  4 | Generalized linear models |
+|  5 | Linear mixed models (including random slopes) |
+|  6 | Generalized linear mixed models (and intro to gamms) |
+|  7 | Reading week |
+|  8 | Intro to Bayesian stats |
+|  9 | Complex mixed models (spatial, temporal autocorrelation, non-independence random effects) |
+| 10 | PCA and ordinance analysis |
+| 11 | Multivariate mixed models |
+| 12 | Path analysis and causality |
+| 13 | Wrap-up |
+
+## Note on bilingualism
+
+Please note that the class is bilingual. This means that any questions during the class can be asked or answered in either french or english and the prof will translate the answers if needs be. The majority of the course content (slides, lab manual) are provided in english only, but explanation can be provided in either languages.

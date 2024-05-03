@@ -1,0 +1,114 @@
+---
+title: Cours
+---
+
+{{< include ../_links.qmd >}}
+
+```{r}
+#| echo: false
+#| include: false
+knitr::opts_chunk$set(echo = FALSE)
+library(gt)
+library(lubridate)
+source("../_yaml_extract.R")
+dat <- read_yaml("../_course.yml")
+extract_course(dat)
+```
+
+
+# Calendrier 
+
+Les diapos et les notes sont uniquement en anglais
+
+```{r}
+check <- character(0)
+schedule_df <- schedule_df %>%
+  rowwise() %>%
+  mutate(
+    qmd_file = ifelse(
+      identical(
+        str_subset(
+          list.files("../slides", pattern = "qmd", full.names = TRUE),
+          pattern = sprintf("lec-%.2d", week)
+        ),
+        check
+      ),
+      NA,
+      str_subset(
+        list.files("../slides", pattern = "qmd", full.names = TRUE),
+        pattern = sprintf("lec-%.2d", week)
+      )
+    ),
+    lecture_file = ifelse(!is.na(qmd_file),
+      gsub("qmd", "slides.html", qmd_file),
+      NA
+    ),
+    notes_file = ifelse(!is.na(qmd_file),
+      gsub("qmd", "notes.html", qmd_file),
+      NA
+    ), ,
+    lecture = !is.na(lecture_file)
+  ) %>%
+  ungroup() %>%
+  mutate(
+    Slides = case_when(
+      lecture ~ glue("<a class='fa fa-display' href='{lecture_file}' target='_blank'></a> <a class='fa fa-note-sticky' href='{notes_file}' target='_blank'></a>"),
+      TRUE ~ ""
+    ),
+    Topic = ifelse(is.na(topic_fr), "", topic_fr),
+    #    Assessment = ifelse(is.na(assessment), "", assessment),
+    Reading = ifelse(is.na(reading), "", reading),
+    Date = as.Date(ifelse(
+      (ymd(dat$date_start) + weeks(week - 1)) > ymd(dat$date_read),
+      ymd(dat$date_start) + weeks(week),
+      ymd(dat$date_start) + weeks(week - 1)
+    ))
+  ) %>%
+  select(Date, Topic, Slides, Reading) %>% # , Assessment)
+  rename(
+    Sujet = "Topic",
+    Diapos = "Slides",
+    Lecture = "Reading")
+midsem_break <- 6 # after which week
+
+read_week <- paste0()
+schedule_df %>%
+  gt() |>
+  #  cols_label(week = "Week") |>
+  fmt_markdown(columns = c("Diapos", "Lecture")) |>
+  fmt_date(
+    columns = Date,
+    date_style = "MMMd",
+    locale = "fr"
+  ) |>
+  tab_row_group(
+    label = "Semaine de Lecture",
+    rows = (midsem_break + 1):12
+  ) |>
+  row_group_order(groups = c(NA, "Semaine de Lecture")) |>
+  cols_width(
+    Date ~ px(50),
+    Diapos ~ px(20)
+  )
+```
+
+## À propos des diapos {{< fa display >}}  et des notes {{< fa note-sticky >}}
+
+### Diapos {{< fa display >}} 
+
+Les diapos sont en format `revealjs` (html). Si vous souhaitez avoir un pdf (*note: vous perdrez peut-être quelques fonctionnalités):
+
+1. Ouvrir les diapos dans votre navigateur
+2. Appuyer sur `e` pour le mode d'exportation en PDF (*`?print-pdf` devrait apparaître à la fin de l'adresse url*)
+1. Imprimer la page (CTRL/CMD+P).
+1. Changer la destination à `Save as PDF`.
+1. Changer le `Format` à `Paysage`.
+1. Changer les `Marges` à `Aucune`.
+1. Ajouter le fond graphique (si vous le souhaitez)
+1. Cliquer `Sauvegarder` 🎉
+
+### Notes {{< fa note-sticky >}}
+
+Les `notes` sont simplement le contenu des diapos (et mes quelques notes) en format html.
+
+En outre, l'outils d'annotation <https://hypothes.is/> est activé sur les pages de notes. Cet outil permet d'annoter et commenter des pages internet, de sauvegarder vos commentaires, de la partager publiquement ou au sein de groupes privés. Il faut juste créer un compte gratuit.

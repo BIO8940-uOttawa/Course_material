@@ -4,37 +4,47 @@ date_read: "2024-02-18"
 schedule:
   - week: 1
     topic: "Introduction"
+    topic_fr: "Introduction"
     reading: "@smaldino_natural_2016"
   - week: 2
-    topic: "Introduction  to Rmarkdown"
+    topic: "Introduction to Quarto"
+    topic_fr: "Introduction  à Quarto"
     reading: "@alston_beginner_2021"
     link: "https://doi.org/10.1002/bes2.1801"
   - week: 3
-    topic: "Introduction  to Github"
+    topic: "Introduction to Github"
+    topic_fr: "Introduction à Github"
 #    tools: ""
 #    assessment: "Assessment 2 **due Fri 6 Oct 11:55 PM**"
     reading: "@ivimey-cook_implementing_2023"
   - week: 4
 #    tools: "`rmarkdown`, `distill`, git & github"
     topic: "Generalized linear models (and revision of linear models)"
+    topic_fr: "Modèles linéaires généralisés (et révisions modèles linéaires)"
     reading: "@zuur_protocol_2010"
   - week: 5
     topic: Causal structure and model building
+    topic_fr: Structure causale et construction de modèle
     reading: "@cinelli_crash_2022, \n @wysocki_statistical_2022"
   - week: 6
     topic: Introduction to mixed-models
+    topic_fr: Introduction aux modèles mixtes
     reading: "@harrison_brief_2018"
   - week: 7
     topic: Introduction to Bayesian analysis
+    topic_fr: Intro analyse Bayesienne
     reading: "@kruschke_bayesian_2018"
   - week: 8
     topic: Generalised linear mixed models
+    topic_fr: Modèles mixtes généralisés
     reading: "@bolker_generalized_2009"
   - week: 9
-    topic: Discussion on data and plans for final projects 
+    topic: Discussion on data and plans for written reports 
+    topic_fr: Discussion sur les plans pour les projets écrits 
     reading: "@wasserstein_asa_2016"
   - week: 10
     topic: Multivariate mixed models
+    topic_fr: Modèles mixtes multivariés
     reading: "@vandepol2009"
   - week: 11
     reading: "@schielzeth_conclusions_2009"
@@ -50,7 +60,8 @@ schedule:
 team:
   - name: Julien Martin
     role: lecturer
-    consult: Wed 1100-1200 (in-person & online)
+    consult: Wednesday 1100-1200 (in-person & online)
+    consult_fr: Mercredi 1100-1200 (au bureau et en ligne)
 #  - name: Cynthia Huang
 #    role: TA
 #    consult:
@@ -61,8 +72,15 @@ team:
 
 timetable:
   - class: Lecture
-    when: Tuesdays 1430-1720
+    day: Tuesdays
+    when: 1430-1720
     where: CRX-C323
 #  - class: "Practical"
 #    when: Tuesdays 1430-1720
 #    where: CRX-C323
+
+timetable_fr:
+  - class: Cours
+    day: Mardis
+    when: 1430-1720
+    where: CRX-C323

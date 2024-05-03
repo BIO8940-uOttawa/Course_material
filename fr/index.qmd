@@ -1,0 +1,110 @@
+---
+title: | 
+  Biostatistiques avancées et science ouverte
+format:
+  html:
+    toc: true
+    css: ../css/header.css
+---
+
+{{< include ../_links.qmd >}}
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Bienvenue sur le site du cours Bio8940 de l'Université d'Ottawa.
+Vous y trouverez toutes les informations sur le cours, y compris l'horaire du cours, les diapositives, les notes de cours, les informations et les exercices pratiques, la description des évaluations ainsi que le syllabus (officiel) du cours.
+
+La soumission des travaux de cours se fait via [brighspace](https://uottawa.brightspace.com/d2l/home).
+
+
+Le cours est un cours bilingue. Cela signifie que l'ensemble des interactions orales peuvent avoir lieu en français ou en anglais, le prof pouvant fournir les traductions nécessaires pour que l'ensemble des étudiants comprennent la matière. Le contenu du cours (diapo et manuel de laboratoire) seront présenté de manière unilingue en anglais avec possibilité de fournir des explanations en français si besoin.
+
+
+```{r}
+#| echo: false
+#| include: false
+knitr::opts_chunk$set(echo = FALSE)
+library(gt)
+library(lubridate)
+source("../_yaml_extract.R")
+dat <- read_yaml("../_course.yml")
+extract_course(dat)
+```
+
+
+### Prof {{< fa person-chalkboard >}}
+
+```{r}
+#| label: lecturers
+#| results: "asis"
+team_df %>%
+  filter(role == "lecturer") %>%
+  pull(name) %>%
+  ui_list()
+```
+
+<!-- ## Teaching assitant`r ifelse(ntutor > 1, 's', '')`-->
+```{r tutors, results="asis"}
+team_df %>%
+  filter(role == "tutor") %>%
+  pull(name) %>%
+  ui_list()
+```
+
+### Heures de bureau {{< fa clock >}}
+
+Meetings en personne à mon bureau ou via zoom.
+
+
+```{r}
+#| label: consult
+#| results: "asis"
+team_df %>%
+  mutate(consult_print = glue::glue("**{name}**: {consult_fr}")) %>%
+  pull(consult_print) %>%
+  ui_list()
+```
+
+
+## Où et quand {{< fa calendar-days >}}
+
+```{r}
+#| label: timetable
+#| results: "asis"
+timetable_fr_df %>%
+  mutate(timetable = glue::glue("**{class}**: {day}, {when} in {where}")) %>%
+  pull(timetable) %>%
+  ui_list()
+```
+
+
+# Ressources scientifiques ouvertes
+
+J'ai développé des extension Quarto pour produire un proposé et une thèse qui 1. fournissent une brève explication du contenu attendu de chaque section, et 2. génèrent des documents pdf formatés de manière appropriée pour les exigences de l'Université d'Ottawa (au moins en biologie).
+
+* [bio-uo-proposal](https://github.com/JulienGAMartin/quarto-bio-uo-proposal) extension Quarto fournissant 1 nouveau format de sortie pdf (`bio-uo-proposal-pdf`). Je travaille sur une version docx mais il est difficile de modifier la page d'accueil avec un document word.
+
+* [bio-uo-thesis](https://github.com/JulienGAMartin/quarto-bio-uo-thesis) : extension quarto fournissant deux nouveaux formats de sortie: un html (`bio-uo-thesis-html`) et un pdf (`bio-uo-thesis-pdf`) générant un site web (à héberger sur des pages github ou similaires) et un pdf de la thèse adéquatement formaté pour l'Université d'Ottawa (au moins en biologie).
+
+* [bio8940-report]() : J'ai besoin de développer un modèle quarto pour le rapport final.
+
+# Logiciel et compte requis
+
+* un compte GitHub. (Créez un compte gratuit [ici](https://github.com/)).
+
+* [`R`][cran] et votre IDE préféré [`RStudio`][rstudio_d] ou [`VSCode`][vscode_d]
+
+* Logiciel [`git`][git_install].
+
+* logiciel [`quarto`][quarto_installation]
+
+<!-- * Faire en sorte que Git, GitHub et RStudio communiquent entre eux en suivant [ces directives (section 2.2.2 Configuration uniquement)] (https://inbo.github.io/git-course/course_rstudio.html#222_configuration). -->
+
+--------------------------------------------------------------------------------
+
+#### Réutilisation {-}
+
+Le texte et les figures sont sous licence Creative Commons Attribution [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Tout code informatique (R, HTML, CSS, etc.) dans les diapositives et les feuilles de travail, y compris dans les sources des diapositives et des feuilles de travail, est également sous licence [MIT](https://github.com/biostats-uOttawa/bio8940_course/blob/master/LICENSE.md).
+

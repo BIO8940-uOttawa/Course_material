@@ -2,7 +2,7 @@
 title: "Extra information for praticals"
 ---
 
-{{< include _links.qmd >}}
+{{< include ../_links.qmd >}}
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)

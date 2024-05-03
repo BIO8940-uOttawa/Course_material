@@ -2,63 +2,21 @@
 title: Lectures
 ---
 
-{{< include _links.qmd >}}
+{{< include ../_links.qmd >}}
 
 ```{r}
 #| echo: false
 #| include: false
 knitr::opts_chunk$set(echo = FALSE)
-source("_yaml_extract.R")
 library(gt)
 library(lubridate)
-```
-
-## Student presentations
-
-
- Please register for your presentations [here](https://uottawa-my.sharepoint.com/personal/jmartin8_uottawa_ca/_layouts/15/guestaccess.aspx?share=EbAUafs8KSdEhoP6xs0XqiwBG4lI6raInEKrssUN6nbm7w&e=RzBfDv).
-
- You need to log into your uottawa account to have access
-
-<!-- ### Lecturer {{< fa person-chalkboard >}}  -->
-
-```{r lecturers, results="asis", eval = FALSE, include = FALSE}
-team_df %>%
-  filter(role == "lecturer") %>%
-  pull(name) %>%
-  ui_list()
-```
-
-<!-- ## Teaching assitant`r ifelse(ntutor > 1, 's', '')`-->
-```{r tutors, results="asis"}
-team_df %>%
-  filter(role == "tutor") %>%
-  pull(name) %>%
-  ui_list()
-```
-<!-- 
-### Office hours {{< fa clock >}}
-
-Meetings will be in-person or online using zoom. Check brightspace for the links. -->
-
-```{r consult, results="asis", eval = FALSE, include = FALSE}
-team_df %>%
-  mutate(consult_print = glue::glue("**{name}**: {consult}")) %>%
-  pull(consult_print) %>%
-  ui_list()
-```
-
-## Schedule {{< fa calendar-days >}}
-
-```{r timetable, results="asis"}
-timetable_df %>%
-  mutate(timetable = glue::glue("**{class}**: {when} in {where}")) %>%
-  pull(timetable) %>%
-  ui_list()
+source("../_yaml_extract.R")
+dat <- read_yaml("../_course.yml")
+extract_course(dat)
 ```
 
 
-There are no lectures or tutorials during reading week.
+# Schedule 
 
 ```{r}
 check <- character(0)
@@ -68,14 +26,14 @@ schedule_df <- schedule_df %>%
     qmd_file = ifelse(
       identical(
         str_subset(
-          list.files("slides", pattern = "qmd", full.names = TRUE),
+          list.files("../slides", pattern = "qmd", full.names = TRUE),
           pattern = sprintf("lec-%.2d", week)
         ),
         check
       ),
       NA,
       str_subset(
-        list.files("slides", pattern = "qmd", full.names = TRUE),
+        list.files("../slides", pattern = "qmd", full.names = TRUE),
         pattern = sprintf("lec-%.2d", week)
       )
     ),
@@ -96,7 +54,7 @@ schedule_df <- schedule_df %>%
       TRUE ~ ""
     ),
     Topic = ifelse(is.na(topic), "", topic),
-    Assessment = ifelse(is.na(assessment), "", assessment),
+#    Assessment = ifelse(is.na(assessment), "", assessment),
     Reading = ifelse(is.na(reading), "", reading),
     Date = as.Date(ifelse(
       (ymd(dat$date_start) + weeks(week - 1)) > ymd(dat$date_read),
@@ -104,7 +62,7 @@ schedule_df <- schedule_df %>%
       ymd(dat$date_start) + weeks(week - 1)
     ))
   ) %>%
-  select(Date, Topic, Slides, Reading, Assessment)
+  select(Date, Topic, Slides, Reading)#, Assessment)
 
 midsem_break <- 6 # after which week
 

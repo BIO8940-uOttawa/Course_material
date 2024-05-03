@@ -1,0 +1,39 @@
+---
+title: Student presentation
+---
+
+{{< include ../_links.qmd >}}
+
+
+## General info
+
+Counts for 30% of final grade
+
+* 15 min presentation in groups of 2 on a paper
+* 5 min questions
+
+
+::: callout-important
+# Register team, article and date
+
+ Please register for your presentations [here](https://uottawa-my.sharepoint.com/personal/jmartin8_uottawa_ca/_layouts/15/guestaccess.aspx?share=EbAUafs8KSdEhoP6xs0XqiwBG4lI6raInEKrssUN6nbm7w&e=RzBfDv).
+
+ You need to log into your uottawa account to have access
+:::
+
+## Rubric
+### Content – 60 marks
+
+- Introduction: Background of the general ‘big picture’ and specific problem, study system, and specific hypotheses or predictions.
+- Methods: Brief outline of data collection  and explanation of statistical methods used to address the hypotheses/predictions outlined in the introduction, including key assumptions.
+- Results: Visualizations clearly summarizing your results, using parallel structure to methods
+- Discussion: Summary of major results, alternative explanations for the observed results, conclusions/implications, future directions
+
+### Style – 30 marks
+
+- Organization 
+- Clarity 
+- Delivery: Timing, pace, tone, articulation
+<!-- - Originality: (5 marks) Creativity, critical thinking -->
+
+### Answers and understanding – 10 marks
