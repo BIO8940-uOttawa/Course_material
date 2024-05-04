@@ -4,35 +4,85 @@ title: Written report
 
 {{< include ../_links.qmd >}}
 
-## General info
+# General info
 
-Counts for 50% of the final grade
+The written report counts for 50% of the final grade
+
+Using your own dataset (or one provided by me):
+
+1. develop a question of interest
+2. choose the statistical analysis appropriate to answer the question
+3. analyse the data
+4. write a short report using Quarto/Rmarkdown explaining in details:
+    - the analysis done
+    - the results
+    - model assumptions and associated checks
+    - the limitation of the model or data to answer the question
+5. submit your work via Brightspace before teh deadline
+
 
 You need to submit a reproducible document.
 Your submission on Brightspace needs to include:
 
 1. rendered pdf (could be a rendered docx saved as pdf)
-1. .[Rq]md file
+1. .\[Rq\]md file
 1. data file(s)
 1. extra files needed to reproduce the document
-  - .bib files
-  - .csl files
-  - ...
+    - .bib files
+    - .csl files
+    - ...
 
 Missing files would incur a 10% penalty on the report grade
 
+# Rubric
+
 ## Content – 70 marks
 
-- Introduction: (10 marks) Background of the general ‘big picture’ and specific problem, study system, and specific hypotheses or predictions.
-- Methods: (20 marks) Brief outline of data collection  and explanation of statistical methods used to address the hypotheses/predictions outlined in the introduction, including key assumptions.
-- Results: (25 marks) Visualizations clearly summarizing your results, using parallel structure to methods
-- Discussion: (15 marks) Summary of major results, alternative explanations for the observed results, conclusions/implications, future directions
+### Introduction (10 marks)
+
+- Background of the general ‘big picture’ and specific problem,
+- study system
+- specific hypotheses to be tested
+- predictions
+
+### Methods (20 marks)
+
+- Brief outline of data collection
+- clear explanation of statistical methods used to address the hypotheses/predictions outlined in the introduction, including key assumptions.
+
+### Results (25 marks) 
+
+Text and visualizations clearly summarizing your results, using parallel structure to methods. Should include :
+
+- clear graphics representing the data and the model outputs,
+- tables reporting statistics
+- text describing results
+- evaluation of model assumption and model fit 
+
+### Discussion (15 marks)
+
+- Summary of major results
+- conclusions/implications
+- Limitations of analysis (power, complexity of model, data structure, ...)
 
 ## Style – 30 marks
 
-- Clarity and reproducibility of code (10 marks)
-- Organization and formatting (10 marks)
-- Clarity of text (5 marks)
-- Typos and grammar (5 marks)
+### Clarity and reproducibility of code (10 marks)
 
+- code well written and understandable
+- document written in Quarto/Rmarkdown, reproducible with .\[qR\]md and data
+- only necessary code included
+- all necessary code included
 
+### Organization and formatting (10 marks)
+
+- clear and logical
+- correct formatting of the document
+
+### Clarity of text (10 marks)
+
+- clear and understandable
+
+### Typos and grammar (5 marks)
+
+- it is all in the section title
