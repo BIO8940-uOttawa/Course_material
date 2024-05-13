@@ -91,7 +91,7 @@ I developed proposal and thesis templates that are 1. useable directly as Quarto
 
 * [bio-uo-thesis](https://github.com/JulienGAMartin/quarto-bio-uo-thesis): quarto extension  providing two new output formats for book projects: an html (`bio-uo-thesis-html`) and a pdf (`bio-uo-thesis-pdf`) generating a website (to be hosted on github pages or similar) and a pdf of the thesis adequately formatted for uOttawa (at least biology)
 
-* [bio-uo-stat](): I need to develop a quarto template for the final report
+* [bio-uo-stat](https://github.com/JulienGAMartin/bio-uo-stat): quarto extension to render your Bio8940 final report as a nicely formatted PDF
 
 # Software and account requirements
 
