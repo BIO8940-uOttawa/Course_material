@@ -67,13 +67,8 @@ website:
           href: en/index.qmd
         - text: Slides and notes
           href: en/lectures.qmd
-        - section: Practical
-          contents:
-            - text: Info
-              href: en/practical.qmd
-            - text: "Manual"
-              icon: link
-              href:  https://biostats-uottawa.github.io/bio8940_manual/
+        - text: Practical
+          href: en/practical.qmd
         - section: Assessment
           contents:
             - en/presentation.qmd
