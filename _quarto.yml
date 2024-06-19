@@ -18,31 +18,17 @@ website:
   navbar:
     title: '![](/img/logo_hex.png){width="50px"} BIO8940: course' 
     left:
-#      - text: Lectures
-#        href: lectures.qmd
-#      - text: "Practicals"
-#        menu:
-#          - text: "Manual"
-#            href:  https://biostats-uottawa.github.io/bio8940_manual/
-#          - text: "Data"
-#            href: dataset.qmd
-#          - text: "Extra info"
-#            href: practical_extra.qmd
-#      - text: "Syllabus"
-#        href: syllabus.qmd
-#      - text: Reading
-#        href: reading.qmd
-      - text: Other resources
+      - text: Biostats uOttawa
+        href: https://biostats-uottawa.github.io/
+      - text: Intro Biostats & R (BioXx58)
+        href: https://biostats-uottawa.github.io/bioxx58/
+#      - text: Biostats adv. / av.(Bio8940)
+#        href: https://biostats-uottawa.github.io/bio8940_course/
+      - text: Livre / Book
         menu:
-          - text: Biostats uOttawa
-            href: https://biostats-uottawa.github.io/
-          - text: Biostats with R (Bio4158)
-            href: https://biostats-uottawa.github.io/bio4158_course/
-          - text: Biostats avec R (Bio4558)
-            href: https://biostats-uottawa.github.io/bio4558_cours/
-          - text: R-way to hell (R book)
+          - text: R-way to hell
             href: https://biostats-uottawa.github.io/R/en/
-          - text: Chemin de l'enf-R (livre R)
+          - text: Chemin de l'enf-R
             href: https://biostats-uottawa.github.io/R/fr/
     tools:
       - icon: github
