@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://Biostats-uOttawa.github.io/bio8940/slides/lec-04_lm_glm.slides.html</loc>
-    <lastmod>2024-06-20T18:06:17.852Z</lastmod>
+    <lastmod>2024-06-20T18:14:03.199Z</lastmod>
   </url>
   <url>
     <loc>https://Biostats-uOttawa.github.io/bio8940/slides/lec-04_lm_glm.notes.html</loc>
-    <lastmod>2024-06-20T18:06:17.767Z</lastmod>
+    <lastmod>2024-06-20T18:14:03.121Z</lastmod>
   </url>
   <url>
     <loc>https://Biostats-uOttawa.github.io/bio8940/slides/lec-07_intro_bayes.slides.html</loc>
-    <lastmod>2024-06-20T18:06:04.110Z</lastmod>
+    <lastmod>2024-06-20T18:13:46.003Z</lastmod>
   </url>
   <url>
     <loc>https://Biostats-uOttawa.github.io/bio8940/slides/lec-07_intro_bayes.notes.html</loc>
-    <lastmod>2024-06-20T18:06:04.061Z</lastmod>
+    <lastmod>2024-06-20T18:13:45.913Z</lastmod>
   </url>
   <url>
     <loc>https://Biostats-uOttawa.github.io/bio8940/slides/lec-03_github.slides.html</loc>
-    <lastmod>2024-06-20T18:05:50.592Z</lastmod>
+    <lastmod>2024-06-20T18:13:31.288Z</lastmod>
   </url>
   <url>
     <loc>https://Biostats-uOttawa.github.io/bio8940/slides/lec-03_github.notes.html</loc>
-    <lastmod>2024-06-20T18:05:50.513Z</lastmod>
+    <lastmod>2024-06-20T18:13:31.211Z</lastmod>
   </url>
   <url>
     <loc>https://Biostats-uOttawa.github.io/bio8940/fr/index.html</loc>
@@ -42,11 +42,11 @@
   </url>
   <url>
     <loc>https://Biostats-uOttawa.github.io/bio8940/slides/lec-08_intro_glmm.slides.html</loc>
-    <lastmod>2024-06-20T18:05:22.950Z</lastmod>
+    <lastmod>2024-06-20T18:13:01.407Z</lastmod>
   </url>
   <url>
     <loc>https://Biostats-uOttawa.github.io/bio8940/slides/lec-08_intro_glmm.notes.html</loc>
-    <lastmod>2024-06-20T18:05:22.919Z</lastmod>
+    <lastmod>2024-06-20T18:13:01.362Z</lastmod>
   </url>
   <url>
     <loc>https://Biostats-uOttawa.github.io/bio8940/en/practical_extra.html</loc>
@@ -82,15 +82,15 @@
   </url>
   <url>
     <loc>https://Biostats-uOttawa.github.io/bio8940/slides/lec-01_intro.notes.html</loc>
-    <lastmod>2024-06-20T18:05:16.545Z</lastmod>
+    <lastmod>2024-06-20T18:12:53.039Z</lastmod>
   </url>
   <url>
     <loc>https://Biostats-uOttawa.github.io/bio8940/slides/lec-01_intro.slides.html</loc>
-    <lastmod>2024-06-20T18:05:16.573Z</lastmod>
+    <lastmod>2024-06-20T18:12:53.083Z</lastmod>
   </url>
   <url>
     <loc>https://Biostats-uOttawa.github.io/bio8940/index.html</loc>
-    <lastmod>2024-06-20T18:00:28.698Z</lastmod>
+    <lastmod>2024-06-20T18:10:26.004Z</lastmod>
   </url>
   <url>
     <loc>https://Biostats-uOttawa.github.io/bio8940/en/syllabus.html</loc>
@@ -106,11 +106,11 @@
   </url>
   <url>
     <loc>https://Biostats-uOttawa.github.io/bio8940/slides/lec-02_rmarkdown.notes.html</loc>
-    <lastmod>2024-06-20T18:05:39.525Z</lastmod>
+    <lastmod>2024-06-20T18:13:18.269Z</lastmod>
   </url>
   <url>
     <loc>https://Biostats-uOttawa.github.io/bio8940/slides/lec-02_rmarkdown.slides.html</loc>
-    <lastmod>2024-06-20T18:05:39.601Z</lastmod>
+    <lastmod>2024-06-20T18:13:18.372Z</lastmod>
   </url>
   <url>
     <loc>https://Biostats-uOttawa.github.io/bio8940/en/index.html</loc>
@@ -118,18 +118,18 @@
   </url>
   <url>
     <loc>https://Biostats-uOttawa.github.io/bio8940/slides/lec-06_intro_lmm.notes.html</loc>
-    <lastmod>2024-06-20T18:05:57.342Z</lastmod>
+    <lastmod>2024-06-20T18:13:37.801Z</lastmod>
   </url>
   <url>
     <loc>https://Biostats-uOttawa.github.io/bio8940/slides/lec-06_intro_lmm.slides.html</loc>
-    <lastmod>2024-06-20T18:05:57.383Z</lastmod>
+    <lastmod>2024-06-20T18:13:37.845Z</lastmod>
   </url>
   <url>
     <loc>https://Biostats-uOttawa.github.io/bio8940/slides/lec-05_model_structure.slides.html</loc>
-    <lastmod>2024-06-20T18:06:10.580Z</lastmod>
+    <lastmod>2024-06-20T18:13:54.762Z</lastmod>
   </url>
   <url>
     <loc>https://Biostats-uOttawa.github.io/bio8940/slides/lec-05_model_structure.notes.html</loc>
-    <lastmod>2024-06-20T18:06:10.623Z</lastmod>
+    <lastmod>2024-06-20T18:13:54.841Z</lastmod>
   </url>
 </urlset>
