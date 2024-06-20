@@ -16,7 +16,7 @@ website:
   description: "Adv stats and open science"
   favicon: /img/logo_hex.png
   navbar:
-    title: '![](/img/logo_hex.png){width="50px"} BIO8940: course' 
+    title: '![](/img/logo_hex.png){width="50px"} Biostats adv. / av.(Bio8940)' 
     left:
       - text: Biostats uOttawa
         href: https://biostats-uottawa.github.io/
