@@ -118,5 +118,5 @@ install.packages(c("tidyverse", "sf", "emoji", "janitor", "palmerpenguins", "use
 
 #### Reuse {-}
 
-Text and figures are licensed under Creative Commons Attribution [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Any computer code (R, HTML, CSS, etc.) in slides and worksheets, including in slide and worksheet sources, is also licensed under [MIT](https://github.com/biostats-uOttawa/bio8940_course/blob/master/LICENSE.md). 
+Text and figures are licensed under Creative Commons Attribution [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Any computer code (R, HTML, CSS, etc.) in slides and worksheets, including in slide and worksheet sources, is also licensed under [MIT](https://github.com/biostats-uOttawa/bio8940/blob/master/LICENSE.md). 
 

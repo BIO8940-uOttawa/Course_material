@@ -50,8 +50,8 @@ Les objectifs du cours sont:
 * Où: Salle: `r timetable_fr_df$where[1]`
 <!--   * Gather: https://gather.town/app/MCa0j7kcdaCNSCvS/AdvStatOpenSci
   * Zoom: https://uottawa-ca.zoom.us/j/93306840602?pwd=bWNsR3AzQ25VQXJOWCszNmh6RWI1UT09 -->
-* Info sur le cours: <https://biostats-uottawa.github.io/bio8940_course/>
-* Manuel labo: <https://biostats-uottawa.github.io/bio8940_manual/>
+* Info sur le cours: <https://biostats-uottawa.github.io/bio8940/>
+* Manuel labo: <https://biostats-uottawa.github.io/R/fr/>
 
 
 

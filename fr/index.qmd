@@ -106,5 +106,5 @@ J'ai développé des extension Quarto pour produire un proposé et une thèse qu
 
 #### Réutilisation {-}
 
-Le texte et les figures sont sous licence Creative Commons Attribution [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Tout code informatique (R, HTML, CSS, etc.) dans les diapositives et les feuilles de travail, y compris dans les sources des diapositives et des feuilles de travail, est également sous licence [MIT](https://github.com/biostats-uOttawa/bio8940_course/blob/master/LICENSE.md).
+Le texte et les figures sont sous licence Creative Commons Attribution [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Tout code informatique (R, HTML, CSS, etc.) dans les diapositives et les feuilles de travail, y compris dans les sources des diapositives et des feuilles de travail, est également sous licence [MIT](https://github.com/biostats-uOttawa/bio8940/blob/master/LICENSE.md).
 

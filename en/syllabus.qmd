@@ -48,8 +48,8 @@ The course aims to:
 * Where: `r timetable_df$where[1]`
 <!--   * Gather: https://gather.town/app/MCa0j7kcdaCNSCvS/AdvStatOpenSci
   * Zoom: https://uottawa-ca.zoom.us/j/93306840602?pwd=bWNsR3AzQ25VQXJOWCszNmh6RWI1UT09 -->
-* Course info and slides: <https://biostats-uottawa.github.io/bio8940_course/>
-* Lab manual: <https://biostats-uottawa.github.io/bio8940_manual/>
+* Course info and slides: <https://biostats-uottawa.github.io/bio8940/>
+* Lab manual: <https://biostats-uottawa.github.io/R/en/>
 
 
 
