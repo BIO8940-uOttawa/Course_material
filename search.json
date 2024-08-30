@@ -1353,45 +1353,45 @@
   {
     "objectID": "en/syllabus.html",
     "href": "en/syllabus.html",
-    "title": "Written report",
+    "title": "Syllabus",
     "section": "",
     "text": "Statistics are a key component of rigorous science and as such there is a need to both understand advanced statistics and properly document the analysis to improve scientific communication transparency and quality. The course aims to:\n\nProvide an understanding of advanced statistical models (including generalized linear mixed models)\nDevelop good coding practices (using R and Rmarkdown)\nImprove data and code management (data manipulation and github)\nPresent the principles of open science (using OSF, Open Science Framework).",
     "crumbs": [
       "Biostats uOttawa",
-      "Written report"
+      "Syllabus"
     ]
   },
   {
     "objectID": "en/syllabus.html#schedule",
     "href": "en/syllabus.html#schedule",
-    "title": "Written report",
+    "title": "Syllabus",
     "section": "Schedule ",
     "text": "Schedule \n\nLecture: Tuesdays, 1430-1720 in CRX-C323\n\nThere are no lectures or tutorials during reading week.\nSee the course website for details of the schedule",
     "crumbs": [
       "Biostats uOttawa",
-      "Written report"
+      "Syllabus"
     ]
   },
   {
     "objectID": "en/syllabus.html#presentations",
     "href": "en/syllabus.html#presentations",
-    "title": "Written report",
+    "title": "Syllabus",
     "section": "Presentations",
     "text": "Presentations\n\n\n\n\n\n\n\nRegister team, article and date\n\n\n\nPlease register for your presentations here.\nYou need to log into your uottawa account to have access\n\n\n\nGeneral info\nThe presentation counts for 30% of the final grade\nThe presentation should be based on one of the suggested paper or paper selected by the students (with my approval)\nPresentation should be between 8-10 minutes long and are followed by 3-5 minutes of questions. They should provide a big picture of the study and the main hypothesis, a quick presentation of the data, detailed explanation of analysis and results, and finally a discussion on the clarity and adequacy of the statistical analysis. If the paper is more methodological, the presentation should present a summary version of the paper and discuss what what harder to understand or not understood.\n\n\nRubric\n\nContent – 60 marks\n\nIntroduction: Background of the general ‘big picture’ and specific problem, study system, and specific hypotheses or predictions.\nMethods: Brief outline of data collection and explanation of statistical methods used to address the hypotheses/predictions outlined in the introduction, including key assumptions.\nResults: Visualizations clearly summarizing your results, using parallel structure to methods\nDiscussion: Summary of major results, alternative explanations for the observed results, conclusions/implications, future directions\n\n\n\nStyle – 30 marks\n\nOrganization\nClarity\nDelivery: Timing, pace, tone, articulation\nOriginality: Creativity, critical thinking\n\n\n\nAnswers and understanding – 10 marks",
     "crumbs": [
       "Biostats uOttawa",
-      "Written report"
+      "Syllabus"
     ]
   },
   {
-    "objectID": "en/syllabus.html#final-report",
-    "href": "en/syllabus.html#final-report",
-    "title": "Written report",
-    "section": "Final report",
-    "text": "Final report\n\n\nGeneral info\nThe written report counts for 50% of the final grade\nUsing your own dataset (or one provided by me):\n\ndevelop a question of interest\nchoose the statistical analysis appropriate to answer the question\nanalyse the data\nwrite a short report using Quarto/Rmarkdown explaining in details:\n\nthe analysis done\nthe results\nmodel assumptions and associated checks\nthe limitation of the model or data to answer the question\n\nsubmit your work via Brightspace before teh deadline\n\nYou need to submit a reproducible document. Your submission on Brightspace needs to include:\n\nrendered pdf (could be a rendered docx saved as pdf)\n.[Rq]md file\ndata file(s)\nextra files needed to reproduce the document\n\n.bib files\n.csl files\n…\n\n\nMissing files would incur a 10% penalty on the report grade\n\n\nRubric\n\nContent – 70 marks\n\nIntroduction (10 marks)\n\nBackground of the general ‘big picture’ and specific problem,\nstudy system\nspecific hypotheses to be tested\npredictions\n\n\n\nMethods (20 marks)\n\nBrief outline of data collection\nclear explanation of statistical methods used to address the hypotheses/predictions outlined in the introduction, including key assumptions.\n\n\n\nResults (25 marks)\nText and visualizations clearly summarizing your results, using parallel structure to methods. Should include :\n\nclear graphics representing the data and the model outputs,\ntables reporting statistics\ntext describing results\nevaluation of model assumption and model fit\n\n\n\nDiscussion (15 marks)\n\nSummary of major results\nconclusions/implications\nLimitations of analysis (power, complexity of model, data structure, …)\n\n\n\n\nStyle – 30 marks\n\nClarity and reproducibility of code (10 marks)\n\ncode well written and understandable\ndocument written in Quarto/Rmarkdown, reproducible with .[qR]md and data\nonly necessary code included\nall necessary code included\n\n\n\nOrganization and formatting (10 marks)\n\nclear and logical\ncorrect formatting of the document\n\n\n\nClarity of text (10 marks)\n\nclear and understandable\n\n\n\nTypos and grammar (5 marks)\n\nit is all in the section title",
+    "objectID": "en/syllabus.html#written-report",
+    "href": "en/syllabus.html#written-report",
+    "title": "Syllabus",
+    "section": "Written Report",
+    "text": "Written Report\n\n\nGeneral info\nThe written report counts for 50% of the final grade\nUsing your own dataset (or one provided by me):\n\ndevelop a question of interest\nchoose the statistical analysis appropriate to answer the question\nanalyse the data\nwrite a short report using Quarto/Rmarkdown explaining in details:\n\nthe analysis done\nthe results\nmodel assumptions and associated checks\nthe limitation of the model or data to answer the question\n\nsubmit your work via Brightspace before teh deadline\n\nYou need to submit a reproducible document. Your submission on Brightspace needs to include:\n\nrendered pdf (could be a rendered docx saved as pdf)\n.[Rq]md file\ndata file(s)\nextra files needed to reproduce the document\n\n.bib files\n.csl files\n…\n\n\nMissing files would incur a 10% penalty on the report grade\n\n\nRubric\n\nContent – 70 marks\n\nIntroduction (10 marks)\n\nBackground of the general ‘big picture’ and specific problem,\nstudy system\nspecific hypotheses to be tested\npredictions\n\n\n\nMethods (20 marks)\n\nBrief outline of data collection\nclear explanation of statistical methods used to address the hypotheses/predictions outlined in the introduction, including key assumptions.\n\n\n\nResults (25 marks)\nText and visualizations clearly summarizing your results, using parallel structure to methods. Should include :\n\nclear graphics representing the data and the model outputs,\ntables reporting statistics\ntext describing results\nevaluation of model assumption and model fit\n\n\n\nDiscussion (15 marks)\n\nSummary of major results\nconclusions/implications\nLimitations of analysis (power, complexity of model, data structure, …)\n\n\n\n\nStyle – 30 marks\n\nClarity and reproducibility of code (10 marks)\n\ncode well written and understandable\ndocument written in Quarto/Rmarkdown, reproducible with .[qR]md and data\nonly necessary code included\nall necessary code included\n\n\n\nOrganization and formatting (10 marks)\n\nclear and logical\ncorrect formatting of the document\n\n\n\nClarity of text (10 marks)\n\nclear and understandable\n\n\n\nTypos and grammar (5 marks)\n\nit is all in the section title",
     "crumbs": [
       "Biostats uOttawa",
-      "Written report"
+      "Syllabus"
     ]
   },
   {
@@ -1681,15 +1681,27 @@
     "text": "5.1 What is expected from you\n\nWeekly Reading\nIn class participation\nDo the praticals"
   },
   {
-    "objectID": "en/presentation.html",
-    "href": "en/presentation.html",
-    "title": "Student presentation",
+    "objectID": "en/report.html",
+    "href": "en/report.html",
+    "title": "Bio8940",
     "section": "",
-    "text": "Register team, article and date\n\n\n\nPlease register for your presentations here.\nYou need to log into your uottawa account to have access\n\n\n\nGeneral info\nThe presentation counts for 30% of the final grade\nThe presentation should be based on one of the suggested paper or paper selected by the students (with my approval)\nPresentation should be between 8-10 minutes long and are followed by 3-5 minutes of questions. They should provide a big picture of the study and the main hypothesis, a quick presentation of the data, detailed explanation of analysis and results, and finally a discussion on the clarity and adequacy of the statistical analysis. If the paper is more methodological, the presentation should present a summary version of the paper and discuss what what harder to understand or not understood.\n\n\nRubric\n\nContent – 60 marks\n\nIntroduction: Background of the general ‘big picture’ and specific problem, study system, and specific hypotheses or predictions.\nMethods: Brief outline of data collection and explanation of statistical methods used to address the hypotheses/predictions outlined in the introduction, including key assumptions.\nResults: Visualizations clearly summarizing your results, using parallel structure to methods\nDiscussion: Summary of major results, alternative explanations for the observed results, conclusions/implications, future directions\n\n\n\nStyle – 30 marks\n\nOrganization\nClarity\nDelivery: Timing, pace, tone, articulation\nOriginality: Creativity, critical thinking\n\n\n\nAnswers and understanding – 10 marks",
+    "text": "The written report counts for 50% of the final grade\nUsing your own dataset (or one provided by me):\n\ndevelop a question of interest\nchoose the statistical analysis appropriate to answer the question\nanalyse the data\nwrite a short report using Quarto/Rmarkdown explaining in details:\n\nthe analysis done\nthe results\nmodel assumptions and associated checks\nthe limitation of the model or data to answer the question\n\nsubmit your work via Brightspace before teh deadline\n\nYou need to submit a reproducible document. Your submission on Brightspace needs to include:\n\nrendered pdf (could be a rendered docx saved as pdf)\n.[Rq]md file\ndata file(s)\nextra files needed to reproduce the document\n\n.bib files\n.csl files\n…\n\n\nMissing files would incur a 10% penalty on the report grade\n\n\n\n\n\n\n\n\nBackground of the general ‘big picture’ and specific problem,\nstudy system\nspecific hypotheses to be tested\npredictions\n\n\n\n\n\nBrief outline of data collection\nclear explanation of statistical methods used to address the hypotheses/predictions outlined in the introduction, including key assumptions.\n\n\n\n\nText and visualizations clearly summarizing your results, using parallel structure to methods. Should include :\n\nclear graphics representing the data and the model outputs,\ntables reporting statistics\ntext describing results\nevaluation of model assumption and model fit\n\n\n\n\n\nSummary of major results\nconclusions/implications\nLimitations of analysis (power, complexity of model, data structure, …)\n\n\n\n\n\n\n\n\ncode well written and understandable\ndocument written in Quarto/Rmarkdown, reproducible with .[qR]md and data\nonly necessary code included\nall necessary code included\n\n\n\n\n\nclear and logical\ncorrect formatting of the document\n\n\n\n\n\nclear and understandable\n\n\n\n\n\nit is all in the section title",
     "crumbs": [
       "Biostats uOttawa",
       "Assessment",
-      "Student presentation"
+      "Written Report"
+    ]
+  },
+  {
+    "objectID": "en/report.html#written-report",
+    "href": "en/report.html#written-report",
+    "title": "Bio8940",
+    "section": "",
+    "text": "The written report counts for 50% of the final grade\nUsing your own dataset (or one provided by me):\n\ndevelop a question of interest\nchoose the statistical analysis appropriate to answer the question\nanalyse the data\nwrite a short report using Quarto/Rmarkdown explaining in details:\n\nthe analysis done\nthe results\nmodel assumptions and associated checks\nthe limitation of the model or data to answer the question\n\nsubmit your work via Brightspace before teh deadline\n\nYou need to submit a reproducible document. Your submission on Brightspace needs to include:\n\nrendered pdf (could be a rendered docx saved as pdf)\n.[Rq]md file\ndata file(s)\nextra files needed to reproduce the document\n\n.bib files\n.csl files\n…\n\n\nMissing files would incur a 10% penalty on the report grade\n\n\n\n\n\n\n\n\nBackground of the general ‘big picture’ and specific problem,\nstudy system\nspecific hypotheses to be tested\npredictions\n\n\n\n\n\nBrief outline of data collection\nclear explanation of statistical methods used to address the hypotheses/predictions outlined in the introduction, including key assumptions.\n\n\n\n\nText and visualizations clearly summarizing your results, using parallel structure to methods. Should include :\n\nclear graphics representing the data and the model outputs,\ntables reporting statistics\ntext describing results\nevaluation of model assumption and model fit\n\n\n\n\n\nSummary of major results\nconclusions/implications\nLimitations of analysis (power, complexity of model, data structure, …)\n\n\n\n\n\n\n\n\ncode well written and understandable\ndocument written in Quarto/Rmarkdown, reproducible with .[qR]md and data\nonly necessary code included\nall necessary code included\n\n\n\n\n\nclear and logical\ncorrect formatting of the document\n\n\n\n\n\nclear and understandable\n\n\n\n\n\nit is all in the section title",
+    "crumbs": [
+      "Biostats uOttawa",
+      "Assessment",
+      "Written Report"
     ]
   },
   {
@@ -1729,15 +1741,27 @@
     "text": "It seems you R lost (bad pun intended)\nThe page you requested cannot be found (perhaps it was moved or it is still in development)."
   },
   {
-    "objectID": "en/report.html",
-    "href": "en/report.html",
-    "title": "Written report",
+    "objectID": "en/presentation.html",
+    "href": "en/presentation.html",
+    "title": "Bio8940",
     "section": "",
-    "text": "General info\nThe written report counts for 50% of the final grade\nUsing your own dataset (or one provided by me):\n\ndevelop a question of interest\nchoose the statistical analysis appropriate to answer the question\nanalyse the data\nwrite a short report using Quarto/Rmarkdown explaining in details:\n\nthe analysis done\nthe results\nmodel assumptions and associated checks\nthe limitation of the model or data to answer the question\n\nsubmit your work via Brightspace before teh deadline\n\nYou need to submit a reproducible document. Your submission on Brightspace needs to include:\n\nrendered pdf (could be a rendered docx saved as pdf)\n.[Rq]md file\ndata file(s)\nextra files needed to reproduce the document\n\n.bib files\n.csl files\n…\n\n\nMissing files would incur a 10% penalty on the report grade\n\n\nRubric\n\nContent – 70 marks\n\nIntroduction (10 marks)\n\nBackground of the general ‘big picture’ and specific problem,\nstudy system\nspecific hypotheses to be tested\npredictions\n\n\n\nMethods (20 marks)\n\nBrief outline of data collection\nclear explanation of statistical methods used to address the hypotheses/predictions outlined in the introduction, including key assumptions.\n\n\n\nResults (25 marks)\nText and visualizations clearly summarizing your results, using parallel structure to methods. Should include :\n\nclear graphics representing the data and the model outputs,\ntables reporting statistics\ntext describing results\nevaluation of model assumption and model fit\n\n\n\nDiscussion (15 marks)\n\nSummary of major results\nconclusions/implications\nLimitations of analysis (power, complexity of model, data structure, …)\n\n\n\n\nStyle – 30 marks\n\nClarity and reproducibility of code (10 marks)\n\ncode well written and understandable\ndocument written in Quarto/Rmarkdown, reproducible with .[qR]md and data\nonly necessary code included\nall necessary code included\n\n\n\nOrganization and formatting (10 marks)\n\nclear and logical\ncorrect formatting of the document\n\n\n\nClarity of text (10 marks)\n\nclear and understandable\n\n\n\nTypos and grammar (5 marks)\n\nit is all in the section title",
+    "text": "Register team, article and date\n\n\n\nPlease register for your presentations here.\nYou need to log into your uottawa account to have access\n\n\n\n\nThe presentation counts for 30% of the final grade\nThe presentation should be based on one of the suggested paper or paper selected by the students (with my approval)\nPresentation should be between 8-10 minutes long and are followed by 3-5 minutes of questions. They should provide a big picture of the study and the main hypothesis, a quick presentation of the data, detailed explanation of analysis and results, and finally a discussion on the clarity and adequacy of the statistical analysis. If the paper is more methodological, the presentation should present a summary version of the paper and discuss what what harder to understand or not understood.\n\n\n\n\n\n\nIntroduction: Background of the general ‘big picture’ and specific problem, study system, and specific hypotheses or predictions.\nMethods: Brief outline of data collection and explanation of statistical methods used to address the hypotheses/predictions outlined in the introduction, including key assumptions.\nResults: Visualizations clearly summarizing your results, using parallel structure to methods\nDiscussion: Summary of major results, alternative explanations for the observed results, conclusions/implications, future directions\n\n\n\n\n\nOrganization\nClarity\nDelivery: Timing, pace, tone, articulation\nOriginality: Creativity, critical thinking",
     "crumbs": [
       "Biostats uOttawa",
       "Assessment",
-      "Written report"
+      "Presentations"
+    ]
+  },
+  {
+    "objectID": "en/presentation.html#presentations",
+    "href": "en/presentation.html#presentations",
+    "title": "Bio8940",
+    "section": "",
+    "text": "Register team, article and date\n\n\n\nPlease register for your presentations here.\nYou need to log into your uottawa account to have access\n\n\n\n\nThe presentation counts for 30% of the final grade\nThe presentation should be based on one of the suggested paper or paper selected by the students (with my approval)\nPresentation should be between 8-10 minutes long and are followed by 3-5 minutes of questions. They should provide a big picture of the study and the main hypothesis, a quick presentation of the data, detailed explanation of analysis and results, and finally a discussion on the clarity and adequacy of the statistical analysis. If the paper is more methodological, the presentation should present a summary version of the paper and discuss what what harder to understand or not understood.\n\n\n\n\n\n\nIntroduction: Background of the general ‘big picture’ and specific problem, study system, and specific hypotheses or predictions.\nMethods: Brief outline of data collection and explanation of statistical methods used to address the hypotheses/predictions outlined in the introduction, including key assumptions.\nResults: Visualizations clearly summarizing your results, using parallel structure to methods\nDiscussion: Summary of major results, alternative explanations for the observed results, conclusions/implications, future directions\n\n\n\n\n\nOrganization\nClarity\nDelivery: Timing, pace, tone, articulation\nOriginality: Creativity, critical thinking",
+    "crumbs": [
+      "Biostats uOttawa",
+      "Assessment",
+      "Presentations"
     ]
   },
   {
