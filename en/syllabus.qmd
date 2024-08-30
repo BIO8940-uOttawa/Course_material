@@ -5,15 +5,7 @@ title: Syllabus
 {{< include ../_links.qmd >}}
 
 
-```{r}
-#| label: timetable
-#| include: false
-source("../_yaml_extract.R")
-dat <- read_yaml("../_course.yml")
-extract_course(dat)
-```
-
-## Description
+# Description
 
 Statistics are a key component of rigorous science and as such there is a need to both understand advanced statistics and properly document the analysis to improve scientific communication transparency and quality.
 The course aims to:
@@ -24,7 +16,7 @@ The course aims to:
 4. Present the principles of open science (using OSF, Open Science Framework).
 
 
-## Contents
+# Contents
 
 * Statistics (flexible to be define based on attendance interests)
     * Mixed models including generalized linear mixed models and multivariate models
@@ -39,22 +31,21 @@ The course aims to:
     * git: `github` and other alternatives
     * Open Science Framework with `OSF`
 
-## Classes
+# Classes
 
 * Duration: 1 class of 3h each week
 * Style: mix of lecture, discussion and practical
 * How: In-person . 
-* When: `r timetable_df$day[1]` from `r timetable_df$when[1]`
-* Where: `r timetable_df$where[1]`
 <!--   * Gather: https://gather.town/app/MCa0j7kcdaCNSCvS/AdvStatOpenSci
   * Zoom: https://uottawa-ca.zoom.us/j/93306840602?pwd=bWNsR3AzQ25VQXJOWCszNmh6RWI1UT09 -->
 * Course info and slides: <https://biostats-uottawa.github.io/bio8940/>
 * Lab manual: <https://biostats-uottawa.github.io/R/en/>
 
+{{< include who_when.qmd >}}
 
+See the [course website](lectures.qmd) for details of the schedule
 
-## Assessment
-
+# Assessment
 Based on interactions in classes and on a data analysis project using `R` and documented with with `Rmarkdown`, `workflowr` and `github`.
 
 * 50% in class assessment:
@@ -62,6 +53,11 @@ Based on interactions in classes and on a data analysis project using `R` and do
   * discussion in class (10% questions prep, 10% discussions)
 * 50% written statistical report using analysis more complex than linear models written using Rmarkdown, published on github in 2 different formats
 
+{{< include presentation.qmd >}}
+
+{{< include report.qmd >}}
+
+<!--
 ### Presentation – 30%
 
 #### Content – 60%
@@ -76,7 +72,7 @@ Based on interactions in classes and on a data analysis project using `R` and do
 - Organization 
 - Clarity 
 - Delivery: Timing, pace, tone, articulation
-<!-- - Originality: (5 marks) Creativity, critical thinking -->
+- Originality: (5 marks) Creativity, critical thinking
 
 #### Answers and understanding – 10%
 
@@ -95,10 +91,9 @@ Based on interactions in classes and on a data analysis project using `R` and do
 - Organization (5 marks)
 - Clarity of text (10 marks)
 - Typos and grammar (5 marks)
-<!-- - Delivery: (5 marks) Timing, pace, tone, articulation -->
-<!-- - Originality: (5 marks) Creativity, critical thinking -->
+-->
 
-
+<!--
 ## Schedule
 
 This is a tentative schedule.
@@ -119,6 +114,23 @@ This is a tentative schedule.
 | 12 | Path analysis and causality |
 | 13 | Wrap-up |
 
-## Note on bilingualism
+-->
 
+# Marking disputes
+If you feel an error has been made in the grading of an assignment or exam, you have 10 working days from the date the item was returned to request a regrading. Beyond 10 working days the mark is considered final. If the issue concerns a lab assignment, please consult the TA that marked it; if it concerns and exam, please see the course instructor.
+
+When a regrading occurs, the new mark will stand whether it is higher or lower, so there is no guarantee your mark will increase. Simple adding mistakes unfortunately happen on occasion given the volume of assignments and exams we have to mark and such cases are easy to correct. However, disputes over partial marks on partially correct answers will not always work out in your favour and should be reserved for situations in which you feel you have a strong case. When requesting a regrading, you must provide an explanation as to what you feel the issue is (i.e. why you think you deserve a higher grade). The more specific this is the better your chance of success.
+
+I do not consider arguments for additional marks simply because you are close to the next letter grade.
+
+
+# Plagiarism
+Plagiarism is the act of passing off someone else’s words or ideas as your own. Plagiarism is a major academic offense (see the University of Ottawa regulation on academic fraud: Academic fraud) and is also illegal. We uphold the law. It is critical that you understand what constitutes plagiarism and how you can avoid it. For more information, consult the following document from the Student Academic Success Service.
+
+# Attendance
+As per uOttawa policy, to ensure they succeed in all courses of their program of study, students have the responsibility to participate in the various learning and assessment activities for this course. Attendance of the lectures and laboratory are not formally required for this course, although both are STRONGLY recommended. The supplied lecture slides will not include all content presented and discussed in class, and teaching assistants and the professor are available during the labs for help with exercises and assignments. TA and professor office hours are to allow you an opportunity to ask questions related to course material and cannot replace a missed lecture or lab.
+
+# Bilingualism
 Please note that the class is bilingual. This means that any questions during the class can be asked or answered in either french or english and the prof will translate the answers if needs be. The majority of the course content (slides, lab manual) are provided in english only, but explanation can be provided in either languages.
+
+In addition, as per uOttawa policy, all students have the right to produce their written work and to answer examination questions in the official language of their choice, regardless of the course’s language of instruction.

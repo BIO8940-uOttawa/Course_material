@@ -11,7 +11,7 @@ execute:
   freeze: auto
 website:
   google-analytics: G-6LLMGL3T2Q
-  title: "BIO8940 course"
+  title: "Bio8940"
 #  margin-header: "![](/img/logo_hex.png){width='100px'}"
   description: "Adv stats and open science"
   favicon: /img/logo_hex.png
