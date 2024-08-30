@@ -697,7 +697,7 @@
     "href": "slides/lec-07_intro_bayes.slides.html#where-do-priors-come-from-1",
     "title": "Introduction Bayesian statistics",
     "section": "Where do priors come from",
-    "text": "Where do priors come from\n\nUse stickers or a survey in the hallway\n\n\n\n\nUse stickers (Johnson et al 2010, J Clin Epi) for survival when taking warfarin\n\n\nNormalize marks (Latthe et al 2005, J Obs Gync) for pain effect of LUNA vs placebo\n\n\n\n\nIdeas to help experts ‘translate’ to the language of probability\nTypically these ‘coarse’ priors are smoothed. Providing the basic shape remains, exactly how much you smooth is unlikely to be critical in practice.\nElicitation is also very useful for non-Bayesian analyses – it’s similar to study design & analysis planning"
+    "text": "Where do priors come from\n\nUse stickers or a survey in the hallway\n\n\n\n\nUse stickers (Johnson et al 2010, J Clin Epi) for survival when taking warfarin\n\n\nNormalize marks (Latthe et al 2005, J Obs Gync) for pain effect of LUNA vs placebo\n\n\n\nIdeas to help experts ‘translate’ to the language of probability\nTypically these ‘coarse’ priors are smoothed. Providing the basic shape remains, exactly how much you smooth is unlikely to be critical in practice.\nElicitation is also very useful for non-Bayesian analyses – it’s similar to study design & analysis planning"
   },
   {
     "objectID": "slides/lec-07_intro_bayes.slides.html#where-do-priors-come-from-2",
@@ -1337,47 +1337,95 @@
     "text": "3.17 Resources\nCheck out Happy Git and GitHub for the useR for more joy with git\n\n\nThe British Ecological Society has A Guide to Reproducible Code in Ecology and Evolution"
   },
   {
-    "objectID": "fr/index.html",
-    "href": "fr/index.html",
-    "title": "Statistiques avancées et science ouverte",
+    "objectID": "en/who_when.html",
+    "href": "en/who_when.html",
+    "title": "Bio8940",
     "section": "",
-    "text": "Bienvenue sur le site du cours Bio8940 de l’Université d’Ottawa. Vous y trouverez toutes les informations sur le cours, y compris l’horaire du cours, les diapositives, les notes de cours, les informations et les exercices pratiques, la description des évaluations ainsi que le syllabus (officiel) du cours.\nLa soumission des travaux de cours se fait via brighspace.\nLe cours est un cours bilingue. Cela signifie que l’ensemble des interactions orales peuvent avoir lieu en français ou en anglais, le prof pouvant fournir les traductions nécessaires pour que l’ensemble des étudiants comprennent la matière. Le contenu du cours (diapo et manuel de laboratoire) seront présenté de manière unilingue en anglais avec possibilité de fournir des explanations en français si besoin.",
+    "text": "Julien Martin"
+  },
+  {
+    "objectID": "en/who_when.html#schedule",
+    "href": "en/who_when.html#schedule",
+    "title": "Bio8940",
+    "section": "Schedule ",
+    "text": "Schedule \n\nLecture: Tuesdays, 1430-1720 in CRX-C323\n\nThere are no lectures or tutorials during reading week."
+  },
+  {
+    "objectID": "en/syllabus.html",
+    "href": "en/syllabus.html",
+    "title": "Written report",
+    "section": "",
+    "text": "Statistics are a key component of rigorous science and as such there is a need to both understand advanced statistics and properly document the analysis to improve scientific communication transparency and quality. The course aims to:\n\nProvide an understanding of advanced statistical models (including generalized linear mixed models)\nDevelop good coding practices (using R and Rmarkdown)\nImprove data and code management (data manipulation and github)\nPresent the principles of open science (using OSF, Open Science Framework).",
     "crumbs": [
       "Biostats uOttawa",
-      "Info générale"
+      "Written report"
     ]
   },
   {
-    "objectID": "fr/index.html#où-et-quand",
-    "href": "fr/index.html#où-et-quand",
-    "title": "Statistiques avancées et science ouverte",
-    "section": "Où et quand ",
-    "text": "Où et quand \n\nCours: Mardis, 1430-1720 in CRX-C323",
+    "objectID": "en/syllabus.html#schedule",
+    "href": "en/syllabus.html#schedule",
+    "title": "Written report",
+    "section": "Schedule ",
+    "text": "Schedule \n\nLecture: Tuesdays, 1430-1720 in CRX-C323\n\nThere are no lectures or tutorials during reading week.\nSee the course website for details of the schedule",
     "crumbs": [
       "Biostats uOttawa",
-      "Info générale"
+      "Written report"
     ]
   },
   {
-    "objectID": "fr/dataset.html",
-    "href": "fr/dataset.html",
-    "title": "Code et données",
+    "objectID": "en/syllabus.html#presentations",
+    "href": "en/syllabus.html#presentations",
+    "title": "Written report",
+    "section": "Presentations",
+    "text": "Presentations\n\n\n\n\n\n\n\nRegister team, article and date\n\n\n\nPlease register for your presentations here.\nYou need to log into your uottawa account to have access\n\n\n\nGeneral info\nThe presentation counts for 30% of the final grade\nThe presentation should be based on one of the suggested paper or paper selected by the students (with my approval)\nPresentation should be between 8-10 minutes long and are followed by 3-5 minutes of questions. They should provide a big picture of the study and the main hypothesis, a quick presentation of the data, detailed explanation of analysis and results, and finally a discussion on the clarity and adequacy of the statistical analysis. If the paper is more methodological, the presentation should present a summary version of the paper and discuss what what harder to understand or not understood.\n\n\nRubric\n\nContent – 60 marks\n\nIntroduction: Background of the general ‘big picture’ and specific problem, study system, and specific hypotheses or predictions.\nMethods: Brief outline of data collection and explanation of statistical methods used to address the hypotheses/predictions outlined in the introduction, including key assumptions.\nResults: Visualizations clearly summarizing your results, using parallel structure to methods\nDiscussion: Summary of major results, alternative explanations for the observed results, conclusions/implications, future directions\n\n\n\nStyle – 30 marks\n\nOrganization\nClarity\nDelivery: Timing, pace, tone, articulation\nOriginality: Creativity, critical thinking\n\n\n\nAnswers and understanding – 10 marks",
+    "crumbs": [
+      "Biostats uOttawa",
+      "Written report"
+    ]
+  },
+  {
+    "objectID": "en/syllabus.html#final-report",
+    "href": "en/syllabus.html#final-report",
+    "title": "Written report",
+    "section": "Final report",
+    "text": "Final report\n\n\nGeneral info\nThe written report counts for 50% of the final grade\nUsing your own dataset (or one provided by me):\n\ndevelop a question of interest\nchoose the statistical analysis appropriate to answer the question\nanalyse the data\nwrite a short report using Quarto/Rmarkdown explaining in details:\n\nthe analysis done\nthe results\nmodel assumptions and associated checks\nthe limitation of the model or data to answer the question\n\nsubmit your work via Brightspace before teh deadline\n\nYou need to submit a reproducible document. Your submission on Brightspace needs to include:\n\nrendered pdf (could be a rendered docx saved as pdf)\n.[Rq]md file\ndata file(s)\nextra files needed to reproduce the document\n\n.bib files\n.csl files\n…\n\n\nMissing files would incur a 10% penalty on the report grade\n\n\nRubric\n\nContent – 70 marks\n\nIntroduction (10 marks)\n\nBackground of the general ‘big picture’ and specific problem,\nstudy system\nspecific hypotheses to be tested\npredictions\n\n\n\nMethods (20 marks)\n\nBrief outline of data collection\nclear explanation of statistical methods used to address the hypotheses/predictions outlined in the introduction, including key assumptions.\n\n\n\nResults (25 marks)\nText and visualizations clearly summarizing your results, using parallel structure to methods. Should include :\n\nclear graphics representing the data and the model outputs,\ntables reporting statistics\ntext describing results\nevaluation of model assumption and model fit\n\n\n\nDiscussion (15 marks)\n\nSummary of major results\nconclusions/implications\nLimitations of analysis (power, complexity of model, data structure, …)\n\n\n\n\nStyle – 30 marks\n\nClarity and reproducibility of code (10 marks)\n\ncode well written and understandable\ndocument written in Quarto/Rmarkdown, reproducible with .[qR]md and data\nonly necessary code included\nall necessary code included\n\n\n\nOrganization and formatting (10 marks)\n\nclear and logical\ncorrect formatting of the document\n\n\n\nClarity of text (10 marks)\n\nclear and understandable\n\n\n\nTypos and grammar (5 marks)\n\nit is all in the section title",
+    "crumbs": [
+      "Biostats uOttawa",
+      "Written report"
+    ]
+  },
+  {
+    "objectID": "en/dataset.html",
+    "href": "en/dataset.html",
+    "title": "Data and code",
     "section": "",
-    "text": "Code et fichiers de données utilisés dans les diapos ensemble dans un fichier zip zip file"
+    "text": "All data and code files in a nice zip file",
+    "crumbs": [
+      "Biostats uOttawa",
+      "Data and code"
+    ]
   },
   {
-    "objectID": "fr/dataset.html#données-pour-les-labos",
-    "href": "fr/dataset.html#données-pour-les-labos",
-    "title": "Code et données",
-    "section": "Données pour les labos",
-    "text": "Données pour les labos\n\nBanta_TotalFruits.csv\ndragons.csv\ngala.csv\nlm_example.csv\nmouflon.csv\nRIKZ.txt\nunicorns_aggression.csv"
+    "objectID": "en/dataset.html#data-for-praticals",
+    "href": "en/dataset.html#data-for-praticals",
+    "title": "Data and code",
+    "section": "Data for praticals",
+    "text": "Data for praticals\n\nBanta_TotalFruits.csv\ndragons.csv\ngala.csv\nlm_example.csv\nmouflon.csv\nRIKZ.txt\nunicorns_aggression.csv",
+    "crumbs": [
+      "Biostats uOttawa",
+      "Data and code"
+    ]
   },
   {
-    "objectID": "fr/dataset.html#code-r-utilisés-dans-les-diapos",
-    "href": "fr/dataset.html#code-r-utilisés-dans-les-diapos",
-    "title": "Code et données",
-    "section": "Code R utilisés dans les diapos",
-    "text": "Code R utilisés dans les diapos\n\nextra_funs.R\nlec-01_intro.R\nlec-02_rmarkdown.R\nlec-03_github.R\nlec-04_lm_glm.R\nlec-05_model_structure.R\nlec-06_intro_lmm.R\nlec-07_intro_bayes.R\nlec-08_intro_glmm.R"
+    "objectID": "en/dataset.html#r-code-and-functions-used-in-slides",
+    "href": "en/dataset.html#r-code-and-functions-used-in-slides",
+    "title": "Data and code",
+    "section": "R code and functions used in slides",
+    "text": "R code and functions used in slides\n\nextra_funs.R\nlec-01_intro.R\nlec-02_rmarkdown.R\nlec-03_github.R\nlec-04_lm_glm.R\nlec-05_model_structure.R\nlec-06_intro_lmm.R\nlec-07_intro_bayes.R\nlec-08_intro_glmm.R",
+    "crumbs": [
+      "Biostats uOttawa",
+      "Data and code"
+    ]
   },
   {
     "objectID": "fr/lectures.html",
@@ -1479,278 +1527,81 @@
     ]
   },
   {
-    "objectID": "slides/lec-08_intro_glmm.slides.html#questions-after-reading-bolker-et-al-2009",
-    "href": "slides/lec-08_intro_glmm.slides.html#questions-after-reading-bolker-et-al-2009",
-    "title": "Introduction to Generalized linear mixed models?",
-    "section": "Questions after reading Bolker et al 2009",
-    "text": "Questions after reading Bolker et al 2009\n\n\nDifference between fixed and random effects\nWhen to transform data?\n\nif you have a funky looking distribution of continuous data, is it always ok to transform to achieve normality if you don’t violate any test assumptions?\n\nWalkthrough Figure 1 ?\nGet rid of non-significant fixed effects?\n\nIf important for my hypothesis, should I always keep them?\nWhat if I have a fairly small dataset?\n\nHow to choose a link function? Why not using the default?\nCan we go through example in Box 1?"
-  },
-  {
-    "objectID": "slides/lec-08_intro_glmm.slides.html#gacha-life-minie-movie",
-    "href": "slides/lec-08_intro_glmm.slides.html#gacha-life-minie-movie",
-    "title": "Introduction to Generalized linear mixed models?",
-    "section": "GaCha Life Minie Movie",
-    "text": "GaCha Life Minie Movie\nVideo game allowing you to dress-up anime style characters"
-  },
-  {
-    "objectID": "slides/lec-08_intro_glmm.slides.html#generalized-linear-mixed-model",
-    "href": "slides/lec-08_intro_glmm.slides.html#generalized-linear-mixed-model",
-    "title": "Introduction to Generalized linear mixed models?",
-    "section": "Generalized linear mixed model",
-    "text": "Generalized linear mixed model\nAn extension to Generalized linear model and an extension to linear mixed model\nGLMM expresses the transformed conditional expectation of the dependent variable y as a linear combination of the regression variables X\nModel has 3 components\n\na structural component or additive expression \\(\\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k\\)\na link function: \\(g(\\mu)\\)\na response distribution: Gaussian, Binomial, Bernouilli, Poisson, negative binomial, zero-inflated …, zero-truncated …, …\n\n\n\\[\ng(\\mu_i) = \\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k\n\\]\nand\n\\[\n\\mu_i = E(y_i | x_i) = g(\\mu_i)^{-1}\n\\]"
-  },
-  {
-    "objectID": "slides/lec-08_intro_glmm.slides.html#how-do-you-fit-them",
-    "href": "slides/lec-08_intro_glmm.slides.html#how-do-you-fit-them",
-    "title": "Introduction to Generalized linear mixed models?",
-    "section": "How do you fit them?",
-    "text": "How do you fit them?\nIn R:\n\nglmer() from lme4 📦 same as lmer() but with a family argument\nglmmPQL() from MASS 📦 (based on lme())\nglmmADMB() from - glmmADMB 📦 works well and flexible be beware\nglmmTMB() from glmmTMB 📦 works well and flexible be beware\nasreml() from glmmTMB 📦 great but not-free\nMCMCglmm() from MCMCglmm 📦 great but Bayesian\nChoose you bayesian flavor 📦:\n\nstan: brms, rethinking, rstan, …\nBUGS: runjags, rjags, …"
-  },
-  {
-    "objectID": "slides/lec-08_intro_glmm.slides.html#model-assumptions",
-    "href": "slides/lec-08_intro_glmm.slides.html#model-assumptions",
-    "title": "Introduction to Generalized linear mixed models?",
-    "section": "Model assumptions",
-    "text": "Model assumptions\n\nEasy answer none or really few\nMore advanced answer I am not sure, it is complicated\nJust check residuals I as usual\n\n\n\nTechnically only 3 assumption:\n\nVariance is a function of the mean specific to the distribution used\nobservations are independent\nlinear relation on the latent scale\n\n\n\n\n\n\n\n\n\nWarning\n\n\nGeneralized Linear Models do not care if the residual errors are normally distributed as long as the specified mean-variance relationship is satisfied by the data"
-  },
-  {
-    "objectID": "slides/lec-08_intro_glmm.slides.html#choosing-a-link-function",
-    "href": "slides/lec-08_intro_glmm.slides.html#choosing-a-link-function",
-    "title": "Introduction to Generalized linear mixed models?",
-    "section": "Choosing a link function",
-    "text": "Choosing a link function\nA link function should map the stuctural component from \\((-\\infty,\\infty)\\) to the distribution interval (e.g. (0,1) for binomial)\nSo number of link function possible is extremley large.\n\nChoice of link function heavily influenced by field tradiditon\n\n\nFor binomial models\n\nlogit assume modelling probability of an observation to be one\nprobit assume binary outcome from a hidden gaussian variable (i.e. threshold model)\nlogit & probit are really similar, both are symmetric but probit tapers faster. logit coefficient easier to interpret directly\ncologlog not-symmetrical"
-  },
-  {
-    "objectID": "slides/lec-08_intro_glmm.slides.html#estimating-repeatability",
-    "href": "slides/lec-08_intro_glmm.slides.html#estimating-repeatability",
-    "title": "Introduction to Generalized linear mixed models?",
-    "section": "Estimating repeatability ?",
-    "text": "Estimating repeatability ?\nLatent scale\nBusiness as usual ?\n\nObserved scale ??????\n\nUsing rptR 📦 is the easiest or QGGlmm 📦 (see associated citation for reference and explanations)"
-  },
-  {
-    "objectID": "slides/lec-08_intro_glmm.slides.html#marginalized-vs-conditioned-estimates",
-    "href": "slides/lec-08_intro_glmm.slides.html#marginalized-vs-conditioned-estimates",
-    "title": "Introduction to Generalized linear mixed models?",
-    "section": "Marginalized vs Conditioned estimates",
-    "text": "Marginalized vs Conditioned estimates\nDifference between marginalized and conditioned coefficients?\nGLMMadaptive 📦 is the only way I know to do easily get marginalized coefficients"
-  },
-  {
-    "objectID": "slides/lec-08_intro_glmm.slides.html#practical",
-    "href": "slides/lec-08_intro_glmm.slides.html#practical",
-    "title": "Introduction to Generalized linear mixed models?",
-    "section": "Practical",
-    "text": "Practical\nWalkthrough Example box 1"
-  },
-  {
-    "objectID": "slides/lec-08_intro_glmm.notes.html",
-    "href": "slides/lec-08_intro_glmm.notes.html",
-    "title": "Introduction to Generalized linear mixed models?",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Advanced statistics and Open science  Statistiques avancées et science ouverte",
     "section": "",
-    "text": "Difference between fixed and random effects\n\nWhen to transform data?\n\nif you have a funky looking distribution of continuous data, is it always ok to transform to achieve normality if you don’t violate any test assumptions?\n\n\nWalkthrough Figure 1 ?\n\nGet rid of non-significant fixed effects?\n\nIf important for my hypothesis, should I always keep them?\nWhat if I have a fairly small dataset?\n\n\nHow to choose a link function? Why not using the default?\nCan we go through example in Box 1?"
+    "text": "Français / English"
   },
   {
-    "objectID": "slides/lec-08_intro_glmm.notes.html#questions-after-reading-bolker-et-al-2009",
-    "href": "slides/lec-08_intro_glmm.notes.html#questions-after-reading-bolker-et-al-2009",
-    "title": "Introduction to Generalized linear mixed models?",
-    "section": "",
-    "text": "Difference between fixed and random effects\n\nWhen to transform data?\n\nif you have a funky looking distribution of continuous data, is it always ok to transform to achieve normality if you don’t violate any test assumptions?\n\n\nWalkthrough Figure 1 ?\n\nGet rid of non-significant fixed effects?\n\nIf important for my hypothesis, should I always keep them?\nWhat if I have a fairly small dataset?\n\n\nHow to choose a link function? Why not using the default?\nCan we go through example in Box 1?"
+    "objectID": "slides/lec-01_intro.slides.html#me",
+    "href": "slides/lec-01_intro.slides.html#me",
+    "title": "Advanced stats and Open Science",
+    "section": "… me",
+    "text": "… me\n\nEvolutionary ecologist\nNot a statisticians by training\nComplex data\nEnjoy coding\nHumour of a 5 years old"
   },
   {
-    "objectID": "slides/lec-08_intro_glmm.notes.html#gacha-life-minie-movie",
-    "href": "slides/lec-08_intro_glmm.notes.html#gacha-life-minie-movie",
-    "title": "Introduction to Generalized linear mixed models?",
-    "section": "\n1.1 GaCha Life Minie Movie",
-    "text": "1.1 GaCha Life Minie Movie\nVideo game allowing you to dress-up anime style characters"
+    "objectID": "slides/lec-01_intro.slides.html#you",
+    "href": "slides/lec-01_intro.slides.html#you",
+    "title": "Advanced stats and Open Science",
+    "section": "… you",
+    "text": "… you\n\nName\nPI\nSubject\nR knowledge\nExpectation from the course"
   },
   {
-    "objectID": "slides/lec-08_intro_glmm.notes.html#generalized-linear-mixed-model",
-    "href": "slides/lec-08_intro_glmm.notes.html#generalized-linear-mixed-model",
-    "title": "Introduction to Generalized linear mixed models?",
-    "section": "\n1.2 Generalized linear mixed model",
-    "text": "1.2 Generalized linear mixed model\nAn extension to Generalized linear model and an extension to linear mixed model\nGLMM expresses the transformed conditional expectation of the dependent variable y as a linear combination of the regression variables X\nModel has 3 components\n\na structural component or additive expression \\(\\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k\\)\n\na link function: \\(g(\\mu)\\)\n\na response distribution: Gaussian, Binomial, Bernouilli, Poisson, negative binomial, zero-inflated …, zero-truncated …, …\n\n\\[\ng(\\mu_i) = \\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k\n\\]\nand\n\\[\n\\mu_i = E(y_i | x_i) = g(\\mu_i)^{-1}\n\\]"
+    "objectID": "slides/lec-01_intro.slides.html#topics",
+    "href": "slides/lec-01_intro.slides.html#topics",
+    "title": "Advanced stats and Open Science",
+    "section": "Topics",
+    "text": "Topics\n\nIntro to github with exercises\nIntro to Open science\nIntro to rmarkdown and to workflowr\nMixed models\n\nIntro, why, when and how\nNon gaussian, non-linear ?\nmultivariate ?\n\np-values and their limits"
   },
   {
-    "objectID": "slides/lec-08_intro_glmm.notes.html#how-do-you-fit-them",
-    "href": "slides/lec-08_intro_glmm.notes.html#how-do-you-fit-them",
-    "title": "Introduction to Generalized linear mixed models?",
-    "section": "\n1.3 How do you fit them?",
-    "text": "1.3 How do you fit them?\nIn R:\n\n\nglmer() from lme4 📦 same as lmer() but with a family argument\n\nglmmPQL() from MASS 📦 (based on lme())\n\nglmmADMB() from - glmmADMB 📦 works well and flexible be beware\n\nglmmTMB() from glmmTMB 📦 works well and flexible be beware\n\nasreml() from glmmTMB 📦 great but not-free\n\nMCMCglmm() from MCMCglmm 📦 great but Bayesian\nChoose you bayesian flavor 📦:\n\n\nstan: brms, rethinking, rstan, …\n\nBUGS: runjags, rjags, …"
+    "objectID": "slides/lec-01_intro.slides.html#teaching-style",
+    "href": "slides/lec-01_intro.slides.html#teaching-style",
+    "title": "Advanced stats and Open Science",
+    "section": "Teaching style",
+    "text": "Teaching style\n\nMinimum slides from myself\nflipped classroom or learning by problems\nSession = mixed of lecture, discussion and exercises"
   },
   {
-    "objectID": "slides/lec-08_intro_glmm.notes.html#model-assumptions",
-    "href": "slides/lec-08_intro_glmm.notes.html#model-assumptions",
-    "title": "Introduction to Generalized linear mixed models?",
-    "section": "\n1.4 Model assumptions",
-    "text": "1.4 Model assumptions\n\nEasy answer none or really few\nMore advanced answer I am not sure, it is complicated\nJust check residuals I as usual\n\n\nTechnically only 3 assumption:\n\nVariance is a function of the mean specific to the distribution used\nobservations are independent\nlinear relation on the latent scale\n\n\n\n\n\n\n\n\n\nWarning\n\n\n\nGeneralized Linear Models do not care if the residual errors are normally distributed as long as the specified mean-variance relationship is satisfied by the data"
+    "objectID": "slides/lec-01_intro.slides.html#schedule",
+    "href": "slides/lec-01_intro.slides.html#schedule",
+    "title": "Advanced stats and Open Science",
+    "section": "Schedule",
+    "text": "Schedule\n\n\n\n\nWeek\nTheme\n\n\n\n\n1\nIntro\n\n\n2\nGithub\n\n\n3\nMarkdown / Quarto\n\n\n4\nLm & glm\n\n\n5\nCausal structure\n\n\n6\nLmm\n\n\n7\nBayesian approach\n\n\n8\nGlmm\n\n\n9\nto\n\n\n10\nbe\n\n\n11\ndecided\n\n\n12\ntogether"
   },
   {
-    "objectID": "slides/lec-08_intro_glmm.notes.html#choosing-a-link-function",
-    "href": "slides/lec-08_intro_glmm.notes.html#choosing-a-link-function",
-    "title": "Introduction to Generalized linear mixed models?",
-    "section": "\n1.5 Choosing a link function",
-    "text": "1.5 Choosing a link function\nA link function should map the stuctural component from \\((-\\infty,\\infty)\\) to the distribution interval (e.g. (0,1) for binomial)\nSo number of link function possible is extremley large.\nChoice of link function heavily influenced by field tradiditon\nFor binomial models\n\n\nlogit assume modelling probability of an observation to be one\n\nprobit assume binary outcome from a hidden gaussian variable (i.e. threshold model)\n\nlogit & probit are really similar, both are symmetric but probit tapers faster. logit coefficient easier to interpret directly\n\ncologlog not-symmetrical"
+    "objectID": "slides/lec-01_intro.slides.html#in-class-50",
+    "href": "slides/lec-01_intro.slides.html#in-class-50",
+    "title": "Advanced stats and Open Science",
+    "section": "In class (50%)",
+    "text": "In class (50%)\n\nparticipation to discussion (20%)\npresentation on a given topic in small teams (30%)"
   },
   {
-    "objectID": "slides/lec-08_intro_glmm.notes.html#estimating-repeatability",
-    "href": "slides/lec-08_intro_glmm.notes.html#estimating-repeatability",
-    "title": "Introduction to Generalized linear mixed models?",
-    "section": "\n1.6 Estimating repeatability ?",
-    "text": "1.6 Estimating repeatability ?\nLatent scale\nBusiness as usual ?\nObserved scale ??????\n\nUsing rptR 📦 is the easiest or QGGlmm 📦 (see associated citation for reference and explanations)"
+    "objectID": "slides/lec-01_intro.slides.html#project-50",
+    "href": "slides/lec-01_intro.slides.html#project-50",
+    "title": "Advanced stats and Open Science",
+    "section": "Project (50%)",
+    "text": "Project (50%)\n\nanalysis of data using techniques from courses or beyond\nReport written using Rmarkdown\nposted on Github classroom"
   },
   {
-    "objectID": "slides/lec-08_intro_glmm.notes.html#marginalized-vs-conditioned-estimates",
-    "href": "slides/lec-08_intro_glmm.notes.html#marginalized-vs-conditioned-estimates",
-    "title": "Introduction to Generalized linear mixed models?",
-    "section": "\n1.7 Marginalized vs Conditioned estimates",
-    "text": "1.7 Marginalized vs Conditioned estimates\nDifference between marginalized and conditioned coefficients?\nGLMMadaptive 📦 is the only way I know to do easily get marginalized coefficients"
+    "objectID": "slides/lec-01_intro.slides.html#softwares",
+    "href": "slides/lec-01_intro.slides.html#softwares",
+    "title": "Advanced stats and Open Science",
+    "section": "Softwares",
+    "text": "Softwares\n\nR (version 4.0 or higher)\nText editor: Rstudio or VSCode\nR packages (up to date)\n\nopen science: rmarkdown, tinytex\nmixed models: lme4, gremlin, glmmTMB, MCMCglmm\nlatex: full version or tinytex"
   },
   {
-    "objectID": "slides/lec-08_intro_glmm.notes.html#practical",
-    "href": "slides/lec-08_intro_glmm.notes.html#practical",
-    "title": "Introduction to Generalized linear mixed models?",
-    "section": "\n1.8 Practical",
-    "text": "1.8 Practical\nWalkthrough Example box 1"
+    "objectID": "slides/lec-01_intro.slides.html#accounts",
+    "href": "slides/lec-01_intro.slides.html#accounts",
+    "title": "Advanced stats and Open Science",
+    "section": "Accounts",
+    "text": "Accounts\n\ngithub (https://github.com/)\nOpen Science Framework (OSF, https://osf.io/)"
   },
   {
-    "objectID": "en/practical_extra.html",
-    "href": "en/practical_extra.html",
-    "title": "Extra information for praticals",
-    "section": "",
-    "text": "Here you will find links for the praticals as well as their solutions"
-  },
-  {
-    "objectID": "en/practical_extra.html#rmarkdown",
-    "href": "en/practical_extra.html#rmarkdown",
-    "title": "Extra information for praticals",
-    "section": "Introduction Rmarkdown",
-    "text": "Introduction Rmarkdown\n\nrmarkdown cheatsheet\nTroubleshoot PDF in Rmarkdown"
-  },
-  {
-    "objectID": "en/practical_extra.html#introduction-to-github",
-    "href": "en/practical_extra.html#introduction-to-github",
-    "title": "Extra information for praticals",
-    "section": "Introduction to github",
-    "text": "Introduction to github\n\nManaging git credentials\nHappy git with R great book about git and R"
-  },
-  {
-    "objectID": "en/report.html",
-    "href": "en/report.html",
-    "title": "Written report",
-    "section": "",
-    "text": "The written report counts for 50% of the final grade\nUsing your own dataset (or one provided by me):\n\ndevelop a question of interest\nchoose the statistical analysis appropriate to answer the question\nanalyse the data\nwrite a short report using Quarto/Rmarkdown explaining in details:\n\nthe analysis done\nthe results\nmodel assumptions and associated checks\nthe limitation of the model or data to answer the question\n\nsubmit your work via Brightspace before teh deadline\n\nYou need to submit a reproducible document. Your submission on Brightspace needs to include:\n\nrendered pdf (could be a rendered docx saved as pdf)\n.[Rq]md file\ndata file(s)\nextra files needed to reproduce the document\n\n.bib files\n.csl files\n…\n\n\nMissing files would incur a 10% penalty on the report grade",
-    "crumbs": [
-      "Biostats uOttawa",
-      "Assessment",
-      "Written report"
-    ]
-  },
-  {
-    "objectID": "en/report.html#content-70-marks",
-    "href": "en/report.html#content-70-marks",
-    "title": "Written report",
-    "section": "Content – 70 marks",
-    "text": "Content – 70 marks\n\nIntroduction (10 marks)\n\nBackground of the general ‘big picture’ and specific problem,\nstudy system\nspecific hypotheses to be tested\npredictions\n\n\n\nMethods (20 marks)\n\nBrief outline of data collection\nclear explanation of statistical methods used to address the hypotheses/predictions outlined in the introduction, including key assumptions.\n\n\n\nResults (25 marks)\nText and visualizations clearly summarizing your results, using parallel structure to methods. Should include :\n\nclear graphics representing the data and the model outputs,\ntables reporting statistics\ntext describing results\nevaluation of model assumption and model fit\n\n\n\nDiscussion (15 marks)\n\nSummary of major results\nconclusions/implications\nLimitations of analysis (power, complexity of model, data structure, …)",
-    "crumbs": [
-      "Biostats uOttawa",
-      "Assessment",
-      "Written report"
-    ]
-  },
-  {
-    "objectID": "en/report.html#style-30-marks",
-    "href": "en/report.html#style-30-marks",
-    "title": "Written report",
-    "section": "Style – 30 marks",
-    "text": "Style – 30 marks\n\nClarity and reproducibility of code (10 marks)\n\ncode well written and understandable\ndocument written in Quarto/Rmarkdown, reproducible with .[qR]md and data\nonly necessary code included\nall necessary code included\n\n\n\nOrganization and formatting (10 marks)\n\nclear and logical\ncorrect formatting of the document\n\n\n\nClarity of text (10 marks)\n\nclear and understandable\n\n\n\nTypos and grammar (5 marks)\n\nit is all in the section title",
-    "crumbs": [
-      "Biostats uOttawa",
-      "Assessment",
-      "Written report"
-    ]
-  },
-  {
-    "objectID": "fr/404.html",
-    "href": "fr/404.html",
-    "title": "Page Not Found",
-    "section": "",
-    "text": "It seems you R lost (bad pun intended)\nThe page you requested cannot be found (perhaps it was moved or it is still in development)."
-  },
-  {
-    "objectID": "en/404.html",
-    "href": "en/404.html",
-    "title": "Page Not Found",
-    "section": "",
-    "text": "It seems you R lost (bad pun intended)\nThe page you requested cannot be found (perhaps it was moved or it is still in development)."
-  },
-  {
-    "objectID": "en/people.html",
-    "href": "en/people.html",
-    "title": "Julien Martin",
-    "section": "",
-    "text": "Julien is an Associate Professor at the University of Ottawa and has been teaching (and learning) R for the last 15 years.\nI created the websites using Quarto, R, revealjs, mermaid.js and graphViz. I developed the theme for the slides based on the xaringan blackboard theme.",
-    "crumbs": [
-      "Biostats uOttawa",
-      "Contact"
-    ]
-  },
-  {
-    "objectID": "fr/people.html",
-    "href": "fr/people.html",
-    "title": "Julien Martin",
-    "section": "",
-    "text": "Julien est Professeur agrégé à l’Université d’Ottawa en biologie évolutive et quantitative et il enseigne R (et l’apprend) depuis plus de 15 ans.\nJ’ai créé le site internet en utilisant Quarto, R, revealjs, mermaid.js et graphViz. J’ai developpé le thème de mes présentations à partir de du theme “blackboard” pour xaringan.",
-    "crumbs": [
-      "Biostats uOttawa",
-      "Contact"
-    ]
-  },
-  {
-    "objectID": "en/presentation.html",
-    "href": "en/presentation.html",
-    "title": "Student presentation",
-    "section": "",
-    "text": "Register team, article and date\n\n\n\nPlease register for your presentations here.\nYou need to log into your uottawa account to have access",
-    "crumbs": [
-      "Biostats uOttawa",
-      "Assessment",
-      "Student presentation"
-    ]
-  },
-  {
-    "objectID": "en/presentation.html#content-60-marks",
-    "href": "en/presentation.html#content-60-marks",
-    "title": "Student presentation",
-    "section": "Content – 60 marks",
-    "text": "Content – 60 marks\n\nIntroduction: Background of the general ‘big picture’ and specific problem, study system, and specific hypotheses or predictions.\nMethods: Brief outline of data collection and explanation of statistical methods used to address the hypotheses/predictions outlined in the introduction, including key assumptions.\nResults: Visualizations clearly summarizing your results, using parallel structure to methods\nDiscussion: Summary of major results, alternative explanations for the observed results, conclusions/implications, future directions",
-    "crumbs": [
-      "Biostats uOttawa",
-      "Assessment",
-      "Student presentation"
-    ]
-  },
-  {
-    "objectID": "en/presentation.html#style-30-marks",
-    "href": "en/presentation.html#style-30-marks",
-    "title": "Student presentation",
-    "section": "Style – 30 marks",
-    "text": "Style – 30 marks\n\nOrganization\nClarity\nDelivery: Timing, pace, tone, articulation\nOriginality: Creativity, critical thinking",
-    "crumbs": [
-      "Biostats uOttawa",
-      "Assessment",
-      "Student presentation"
-    ]
-  },
-  {
-    "objectID": "en/presentation.html#answers-and-understanding-10-marks",
-    "href": "en/presentation.html#answers-and-understanding-10-marks",
-    "title": "Student presentation",
-    "section": "Answers and understanding – 10 marks",
-    "text": "Answers and understanding – 10 marks",
-    "crumbs": [
-      "Biostats uOttawa",
-      "Assessment",
-      "Student presentation"
-    ]
+    "objectID": "slides/lec-01_intro.slides.html#what-is-expected-from-you-1",
+    "href": "slides/lec-01_intro.slides.html#what-is-expected-from-you-1",
+    "title": "Advanced stats and Open Science",
+    "section": "What is expected from you",
+    "text": "What is expected from you\n\nWeekly Reading\nIn class participation\nDo the praticals\n\n\n\n\nBIO 8940 - Lecture 1"
   },
   {
     "objectID": "slides/lec-01_intro.notes.html",
@@ -1830,158 +1681,218 @@
     "text": "5.1 What is expected from you\n\nWeekly Reading\nIn class participation\nDo the praticals"
   },
   {
-    "objectID": "slides/lec-01_intro.slides.html#me",
-    "href": "slides/lec-01_intro.slides.html#me",
-    "title": "Advanced stats and Open Science",
-    "section": "… me",
-    "text": "… me\n\nEvolutionary ecologist\nNot a statisticians by training\nComplex data\nEnjoy coding\nHumour of a 5 years old"
-  },
-  {
-    "objectID": "slides/lec-01_intro.slides.html#you",
-    "href": "slides/lec-01_intro.slides.html#you",
-    "title": "Advanced stats and Open Science",
-    "section": "… you",
-    "text": "… you\n\nName\nPI\nSubject\nR knowledge\nExpectation from the course"
-  },
-  {
-    "objectID": "slides/lec-01_intro.slides.html#topics",
-    "href": "slides/lec-01_intro.slides.html#topics",
-    "title": "Advanced stats and Open Science",
-    "section": "Topics",
-    "text": "Topics\n\nIntro to github with exercises\nIntro to Open science\nIntro to rmarkdown and to workflowr\nMixed models\n\nIntro, why, when and how\nNon gaussian, non-linear ?\nmultivariate ?\n\np-values and their limits"
-  },
-  {
-    "objectID": "slides/lec-01_intro.slides.html#teaching-style",
-    "href": "slides/lec-01_intro.slides.html#teaching-style",
-    "title": "Advanced stats and Open Science",
-    "section": "Teaching style",
-    "text": "Teaching style\n\nMinimum slides from myself\nflipped classroom or learning by problems\nSession = mixed of lecture, discussion and exercises"
-  },
-  {
-    "objectID": "slides/lec-01_intro.slides.html#schedule",
-    "href": "slides/lec-01_intro.slides.html#schedule",
-    "title": "Advanced stats and Open Science",
-    "section": "Schedule",
-    "text": "Schedule\n\n\n\n\nWeek\nTheme\n\n\n\n\n1\nIntro\n\n\n2\nGithub\n\n\n3\nMarkdown / Quarto\n\n\n4\nLm & glm\n\n\n5\nCausal structure\n\n\n6\nLmm\n\n\n7\nBayesian approach\n\n\n8\nGlmm\n\n\n9\nto\n\n\n10\nbe\n\n\n11\ndecided\n\n\n12\ntogether"
-  },
-  {
-    "objectID": "slides/lec-01_intro.slides.html#in-class-50",
-    "href": "slides/lec-01_intro.slides.html#in-class-50",
-    "title": "Advanced stats and Open Science",
-    "section": "In class (50%)",
-    "text": "In class (50%)\n\nparticipation to discussion (20%)\npresentation on a given topic in small teams (30%)"
-  },
-  {
-    "objectID": "slides/lec-01_intro.slides.html#project-50",
-    "href": "slides/lec-01_intro.slides.html#project-50",
-    "title": "Advanced stats and Open Science",
-    "section": "Project (50%)",
-    "text": "Project (50%)\n\nanalysis of data using techniques from courses or beyond\nReport written using Rmarkdown\nposted on Github classroom"
-  },
-  {
-    "objectID": "slides/lec-01_intro.slides.html#softwares",
-    "href": "slides/lec-01_intro.slides.html#softwares",
-    "title": "Advanced stats and Open Science",
-    "section": "Softwares",
-    "text": "Softwares\n\nR (version 4.0 or higher)\nText editor: Rstudio or VSCode\nR packages (up to date)\n\nopen science: rmarkdown, tinytex\nmixed models: lme4, gremlin, glmmTMB, MCMCglmm\nlatex: full version or tinytex"
-  },
-  {
-    "objectID": "slides/lec-01_intro.slides.html#accounts",
-    "href": "slides/lec-01_intro.slides.html#accounts",
-    "title": "Advanced stats and Open Science",
-    "section": "Accounts",
-    "text": "Accounts\n\ngithub (https://github.com/)\nOpen Science Framework (OSF, https://osf.io/)"
-  },
-  {
-    "objectID": "slides/lec-01_intro.slides.html#what-is-expected-from-you-1",
-    "href": "slides/lec-01_intro.slides.html#what-is-expected-from-you-1",
-    "title": "Advanced stats and Open Science",
-    "section": "What is expected from you",
-    "text": "What is expected from you\n\nWeekly Reading\nIn class participation\nDo the praticals\n\n\n\n\nBIO 8940 - Lecture 1"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Advanced statistics and Open science  Statistiques avancées et science ouverte",
+    "objectID": "en/presentation.html",
+    "href": "en/presentation.html",
+    "title": "Student presentation",
     "section": "",
-    "text": "Français / English"
+    "text": "Register team, article and date\n\n\n\nPlease register for your presentations here.\nYou need to log into your uottawa account to have access\n\n\n\nGeneral info\nThe presentation counts for 30% of the final grade\nThe presentation should be based on one of the suggested paper or paper selected by the students (with my approval)\nPresentation should be between 8-10 minutes long and are followed by 3-5 minutes of questions. They should provide a big picture of the study and the main hypothesis, a quick presentation of the data, detailed explanation of analysis and results, and finally a discussion on the clarity and adequacy of the statistical analysis. If the paper is more methodological, the presentation should present a summary version of the paper and discuss what what harder to understand or not understood.\n\n\nRubric\n\nContent – 60 marks\n\nIntroduction: Background of the general ‘big picture’ and specific problem, study system, and specific hypotheses or predictions.\nMethods: Brief outline of data collection and explanation of statistical methods used to address the hypotheses/predictions outlined in the introduction, including key assumptions.\nResults: Visualizations clearly summarizing your results, using parallel structure to methods\nDiscussion: Summary of major results, alternative explanations for the observed results, conclusions/implications, future directions\n\n\n\nStyle – 30 marks\n\nOrganization\nClarity\nDelivery: Timing, pace, tone, articulation\nOriginality: Creativity, critical thinking\n\n\n\nAnswers and understanding – 10 marks",
+    "crumbs": [
+      "Biostats uOttawa",
+      "Assessment",
+      "Student presentation"
+    ]
   },
   {
-    "objectID": "en/syllabus.html",
-    "href": "en/syllabus.html",
-    "title": "Syllabus",
+    "objectID": "fr/people.html",
+    "href": "fr/people.html",
+    "title": "Julien Martin",
     "section": "",
-    "text": "Statistics are a key component of rigorous science and as such there is a need to both understand advanced statistics and properly document the analysis to improve scientific communication transparency and quality. The course aims to:\n\nProvide an understanding of advanced statistical models (including generalized linear mixed models)\nDevelop good coding practices (using R and Rmarkdown)\nImprove data and code management (data manipulation and github)\nPresent the principles of open science (using OSF, Open Science Framework).",
+    "text": "Julien est Professeur agrégé à l’Université d’Ottawa en biologie évolutive et quantitative et il enseigne R (et l’apprend) depuis plus de 15 ans.\nJ’ai créé le site internet en utilisant Quarto, R, revealjs, mermaid.js et graphViz. J’ai developpé le thème de mes présentations à partir de du theme “blackboard” pour xaringan.",
     "crumbs": [
       "Biostats uOttawa",
-      "Syllabus"
+      "Contact"
     ]
   },
   {
-    "objectID": "en/syllabus.html#description",
-    "href": "en/syllabus.html#description",
-    "title": "Syllabus",
+    "objectID": "en/people.html",
+    "href": "en/people.html",
+    "title": "Julien Martin",
     "section": "",
-    "text": "Statistics are a key component of rigorous science and as such there is a need to both understand advanced statistics and properly document the analysis to improve scientific communication transparency and quality. The course aims to:\n\nProvide an understanding of advanced statistical models (including generalized linear mixed models)\nDevelop good coding practices (using R and Rmarkdown)\nImprove data and code management (data manipulation and github)\nPresent the principles of open science (using OSF, Open Science Framework).",
+    "text": "Julien is an Associate Professor at the University of Ottawa and has been teaching (and learning) R for the last 15 years.\nI created the websites using Quarto, R, revealjs, mermaid.js and graphViz. I developed the theme for the slides based on the xaringan blackboard theme.",
     "crumbs": [
       "Biostats uOttawa",
-      "Syllabus"
+      "Contact"
     ]
   },
   {
-    "objectID": "en/syllabus.html#contents",
-    "href": "en/syllabus.html#contents",
-    "title": "Syllabus",
-    "section": "Contents",
-    "text": "Contents\n\nStatistics (flexible to be define based on attendance interests)\n\nMixed models including generalized linear mixed models and multivariate models\nOptions:\n\nIntroduction to Bayesian stats\nPath analysis\nSpatial analysis\nMultivariate analysis\n…\n\n\nOpen and reproducible science\n\nR: Rmarkdown, tidyverse and workflowr\ngit: github and other alternatives\nOpen Science Framework with OSF",
+    "objectID": "en/404.html",
+    "href": "en/404.html",
+    "title": "Page Not Found",
+    "section": "",
+    "text": "It seems you R lost (bad pun intended)\nThe page you requested cannot be found (perhaps it was moved or it is still in development)."
+  },
+  {
+    "objectID": "fr/404.html",
+    "href": "fr/404.html",
+    "title": "Page Not Found",
+    "section": "",
+    "text": "It seems you R lost (bad pun intended)\nThe page you requested cannot be found (perhaps it was moved or it is still in development)."
+  },
+  {
+    "objectID": "en/report.html",
+    "href": "en/report.html",
+    "title": "Written report",
+    "section": "",
+    "text": "General info\nThe written report counts for 50% of the final grade\nUsing your own dataset (or one provided by me):\n\ndevelop a question of interest\nchoose the statistical analysis appropriate to answer the question\nanalyse the data\nwrite a short report using Quarto/Rmarkdown explaining in details:\n\nthe analysis done\nthe results\nmodel assumptions and associated checks\nthe limitation of the model or data to answer the question\n\nsubmit your work via Brightspace before teh deadline\n\nYou need to submit a reproducible document. Your submission on Brightspace needs to include:\n\nrendered pdf (could be a rendered docx saved as pdf)\n.[Rq]md file\ndata file(s)\nextra files needed to reproduce the document\n\n.bib files\n.csl files\n…\n\n\nMissing files would incur a 10% penalty on the report grade\n\n\nRubric\n\nContent – 70 marks\n\nIntroduction (10 marks)\n\nBackground of the general ‘big picture’ and specific problem,\nstudy system\nspecific hypotheses to be tested\npredictions\n\n\n\nMethods (20 marks)\n\nBrief outline of data collection\nclear explanation of statistical methods used to address the hypotheses/predictions outlined in the introduction, including key assumptions.\n\n\n\nResults (25 marks)\nText and visualizations clearly summarizing your results, using parallel structure to methods. Should include :\n\nclear graphics representing the data and the model outputs,\ntables reporting statistics\ntext describing results\nevaluation of model assumption and model fit\n\n\n\nDiscussion (15 marks)\n\nSummary of major results\nconclusions/implications\nLimitations of analysis (power, complexity of model, data structure, …)\n\n\n\n\nStyle – 30 marks\n\nClarity and reproducibility of code (10 marks)\n\ncode well written and understandable\ndocument written in Quarto/Rmarkdown, reproducible with .[qR]md and data\nonly necessary code included\nall necessary code included\n\n\n\nOrganization and formatting (10 marks)\n\nclear and logical\ncorrect formatting of the document\n\n\n\nClarity of text (10 marks)\n\nclear and understandable\n\n\n\nTypos and grammar (5 marks)\n\nit is all in the section title",
     "crumbs": [
       "Biostats uOttawa",
-      "Syllabus"
+      "Assessment",
+      "Written report"
     ]
   },
   {
-    "objectID": "en/syllabus.html#classes",
-    "href": "en/syllabus.html#classes",
-    "title": "Syllabus",
-    "section": "Classes",
-    "text": "Classes\n\nDuration: 1 class of 3h each week\nStyle: mix of lecture, discussion and practical\nHow: In-person .\nWhen: Tuesdays from 1430-1720\nWhere: CRX-C323 \nCourse info and slides: https://biostats-uottawa.github.io/bio8940/\nLab manual: https://biostats-uottawa.github.io/R/en/",
-    "crumbs": [
-      "Biostats uOttawa",
-      "Syllabus"
-    ]
+    "objectID": "en/practical_extra.html",
+    "href": "en/practical_extra.html",
+    "title": "Extra information for praticals",
+    "section": "",
+    "text": "Here you will find links for the praticals as well as their solutions"
   },
   {
-    "objectID": "en/syllabus.html#assessment",
-    "href": "en/syllabus.html#assessment",
-    "title": "Syllabus",
-    "section": "Assessment",
-    "text": "Assessment\nBased on interactions in classes and on a data analysis project using R and documented with with Rmarkdown, workflowr and github.\n\n50% in class assessment:\n\n15 min presentation in small groups on a paper and questions (30%)\ndiscussion in class (10% questions prep, 10% discussions)\n\n50% written statistical report using analysis more complex than linear models written using Rmarkdown, published on github in 2 different formats\n\n\nPresentation – 30%\n\nContent – 60%\n\nIntroduction: Background of the general ‘big picture’ and specific problem, study system, and specific hypotheses or predictions.\nMethods: Brief outline of data collection and explanation of statistical methods used to address the hypotheses/predictions outlined in the introduction, including key assumptions.\nResults: Visualizations clearly summarizing your results, using parallel structure to methods\nDiscussion: Summary of major results, alternative explanations for the observed results, conclusions/implications, future directions\n\n\n\nStyle – 30%\n\nOrganization\nClarity\nDelivery: Timing, pace, tone, articulation \n\n\n\nAnswers and understanding – 10%\n\n\n\nWritten report – 50%\n\nContent – 70%\n\nIntroduction: (10 marks) Background of the general ‘big picture’ and specific problem, study system, and specific hypotheses or predictions.\nMethods: (20 marks) Brief outline of data collection and explanation of statistical methods used to address the hypotheses/predictions outlined in the introduction, including key assumptions.\nResults: (25 marks) Visualizations clearly summarizing your results, using parallel structure to methods\nDiscussion: (15 marks) Summary of major results, alternative explanations for the observed results, conclusions/implications, future directions\n\n\n\nStyle – 30%\n\nClarity and reproducibility of code (10 marks)\nOrganization (5 marks)\nClarity of text (10 marks)\nTypos and grammar (5 marks)",
-    "crumbs": [
-      "Biostats uOttawa",
-      "Syllabus"
-    ]
+    "objectID": "en/practical_extra.html#rmarkdown",
+    "href": "en/practical_extra.html#rmarkdown",
+    "title": "Extra information for praticals",
+    "section": "Introduction Rmarkdown",
+    "text": "Introduction Rmarkdown\n\nrmarkdown cheatsheet\nTroubleshoot PDF in Rmarkdown"
   },
   {
-    "objectID": "en/syllabus.html#schedule",
-    "href": "en/syllabus.html#schedule",
-    "title": "Syllabus",
-    "section": "Schedule",
-    "text": "Schedule\nThis is a tentative schedule.\n\n\n\n\n\n\n\nWeek\nSubject\n\n\n\n\n1\nIntro and discussion on Stats and science\n\n\n2\nRmarkdown and importance of reproducibility\n\n\n3\nRecap on linear models\n\n\n4\nGeneralized linear models\n\n\n5\nLinear mixed models (including random slopes)\n\n\n6\nGeneralized linear mixed models (and intro to gamms)\n\n\n7\nReading week\n\n\n8\nIntro to Bayesian stats\n\n\n9\nComplex mixed models (spatial, temporal autocorrelation, non-independence random effects)\n\n\n10\nPCA and ordinance analysis\n\n\n11\nMultivariate mixed models\n\n\n12\nPath analysis and causality\n\n\n13\nWrap-up",
-    "crumbs": [
-      "Biostats uOttawa",
-      "Syllabus"
-    ]
+    "objectID": "en/practical_extra.html#introduction-to-github",
+    "href": "en/practical_extra.html#introduction-to-github",
+    "title": "Extra information for praticals",
+    "section": "Introduction to github",
+    "text": "Introduction to github\n\nManaging git credentials\nHappy git with R great book about git and R"
   },
   {
-    "objectID": "en/syllabus.html#note-on-bilingualism",
-    "href": "en/syllabus.html#note-on-bilingualism",
-    "title": "Syllabus",
-    "section": "Note on bilingualism",
-    "text": "Note on bilingualism\nPlease note that the class is bilingual. This means that any questions during the class can be asked or answered in either french or english and the prof will translate the answers if needs be. The majority of the course content (slides, lab manual) are provided in english only, but explanation can be provided in either languages.",
-    "crumbs": [
-      "Biostats uOttawa",
-      "Syllabus"
-    ]
+    "objectID": "slides/lec-08_intro_glmm.notes.html",
+    "href": "slides/lec-08_intro_glmm.notes.html",
+    "title": "Introduction to Generalized linear mixed models?",
+    "section": "",
+    "text": "Difference between fixed and random effects\n\nWhen to transform data?\n\nif you have a funky looking distribution of continuous data, is it always ok to transform to achieve normality if you don’t violate any test assumptions?\n\n\nWalkthrough Figure 1 ?\n\nGet rid of non-significant fixed effects?\n\nIf important for my hypothesis, should I always keep them?\nWhat if I have a fairly small dataset?\n\n\nHow to choose a link function? Why not using the default?\nCan we go through example in Box 1?"
+  },
+  {
+    "objectID": "slides/lec-08_intro_glmm.notes.html#questions-after-reading-bolker-et-al-2009",
+    "href": "slides/lec-08_intro_glmm.notes.html#questions-after-reading-bolker-et-al-2009",
+    "title": "Introduction to Generalized linear mixed models?",
+    "section": "",
+    "text": "Difference between fixed and random effects\n\nWhen to transform data?\n\nif you have a funky looking distribution of continuous data, is it always ok to transform to achieve normality if you don’t violate any test assumptions?\n\n\nWalkthrough Figure 1 ?\n\nGet rid of non-significant fixed effects?\n\nIf important for my hypothesis, should I always keep them?\nWhat if I have a fairly small dataset?\n\n\nHow to choose a link function? Why not using the default?\nCan we go through example in Box 1?"
+  },
+  {
+    "objectID": "slides/lec-08_intro_glmm.notes.html#gacha-life-minie-movie",
+    "href": "slides/lec-08_intro_glmm.notes.html#gacha-life-minie-movie",
+    "title": "Introduction to Generalized linear mixed models?",
+    "section": "\n1.1 GaCha Life Minie Movie",
+    "text": "1.1 GaCha Life Minie Movie\nVideo game allowing you to dress-up anime style characters"
+  },
+  {
+    "objectID": "slides/lec-08_intro_glmm.notes.html#generalized-linear-mixed-model",
+    "href": "slides/lec-08_intro_glmm.notes.html#generalized-linear-mixed-model",
+    "title": "Introduction to Generalized linear mixed models?",
+    "section": "\n1.2 Generalized linear mixed model",
+    "text": "1.2 Generalized linear mixed model\nAn extension to Generalized linear model and an extension to linear mixed model\nGLMM expresses the transformed conditional expectation of the dependent variable y as a linear combination of the regression variables X\nModel has 3 components\n\na structural component or additive expression \\(\\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k\\)\n\na link function: \\(g(\\mu)\\)\n\na response distribution: Gaussian, Binomial, Bernouilli, Poisson, negative binomial, zero-inflated …, zero-truncated …, …\n\n\\[\ng(\\mu_i) = \\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k\n\\]\nand\n\\[\n\\mu_i = E(y_i | x_i) = g(\\mu_i)^{-1}\n\\]"
+  },
+  {
+    "objectID": "slides/lec-08_intro_glmm.notes.html#how-do-you-fit-them",
+    "href": "slides/lec-08_intro_glmm.notes.html#how-do-you-fit-them",
+    "title": "Introduction to Generalized linear mixed models?",
+    "section": "\n1.3 How do you fit them?",
+    "text": "1.3 How do you fit them?\nIn R:\n\n\nglmer() from lme4 📦 same as lmer() but with a family argument\n\nglmmPQL() from MASS 📦 (based on lme())\n\nglmmADMB() from - glmmADMB 📦 works well and flexible be beware\n\nglmmTMB() from glmmTMB 📦 works well and flexible be beware\n\nasreml() from glmmTMB 📦 great but not-free\n\nMCMCglmm() from MCMCglmm 📦 great but Bayesian\nChoose you bayesian flavor 📦:\n\n\nstan: brms, rethinking, rstan, …\n\nBUGS: runjags, rjags, …"
+  },
+  {
+    "objectID": "slides/lec-08_intro_glmm.notes.html#model-assumptions",
+    "href": "slides/lec-08_intro_glmm.notes.html#model-assumptions",
+    "title": "Introduction to Generalized linear mixed models?",
+    "section": "\n1.4 Model assumptions",
+    "text": "1.4 Model assumptions\n\nEasy answer none or really few\nMore advanced answer I am not sure, it is complicated\nJust check residuals I as usual\n\n\nTechnically only 3 assumption:\n\nVariance is a function of the mean specific to the distribution used\nobservations are independent\nlinear relation on the latent scale\n\n\n\n\n\n\n\n\n\nWarning\n\n\n\nGeneralized Linear Models do not care if the residual errors are normally distributed as long as the specified mean-variance relationship is satisfied by the data"
+  },
+  {
+    "objectID": "slides/lec-08_intro_glmm.notes.html#choosing-a-link-function",
+    "href": "slides/lec-08_intro_glmm.notes.html#choosing-a-link-function",
+    "title": "Introduction to Generalized linear mixed models?",
+    "section": "\n1.5 Choosing a link function",
+    "text": "1.5 Choosing a link function\nA link function should map the stuctural component from \\((-\\infty,\\infty)\\) to the distribution interval (e.g. (0,1) for binomial)\nSo number of link function possible is extremley large.\nChoice of link function heavily influenced by field tradiditon\nFor binomial models\n\n\nlogit assume modelling probability of an observation to be one\n\nprobit assume binary outcome from a hidden gaussian variable (i.e. threshold model)\n\nlogit & probit are really similar, both are symmetric but probit tapers faster. logit coefficient easier to interpret directly\n\ncologlog not-symmetrical"
+  },
+  {
+    "objectID": "slides/lec-08_intro_glmm.notes.html#estimating-repeatability",
+    "href": "slides/lec-08_intro_glmm.notes.html#estimating-repeatability",
+    "title": "Introduction to Generalized linear mixed models?",
+    "section": "\n1.6 Estimating repeatability ?",
+    "text": "1.6 Estimating repeatability ?\nLatent scale\nBusiness as usual ?\nObserved scale ??????\n\nUsing rptR 📦 is the easiest or QGGlmm 📦 (see associated citation for reference and explanations)"
+  },
+  {
+    "objectID": "slides/lec-08_intro_glmm.notes.html#marginalized-vs-conditioned-estimates",
+    "href": "slides/lec-08_intro_glmm.notes.html#marginalized-vs-conditioned-estimates",
+    "title": "Introduction to Generalized linear mixed models?",
+    "section": "\n1.7 Marginalized vs Conditioned estimates",
+    "text": "1.7 Marginalized vs Conditioned estimates\nDifference between marginalized and conditioned coefficients?\nGLMMadaptive 📦 is the only way I know to do easily get marginalized coefficients"
+  },
+  {
+    "objectID": "slides/lec-08_intro_glmm.notes.html#practical",
+    "href": "slides/lec-08_intro_glmm.notes.html#practical",
+    "title": "Introduction to Generalized linear mixed models?",
+    "section": "\n1.8 Practical",
+    "text": "1.8 Practical\nWalkthrough Example box 1"
+  },
+  {
+    "objectID": "slides/lec-08_intro_glmm.slides.html#questions-after-reading-bolker-et-al-2009",
+    "href": "slides/lec-08_intro_glmm.slides.html#questions-after-reading-bolker-et-al-2009",
+    "title": "Introduction to Generalized linear mixed models?",
+    "section": "Questions after reading Bolker et al 2009",
+    "text": "Questions after reading Bolker et al 2009\n\n\nDifference between fixed and random effects\nWhen to transform data?\n\nif you have a funky looking distribution of continuous data, is it always ok to transform to achieve normality if you don’t violate any test assumptions?\n\nWalkthrough Figure 1 ?\nGet rid of non-significant fixed effects?\n\nIf important for my hypothesis, should I always keep them?\nWhat if I have a fairly small dataset?\n\nHow to choose a link function? Why not using the default?\nCan we go through example in Box 1?"
+  },
+  {
+    "objectID": "slides/lec-08_intro_glmm.slides.html#gacha-life-minie-movie",
+    "href": "slides/lec-08_intro_glmm.slides.html#gacha-life-minie-movie",
+    "title": "Introduction to Generalized linear mixed models?",
+    "section": "GaCha Life Minie Movie",
+    "text": "GaCha Life Minie Movie\nVideo game allowing you to dress-up anime style characters"
+  },
+  {
+    "objectID": "slides/lec-08_intro_glmm.slides.html#generalized-linear-mixed-model",
+    "href": "slides/lec-08_intro_glmm.slides.html#generalized-linear-mixed-model",
+    "title": "Introduction to Generalized linear mixed models?",
+    "section": "Generalized linear mixed model",
+    "text": "Generalized linear mixed model\nAn extension to Generalized linear model and an extension to linear mixed model\nGLMM expresses the transformed conditional expectation of the dependent variable y as a linear combination of the regression variables X\nModel has 3 components\n\na structural component or additive expression \\(\\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k\\)\na link function: \\(g(\\mu)\\)\na response distribution: Gaussian, Binomial, Bernouilli, Poisson, negative binomial, zero-inflated …, zero-truncated …, …\n\n\n\\[\ng(\\mu_i) = \\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k\n\\]\nand\n\\[\n\\mu_i = E(y_i | x_i) = g(\\mu_i)^{-1}\n\\]"
+  },
+  {
+    "objectID": "slides/lec-08_intro_glmm.slides.html#how-do-you-fit-them",
+    "href": "slides/lec-08_intro_glmm.slides.html#how-do-you-fit-them",
+    "title": "Introduction to Generalized linear mixed models?",
+    "section": "How do you fit them?",
+    "text": "How do you fit them?\nIn R:\n\nglmer() from lme4 📦 same as lmer() but with a family argument\nglmmPQL() from MASS 📦 (based on lme())\nglmmADMB() from - glmmADMB 📦 works well and flexible be beware\nglmmTMB() from glmmTMB 📦 works well and flexible be beware\nasreml() from glmmTMB 📦 great but not-free\nMCMCglmm() from MCMCglmm 📦 great but Bayesian\nChoose you bayesian flavor 📦:\n\nstan: brms, rethinking, rstan, …\nBUGS: runjags, rjags, …"
+  },
+  {
+    "objectID": "slides/lec-08_intro_glmm.slides.html#model-assumptions",
+    "href": "slides/lec-08_intro_glmm.slides.html#model-assumptions",
+    "title": "Introduction to Generalized linear mixed models?",
+    "section": "Model assumptions",
+    "text": "Model assumptions\n\nEasy answer none or really few\nMore advanced answer I am not sure, it is complicated\nJust check residuals I as usual\n\n\n\nTechnically only 3 assumption:\n\nVariance is a function of the mean specific to the distribution used\nobservations are independent\nlinear relation on the latent scale\n\n\n\n\n\n\n\n\n\nWarning\n\n\nGeneralized Linear Models do not care if the residual errors are normally distributed as long as the specified mean-variance relationship is satisfied by the data"
+  },
+  {
+    "objectID": "slides/lec-08_intro_glmm.slides.html#choosing-a-link-function",
+    "href": "slides/lec-08_intro_glmm.slides.html#choosing-a-link-function",
+    "title": "Introduction to Generalized linear mixed models?",
+    "section": "Choosing a link function",
+    "text": "Choosing a link function\nA link function should map the stuctural component from \\((-\\infty,\\infty)\\) to the distribution interval (e.g. (0,1) for binomial)\nSo number of link function possible is extremley large.\n\nChoice of link function heavily influenced by field tradiditon\n\n\nFor binomial models\n\nlogit assume modelling probability of an observation to be one\nprobit assume binary outcome from a hidden gaussian variable (i.e. threshold model)\nlogit & probit are really similar, both are symmetric but probit tapers faster. logit coefficient easier to interpret directly\ncologlog not-symmetrical"
+  },
+  {
+    "objectID": "slides/lec-08_intro_glmm.slides.html#estimating-repeatability",
+    "href": "slides/lec-08_intro_glmm.slides.html#estimating-repeatability",
+    "title": "Introduction to Generalized linear mixed models?",
+    "section": "Estimating repeatability ?",
+    "text": "Estimating repeatability ?\nLatent scale\nBusiness as usual ?\n\nObserved scale ??????\n\nUsing rptR 📦 is the easiest or QGGlmm 📦 (see associated citation for reference and explanations)"
+  },
+  {
+    "objectID": "slides/lec-08_intro_glmm.slides.html#marginalized-vs-conditioned-estimates",
+    "href": "slides/lec-08_intro_glmm.slides.html#marginalized-vs-conditioned-estimates",
+    "title": "Introduction to Generalized linear mixed models?",
+    "section": "Marginalized vs Conditioned estimates",
+    "text": "Marginalized vs Conditioned estimates\nDifference between marginalized and conditioned coefficients?\nGLMMadaptive 📦 is the only way I know to do easily get marginalized coefficients"
+  },
+  {
+    "objectID": "slides/lec-08_intro_glmm.slides.html#practical",
+    "href": "slides/lec-08_intro_glmm.slides.html#practical",
+    "title": "Introduction to Generalized linear mixed models?",
+    "section": "Practical",
+    "text": "Practical\nWalkthrough Example box 1"
   },
   {
     "objectID": "en/lectures.html",
@@ -2006,37 +1917,47 @@
     ]
   },
   {
-    "objectID": "en/dataset.html",
-    "href": "en/dataset.html",
-    "title": "Data and code",
+    "objectID": "en/index.html",
+    "href": "en/index.html",
+    "title": "Advanced statistics and Open science",
     "section": "",
-    "text": "All data and code files in a nice zip file",
+    "text": "This is the site for the graduate level course Bio8940 at the University of Ottawa. You will find all the course information including the course schedule, slides, course notes, practicals info and exercises, description of assessments as well as the (official) for the course.\nSubmission of course work is done via brighspace.\nPlease note that the class is bilingual. This means that any questions during the class can be asked or answered in either french or english and the prof will translate the answers if needs be. The majority of the course content (slides and course notes) are provided in english only, but explanation can be provided in either languages.",
     "crumbs": [
       "Biostats uOttawa",
-      "Data and code"
+      "Course info"
     ]
   },
   {
-    "objectID": "en/dataset.html#data-for-praticals",
-    "href": "en/dataset.html#data-for-praticals",
-    "title": "Data and code",
-    "section": "Data for praticals",
-    "text": "Data for praticals\n\nBanta_TotalFruits.csv\ndragons.csv\ngala.csv\nlm_example.csv\nmouflon.csv\nRIKZ.txt\nunicorns_aggression.csv",
+    "objectID": "en/index.html#schedule",
+    "href": "en/index.html#schedule",
+    "title": "Advanced statistics and Open science",
+    "section": "Schedule ",
+    "text": "Schedule \n\nLecture: Tuesdays, 1430-1720 in CRX-C323\n\nThere are no lectures or tutorials during reading week.",
     "crumbs": [
       "Biostats uOttawa",
-      "Data and code"
+      "Course info"
     ]
   },
   {
-    "objectID": "en/dataset.html#r-code-and-functions-used-in-slides",
-    "href": "en/dataset.html#r-code-and-functions-used-in-slides",
-    "title": "Data and code",
-    "section": "R code and functions used in slides",
-    "text": "R code and functions used in slides\n\nextra_funs.R\nlec-01_intro.R\nlec-02_rmarkdown.R\nlec-03_github.R\nlec-04_lm_glm.R\nlec-05_model_structure.R\nlec-06_intro_lmm.R\nlec-07_intro_bayes.R\nlec-08_intro_glmm.R",
-    "crumbs": [
-      "Biostats uOttawa",
-      "Data and code"
-    ]
+    "objectID": "fr/dataset.html",
+    "href": "fr/dataset.html",
+    "title": "Code et données",
+    "section": "",
+    "text": "Code et fichiers de données utilisés dans les diapos ensemble dans un fichier zip zip file"
+  },
+  {
+    "objectID": "fr/dataset.html#données-pour-les-labos",
+    "href": "fr/dataset.html#données-pour-les-labos",
+    "title": "Code et données",
+    "section": "Données pour les labos",
+    "text": "Données pour les labos\n\nBanta_TotalFruits.csv\ndragons.csv\ngala.csv\nlm_example.csv\nmouflon.csv\nRIKZ.txt\nunicorns_aggression.csv"
+  },
+  {
+    "objectID": "fr/dataset.html#code-r-utilisés-dans-les-diapos",
+    "href": "fr/dataset.html#code-r-utilisés-dans-les-diapos",
+    "title": "Code et données",
+    "section": "Code R utilisés dans les diapos",
+    "text": "Code R utilisés dans les diapos\n\nextra_funs.R\nlec-01_intro.R\nlec-02_rmarkdown.R\nlec-03_github.R\nlec-04_lm_glm.R\nlec-05_model_structure.R\nlec-06_intro_lmm.R\nlec-07_intro_bayes.R\nlec-08_intro_glmm.R"
   },
   {
     "objectID": "slides/lec-02_rmarkdown.notes.html",
@@ -2669,25 +2590,25 @@
     "text": "To go further\nMost of what works for R markdown works for Quarto\nR Markdown cookbook\n\n\nR Markdown Guide\n\n\nQuarto website"
   },
   {
-    "objectID": "en/index.html",
-    "href": "en/index.html",
-    "title": "Advanced statistics and Open science",
+    "objectID": "fr/index.html",
+    "href": "fr/index.html",
+    "title": "Statistiques avancées et science ouverte",
     "section": "",
-    "text": "This is the site for the graduate level course Bio8940 at the University of Ottawa. You will find all the course information including the course schedule, slides, course notes, practicals info and exercises, description of assessments as well as the (official) for the course.\nSubmission of course work is done via brighspace.\nPlease note that the class is bilingual. This means that any questions during the class can be asked or answered in either french or english and the prof will translate the answers if needs be. The majority of the course content (slides and course notes) are provided in english only, but explanation can be provided in either languages.",
+    "text": "Bienvenue sur le site du cours Bio8940 de l’Université d’Ottawa. Vous y trouverez toutes les informations sur le cours, y compris l’horaire du cours, les diapositives, les notes de cours, les informations et les exercices pratiques, la description des évaluations ainsi que le syllabus (officiel) du cours.\nLa soumission des travaux de cours se fait via brighspace.\nLe cours est un cours bilingue. Cela signifie que l’ensemble des interactions orales peuvent avoir lieu en français ou en anglais, le prof pouvant fournir les traductions nécessaires pour que l’ensemble des étudiants comprennent la matière. Le contenu du cours (diapo et manuel de laboratoire) seront présenté de manière unilingue en anglais avec possibilité de fournir des explanations en français si besoin.",
     "crumbs": [
       "Biostats uOttawa",
-      "Course info"
+      "Info générale"
     ]
   },
   {
-    "objectID": "en/index.html#schedule",
-    "href": "en/index.html#schedule",
-    "title": "Advanced statistics and Open science",
-    "section": "Schedule ",
-    "text": "Schedule \n\nLecture: Tuesdays, 1430-1720 in CRX-C323\n\nThere are no lectures or tutorials during reading week.",
+    "objectID": "fr/index.html#où-et-quand",
+    "href": "fr/index.html#où-et-quand",
+    "title": "Statistiques avancées et science ouverte",
+    "section": "Où et quand ",
+    "text": "Où et quand \n\nCours: Mardis, 1430-1720 in CRX-C323",
     "crumbs": [
       "Biostats uOttawa",
-      "Course info"
+      "Info générale"
     ]
   },
   {
