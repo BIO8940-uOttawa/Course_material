@@ -100,7 +100,7 @@ J'ai développé des extension Quarto pour produire un proposé et une thèse qu
 
 * logiciel [`quarto`][quarto_installation]
 
-<!-- * Faire en sorte que Git, GitHub et RStudio communiquent entre eux en suivant [ces directives (section 2.2.2 Configuration uniquement)] (https://inbo.github.io/git-course/course_rstudio.html#222_configuration). -->
+<!-- * Faire en sorte que Git, GitHub et RStudio communiquent entre eux en suivant [ces directives (section 2.2.2 Configuration uniquement)](https://inbo.github.io/git-course/course_rstudio.html#222_configuration). -->
 
 --------------------------------------------------------------------------------
 
