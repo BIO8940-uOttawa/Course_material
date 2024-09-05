@@ -1,3 +1,5 @@
 
 lang: en-ca
 sidebar: en
+execute:
+  freeze: auto
