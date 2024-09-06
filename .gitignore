@@ -3,10 +3,10 @@
 #*chunks/
 *_files/
 *_cache/
-/_site/
+#/_site/
 /docs/
 #plots/
 #libs/
 #*.zip
 #Untitled*
-#_freeze/
+_freeze/

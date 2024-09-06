@@ -9,12 +9,12 @@ schedule:
   - week: 2
     topic: "Introduction to Quarto"
     topic_fr: "Introduction  à Quarto"
-    reading: "@alston_beginner_2021"
+    reading: "@alston2021"
     link: "https://doi.org/10.1002/bes2.1801"
   - week: 3
     topic: "Introduction to Github"
     topic_fr: "Introduction à Github"
-#    tools: ""
+#    tools: " "
 #    assessment: "Assessment 2 **due Fri 6 Oct 11:55 PM**"
     reading: "@ivimey-cook_implementing_2023"
   - week: 4
@@ -47,14 +47,14 @@ schedule:
     topic_fr: Modèles mixtes multivariés
     reading: "@vandepol2009"
   - week: 11
-    reading: "@schielzeth_conclusions_2009"
+    reading: "@schielzeth2009"
 #    lecturer: Kate
 #    topic: Guest lecture
-#    tools: ""
-#    readings: ""
+#    tools: " "
+#    readings: " "
   - week: 12
-    topic: ""
-    reading: "@forstmeier_detecting_2017"
+    topic: " "
+    reading: "@forstmeier2017"
     assessment: "Final report due **April 19th by Midnight**"
 
 team:

@@ -20,7 +20,7 @@ extract_course(dat)
 
 ```{r}
 check <- character(0)
-schedule_df <- schedule_df %>%
+schedule <- schedule_df %>%
   rowwise() %>%
   mutate(
     qmd_file = ifelse(
@@ -51,11 +51,11 @@ schedule_df <- schedule_df %>%
   mutate(
     Slides = case_when(
       lecture ~ glue("<a class='fa fa-display' href='{lecture_file}' target='_blank'></a> <a class='fa fa-note-sticky' href='{notes_file}' target='_blank'></a>"),
-      TRUE ~ ""
+      TRUE ~ " "
     ),
-    Topic = ifelse(is.na(topic), "", topic),
-#    Assessment = ifelse(is.na(assessment), "", assessment),
-    Reading = ifelse(is.na(reading), "", reading),
+    Topic = ifelse(is.na(topic), " ", topic),
+#    Assessment = ifelse(is.na(assessment), " ", assessment),
+    Reading = ifelse(is.na(reading), " ", reading),
     Date = as.Date(ifelse(
       (ymd(dat$date_start) + weeks(week - 1)) > ymd(dat$date_read),
       ymd(dat$date_start) + weeks(week),
@@ -67,7 +67,7 @@ schedule_df <- schedule_df %>%
 midsem_break <- 6 # after which week
 
 read_week <- paste0()
-schedule_df %>%
+schedule %>%
   gt() |>
   #  cols_label(week = "Week") |>
   fmt_markdown(columns = c("Slides", "Reading")) |>
