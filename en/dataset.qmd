@@ -22,11 +22,11 @@ code <- data.frame(
 if (file.exists("../data/bio8940_data_code.zip")) {
   file.remove("../data/bio8940_data_code.zip")
 }
-zip("../data/bio8940_data_code.zip", c("data/csv", "data/R code"))
+zip("../data/bio8940_data_code.zip", c("../data/csv", "../data/R code"))
 ```
 
 
-All data and code files in a nice [**zip file**](data/bio8940_data_code.zip)
+All data and code files in a nice [**zip file**](../data/bio8940_data_code.zip)
 
 ## Data for praticals
 

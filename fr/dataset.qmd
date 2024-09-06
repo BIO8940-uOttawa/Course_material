@@ -22,11 +22,11 @@ code <- data.frame(
 if (file.exists("../data/bio8940_data_code.zip")) {
   file.remove("../data/bio8940_data_code.zip")
 }
-zip("../data/bio8940_data_code.zip", c("data/csv", "data/R code"))
+zip("../data/bio8940_data_code.zip", c("../data/csv", "../data/R code"))
 ```
 
 
-Code et fichiers de données utilisés dans les diapos ensemble dans un fichier zip [**zip file**](data/bio8940_data_code.zip)
+Code et fichiers de données utilisés dans les diapos ensemble dans un fichier zip [**zip file**](../data/bio8940_data_code.zip)
 
 ## Données pour les labos
 
