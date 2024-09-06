@@ -7,16 +7,16 @@ name: Quarto Publish
 
 jobs:
   build-deploy:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest #ubuntu-latest
     permissions:
       contents: write
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Install ubuntu deps
-        run: sudo apt install -y --no-install-recommends \
-          libcurl4-openssl-dev
+#      - name: Install ubuntu deps
+#        run: sudo apt install -y --no-install-recommends \
+#          libcurl4-openssl-dev
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
