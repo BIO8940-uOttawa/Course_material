@@ -3077,225 +3077,225 @@
     "text": "Testing for effects\nFixed effects\nDegrees of freedom cannot be estimated exactly\nUse approximation (Satterwaite, Kenward-Rogers, …)\n\n\nRandom effects\nLikelihood Ratio test\nFit model with and without a random effect using REML and then compare"
   },
   {
-    "objectID": "slides/lec-05_model_structure.slides.html",
-    "href": "slides/lec-05_model_structure.slides.html",
+    "objectID": "slides/lec-05_model_structure.notes.html",
+    "href": "slides/lec-05_model_structure.notes.html",
     "title": "How do we build a model?",
     "section": "",
     "text": "When we say there’s a relationship between two variables… how do we interpret that?\nWhat precisely do we mean?\nWhat do we want to do with this information?\n\nDescriptive: Document or quantify observed relationships between inputs and outputs.\n\nDoes not not necessarily tell us about the true DGP.\nCan often inspire questions for further research.\n\nCausal: Learn about causal relationships.\n\nTry to understand how the box works (the true DGP)\nWhen you change one factor, how does it change the result?\n\nPredictive: Be able to guess the value of one variable from other information\n\nDGP doesn’t matter, create your own box..\nHelps us know what’s likely to happen in a new situation.\n\nDescription:\n\nFocus on showing relationships among a few variables.\nGive up goal of correctly modeling the true DGP\n\nPrediction:\n\nFocus on predicting given observed data by any possible means.\nGive up goal of correctly modeling the true DGP\n\nCausal inference:\n\nFocus on determining the true direct effect of a treatment variable\nGive up goal of understanding causal effects of any other factors\n\nDescription\n\nNO. Only want to infer patterns from observed data.\n\nWhen there are a lot of people wearing shorts, there often is an ice cream truck\nPrediction:\n\nNO. Only want to infer patterns from observed data.\n\nGiven how many people are wearing shorts, will an ice cream truck show up?\nCausal inference:\n\nYES. Want to infer the result of active intervention. Must eliminate selection bias to estimate the treatment effect.\n\nIf someone chooses to wear shorts, will it make an ice cream truck show up?\n\nDescription:\n\nβn represents an association between \\(X_{n_i}\\) and Yi.\nOnly a statement about the data, not about the reasons behind the pattern.\n\nPrediction: Model does not need to be interpretable.\n\nCoefficients βn are informative only of predictive power, not causal effects.\nModel can be treated as a black box.\n\nCausal inference:\n\nβ1 is a causal effect of x1 under stated assumptions (of the identification strategy).\nMany coefficients generally lack interpretability."
   },
   {
-    "objectID": "slides/lec-05_model_structure.slides.html#interpreting-relationships-in-data",
-    "href": "slides/lec-05_model_structure.slides.html#interpreting-relationships-in-data",
+    "objectID": "slides/lec-05_model_structure.notes.html#interpreting-relationships-in-data",
+    "href": "slides/lec-05_model_structure.notes.html#interpreting-relationships-in-data",
     "title": "How do we build a model?",
     "section": "",
     "text": "When we say there’s a relationship between two variables… how do we interpret that?\nWhat precisely do we mean?\nWhat do we want to do with this information?"
   },
   {
-    "objectID": "slides/lec-05_model_structure.slides.html#distinguishing-goals-of-data-analysis",
-    "href": "slides/lec-05_model_structure.slides.html#distinguishing-goals-of-data-analysis",
+    "objectID": "slides/lec-05_model_structure.notes.html#distinguishing-goals-of-data-analysis",
+    "href": "slides/lec-05_model_structure.notes.html#distinguishing-goals-of-data-analysis",
     "title": "How do we build a model?",
     "section": "",
     "text": "Descriptive: Document or quantify observed relationships between inputs and outputs.\n\nDoes not not necessarily tell us about the true DGP.\nCan often inspire questions for further research.\n\nCausal: Learn about causal relationships.\n\nTry to understand how the box works (the true DGP)\nWhen you change one factor, how does it change the result?\n\nPredictive: Be able to guess the value of one variable from other information\n\nDGP doesn’t matter, create your own box..\nHelps us know what’s likely to happen in a new situation."
   },
   {
-    "objectID": "slides/lec-05_model_structure.slides.html#difference-of-focus",
-    "href": "slides/lec-05_model_structure.slides.html#difference-of-focus",
+    "objectID": "slides/lec-05_model_structure.notes.html#difference-of-focus",
+    "href": "slides/lec-05_model_structure.notes.html#difference-of-focus",
     "title": "How do we build a model?",
     "section": "",
     "text": "Description:\n\nFocus on showing relationships among a few variables.\nGive up goal of correctly modeling the true DGP\n\nPrediction:\n\nFocus on predicting given observed data by any possible means.\nGive up goal of correctly modeling the true DGP\n\nCausal inference:\n\nFocus on determining the true direct effect of a treatment variable\nGive up goal of understanding causal effects of any other factors"
   },
   {
-    "objectID": "slides/lec-05_model_structure.slides.html#impact-of-selection-bias",
-    "href": "slides/lec-05_model_structure.slides.html#impact-of-selection-bias",
+    "objectID": "slides/lec-05_model_structure.notes.html#impact-of-selection-bias",
+    "href": "slides/lec-05_model_structure.notes.html#impact-of-selection-bias",
     "title": "How do we build a model?",
     "section": "",
     "text": "Description\n\nNO. Only want to infer patterns from observed data.\n\nWhen there are a lot of people wearing shorts, there often is an ice cream truck\nPrediction:\n\nNO. Only want to infer patterns from observed data.\n\nGiven how many people are wearing shorts, will an ice cream truck show up?\nCausal inference:\n\nYES. Want to infer the result of active intervention. Must eliminate selection bias to estimate the treatment effect.\n\nIf someone chooses to wear shorts, will it make an ice cream truck show up?"
   },
   {
-    "objectID": "slides/lec-05_model_structure.slides.html#difference-interpretation-of-βn",
-    "href": "slides/lec-05_model_structure.slides.html#difference-interpretation-of-βn",
+    "objectID": "slides/lec-05_model_structure.notes.html#difference-interpretation-of-βn",
+    "href": "slides/lec-05_model_structure.notes.html#difference-interpretation-of-βn",
     "title": "How do we build a model?",
     "section": "",
     "text": "Description:\n\nβn represents an association between \\(X_{n_i}\\) and Yi.\nOnly a statement about the data, not about the reasons behind the pattern.\n\nPrediction: Model does not need to be interpretable.\n\nCoefficients βn are informative only of predictive power, not causal effects.\nModel can be treated as a black box.\n\nCausal inference:\n\nβ1 is a causal effect of x1 under stated assumptions (of the identification strategy).\nMany coefficients generally lack interpretability."
   },
   {
-    "objectID": "slides/lec-05_model_structure.slides.html#consequences-1",
-    "href": "slides/lec-05_model_structure.slides.html#consequences-1",
+    "objectID": "slides/lec-05_model_structure.notes.html#consequences-1",
+    "href": "slides/lec-05_model_structure.notes.html#consequences-1",
     "title": "How do we build a model?",
     "section": "\n2.1 Consequences",
     "text": "2.1 Consequences\nDiscerning which type of goal you have is critical for:\n\nInterpreting results: Mistaking one goal for another can lead your audience to make very bad decisions.\nChoosing methods: Distinct approaches are required to achieve different goals."
   },
   {
-    "objectID": "slides/lec-05_model_structure.slides.html#consequences-for-models",
-    "href": "slides/lec-05_model_structure.slides.html#consequences-for-models",
+    "objectID": "slides/lec-05_model_structure.notes.html#consequences-for-models",
+    "href": "slides/lec-05_model_structure.notes.html#consequences-for-models",
     "title": "How do we build a model?",
     "section": "\n2.2 Consequences for models",
     "text": "2.2 Consequences for models\n\nModels for prediction and causal inference differ with respect to the following:\n\nThe covariates that should be considered for inclusion in (and possibly exclusion from) the model.\nHow a suitable set of covariates to include in the model is determined.\nWhich covariates are ultimately selected, and what functional form (i.e. parameterization) they take.\nHow the model is evaluated.\nHow the model is interpreted."
   },
   {
-    "objectID": "slides/lec-05_model_structure.slides.html#consequences-for-methods",
-    "href": "slides/lec-05_model_structure.slides.html#consequences-for-methods",
+    "objectID": "slides/lec-05_model_structure.notes.html#consequences-for-methods",
+    "href": "slides/lec-05_model_structure.notes.html#consequences-for-methods",
     "title": "How do we build a model?",
     "section": "\n2.3 Consequences for methods ?",
     "text": "2.3 Consequences for methods ?\nWhat methods should we use for each goal?\n\n\nDescriptive analysis\n\nExploratory analysis and regression.\n\n\n\n\n\nCausal inference\n\nPath analysis\nStructural equation modelling\nGraph theory\n\n\n\n\n\nPrediction\n\nStatistical learning / machine learning.\nAIC and any kind of model selection"
   },
   {
-    "objectID": "slides/lec-05_model_structure.slides.html#confounder",
-    "href": "slides/lec-05_model_structure.slides.html#confounder",
+    "objectID": "slides/lec-05_model_structure.notes.html#confounder",
+    "href": "slides/lec-05_model_structure.notes.html#confounder",
     "title": "How do we build a model?",
     "section": "\n3.1 Confounder",
     "text": "3.1 Confounder\n\n\nRelation\nAdjusted"
   },
   {
-    "objectID": "slides/lec-05_model_structure.slides.html#mediator",
-    "href": "slides/lec-05_model_structure.slides.html#mediator",
+    "objectID": "slides/lec-05_model_structure.notes.html#mediator",
+    "href": "slides/lec-05_model_structure.notes.html#mediator",
     "title": "How do we build a model?",
     "section": "\n3.2 Mediator",
     "text": "3.2 Mediator\n\n\nRelation\nAdjusted"
   },
   {
-    "objectID": "slides/lec-05_model_structure.slides.html#collider",
-    "href": "slides/lec-05_model_structure.slides.html#collider",
+    "objectID": "slides/lec-05_model_structure.notes.html#collider",
+    "href": "slides/lec-05_model_structure.notes.html#collider",
     "title": "How do we build a model?",
     "section": "\n3.3 Collider",
     "text": "3.3 Collider\n\n\nRelation\nAdjusted"
   },
   {
-    "objectID": "slides/lec-05_model_structure.slides.html#m-bias",
-    "href": "slides/lec-05_model_structure.slides.html#m-bias",
+    "objectID": "slides/lec-05_model_structure.notes.html#m-bias",
+    "href": "slides/lec-05_model_structure.notes.html#m-bias",
     "title": "How do we build a model?",
     "section": "\n3.4 M-bias",
     "text": "3.4 M-bias\n\n\nRelation\nAdjusted"
   },
   {
-    "objectID": "slides/lec-05_model_structure.slides.html#butterfly-bias",
-    "href": "slides/lec-05_model_structure.slides.html#butterfly-bias",
+    "objectID": "slides/lec-05_model_structure.notes.html#butterfly-bias",
+    "href": "slides/lec-05_model_structure.notes.html#butterfly-bias",
     "title": "How do we build a model?",
     "section": "\n3.5 Butterfly bias",
     "text": "3.5 Butterfly bias\n\n\nRelation\n{a, m}\n{b, m}\n{a, b, m}"
   },
   {
-    "objectID": "slides/lec-05_model_structure.slides.html#selection-bias",
-    "href": "slides/lec-05_model_structure.slides.html#selection-bias",
+    "objectID": "slides/lec-05_model_structure.notes.html#selection-bias",
+    "href": "slides/lec-05_model_structure.notes.html#selection-bias",
     "title": "How do we build a model?",
     "section": "\n3.6 Selection bias",
     "text": "3.6 Selection bias\n\n\nCase\nControlled"
   },
   {
-    "objectID": "slides/lec-05_model_structure.slides.html#more-complexity",
-    "href": "slides/lec-05_model_structure.slides.html#more-complexity",
+    "objectID": "slides/lec-05_model_structure.notes.html#more-complexity",
+    "href": "slides/lec-05_model_structure.notes.html#more-complexity",
     "title": "How do we build a model?",
     "section": "\n3.7 More complexity",
     "text": "3.7 More complexity\n\n\nCode\nPlot\n\n\n\n\nmy_dag &lt;- dagify(y ~ x + a + b,\n  x ~ a + b,\n  a ~ d,\n  exposure = \"x\",\n  outcome = \"y\"\n)\nmy_dag %&gt;%\n  ggplot(aes(x = x, y = y, xend = xend, yend = yend)) +\n  geom_dag_point() +\n  geom_dag_edges(edge_width = 2) +\n  geom_dag_text(size = 50) +\n  theme_dag()"
   },
   {
-    "objectID": "slides/lec-05_model_structure.notes.html#data-generating-process",
-    "href": "slides/lec-05_model_structure.notes.html#data-generating-process",
+    "objectID": "slides/lec-05_model_structure.slides.html#data-generating-process",
+    "href": "slides/lec-05_model_structure.slides.html#data-generating-process",
     "title": "How do we build a model?",
     "section": "Data generating process",
     "text": "Data generating process"
   },
   {
-    "objectID": "slides/lec-05_model_structure.notes.html#interpreting-relationships-in-data",
-    "href": "slides/lec-05_model_structure.notes.html#interpreting-relationships-in-data",
+    "objectID": "slides/lec-05_model_structure.slides.html#interpreting-relationships-in-data",
+    "href": "slides/lec-05_model_structure.slides.html#interpreting-relationships-in-data",
     "title": "How do we build a model?",
     "section": "Interpreting relationships in data",
     "text": "Interpreting relationships in data\n\nWhen we say there’s a relationship between two variables… how do we interpret that?\nWhat precisely do we mean?\nWhat do we want to do with this information?"
   },
   {
-    "objectID": "slides/lec-05_model_structure.notes.html#distinguishing-goals-of-data-analysis",
-    "href": "slides/lec-05_model_structure.notes.html#distinguishing-goals-of-data-analysis",
+    "objectID": "slides/lec-05_model_structure.slides.html#distinguishing-goals-of-data-analysis",
+    "href": "slides/lec-05_model_structure.slides.html#distinguishing-goals-of-data-analysis",
     "title": "How do we build a model?",
     "section": "Distinguishing goals of data analysis",
     "text": "Distinguishing goals of data analysis\nDescriptive: Document or quantify observed relationships between inputs and outputs.\n\nDoes not not necessarily tell us about the true DGP.\nCan often inspire questions for further research.\n\n\nCausal: Learn about causal relationships.\n\nTry to understand how the box works (the true DGP)\nWhen you change one factor, how does it change the result?\n\n\n\nPredictive: Be able to guess the value of one variable from other information\n\nDGP doesn’t matter, create your own box..\nHelps us know what’s likely to happen in a new situation."
   },
   {
-    "objectID": "slides/lec-05_model_structure.notes.html#difference-of-focus",
-    "href": "slides/lec-05_model_structure.notes.html#difference-of-focus",
+    "objectID": "slides/lec-05_model_structure.slides.html#difference-of-focus",
+    "href": "slides/lec-05_model_structure.slides.html#difference-of-focus",
     "title": "How do we build a model?",
     "section": "Difference of Focus",
     "text": "Difference of Focus\nDescription:\n\nFocus on showing relationships among a few variables.\nGive up goal of correctly modeling the true DGP\n\n\nPrediction:\n\nFocus on predicting given observed data by any possible means.\nGive up goal of correctly modeling the true DGP\n\n\n\nCausal inference:\n\nFocus on determining the true direct effect of a treatment variable\nGive up goal of understanding causal effects of any other factors"
   },
   {
-    "objectID": "slides/lec-05_model_structure.notes.html#impact-of-selection-bias",
-    "href": "slides/lec-05_model_structure.notes.html#impact-of-selection-bias",
+    "objectID": "slides/lec-05_model_structure.slides.html#impact-of-selection-bias",
+    "href": "slides/lec-05_model_structure.slides.html#impact-of-selection-bias",
     "title": "How do we build a model?",
     "section": "Impact of selection bias",
     "text": "Impact of selection bias\nDescription\n\nNO. Only want to infer patterns from observed data.\n\nWhen there are a lot of people wearing shorts, there often is an ice cream truck\n\nPrediction:\n\nNO. Only want to infer patterns from observed data.\n\nGiven how many people are wearing shorts, will an ice cream truck show up?\n\n\nCausal inference:\n\nYES. Want to infer the result of active intervention. Must eliminate selection bias to estimate the treatment effect.\n\nIf someone chooses to wear shorts, will it make an ice cream truck show up?"
   },
   {
-    "objectID": "slides/lec-05_model_structure.notes.html#difference-interpretation-of-βn",
-    "href": "slides/lec-05_model_structure.notes.html#difference-interpretation-of-βn",
+    "objectID": "slides/lec-05_model_structure.slides.html#difference-interpretation-of-βn",
+    "href": "slides/lec-05_model_structure.slides.html#difference-interpretation-of-βn",
     "title": "How do we build a model?",
     "section": "Difference Interpretation of βn",
     "text": "Difference Interpretation of βn\nDescription:\n\nβn represents an association between \\(X_{n_i}\\) and Yi.\nOnly a statement about the data, not about the reasons behind the pattern.\n\n\nPrediction: Model does not need to be interpretable.\n\nCoefficients βn are informative only of predictive power, not causal effects.\nModel can be treated as a black box.\n\n\n\nCausal inference:\n\nβ1 is a causal effect of x1 under stated assumptions (of the identification strategy).\nMany coefficients generally lack interpretability."
   },
   {
-    "objectID": "slides/lec-05_model_structure.notes.html#consequences-1",
-    "href": "slides/lec-05_model_structure.notes.html#consequences-1",
+    "objectID": "slides/lec-05_model_structure.slides.html#consequences-1",
+    "href": "slides/lec-05_model_structure.slides.html#consequences-1",
     "title": "How do we build a model?",
     "section": "Consequences",
     "text": "Consequences\nDiscerning which type of goal you have is critical for:\n\nInterpreting results: Mistaking one goal for another can lead your audience to make very bad decisions.\nChoosing methods: Distinct approaches are required to achieve different goals."
   },
   {
-    "objectID": "slides/lec-05_model_structure.notes.html#consequences-for-models",
-    "href": "slides/lec-05_model_structure.notes.html#consequences-for-models",
+    "objectID": "slides/lec-05_model_structure.slides.html#consequences-for-models",
+    "href": "slides/lec-05_model_structure.slides.html#consequences-for-models",
     "title": "How do we build a model?",
     "section": "Consequences for models",
     "text": "Consequences for models\n\nModels for prediction and causal inference differ with respect to the following:\n\nThe covariates that should be considered for inclusion in (and possibly exclusion from) the model.\nHow a suitable set of covariates to include in the model is determined.\nWhich covariates are ultimately selected, and what functional form (i.e. parameterization) they take.\nHow the model is evaluated.\nHow the model is interpreted."
   },
   {
-    "objectID": "slides/lec-05_model_structure.notes.html#consequences-for-methods",
-    "href": "slides/lec-05_model_structure.notes.html#consequences-for-methods",
+    "objectID": "slides/lec-05_model_structure.slides.html#consequences-for-methods",
+    "href": "slides/lec-05_model_structure.slides.html#consequences-for-methods",
     "title": "How do we build a model?",
     "section": "Consequences for methods ?",
     "text": "Consequences for methods ?\nWhat methods should we use for each goal?\n\nDescriptive analysis\n\nExploratory analysis and regression.\n\n\n\n\nCausal inference\n\nPath analysis\nStructural equation modelling\nGraph theory\n\n\n\n\n\nPrediction\n\nStatistical learning / machine learning.\nAIC and any kind of model selection"
   },
   {
-    "objectID": "slides/lec-05_model_structure.notes.html#confounder",
-    "href": "slides/lec-05_model_structure.notes.html#confounder",
+    "objectID": "slides/lec-05_model_structure.slides.html#confounder",
+    "href": "slides/lec-05_model_structure.slides.html#confounder",
     "title": "How do we build a model?",
     "section": "Confounder",
     "text": "Confounder\n\nRelationAdjusted"
   },
   {
-    "objectID": "slides/lec-05_model_structure.notes.html#mediator",
-    "href": "slides/lec-05_model_structure.notes.html#mediator",
+    "objectID": "slides/lec-05_model_structure.slides.html#mediator",
+    "href": "slides/lec-05_model_structure.slides.html#mediator",
     "title": "How do we build a model?",
     "section": "Mediator",
     "text": "Mediator\n\nRelationAdjusted"
   },
   {
-    "objectID": "slides/lec-05_model_structure.notes.html#collider",
-    "href": "slides/lec-05_model_structure.notes.html#collider",
+    "objectID": "slides/lec-05_model_structure.slides.html#collider",
+    "href": "slides/lec-05_model_structure.slides.html#collider",
     "title": "How do we build a model?",
     "section": "Collider",
     "text": "Collider\n\nRelationAdjusted"
   },
   {
-    "objectID": "slides/lec-05_model_structure.notes.html#m-bias",
-    "href": "slides/lec-05_model_structure.notes.html#m-bias",
+    "objectID": "slides/lec-05_model_structure.slides.html#m-bias",
+    "href": "slides/lec-05_model_structure.slides.html#m-bias",
     "title": "How do we build a model?",
     "section": "M-bias",
     "text": "M-bias\n\nRelationAdjusted"
   },
   {
-    "objectID": "slides/lec-05_model_structure.notes.html#butterfly-bias",
-    "href": "slides/lec-05_model_structure.notes.html#butterfly-bias",
+    "objectID": "slides/lec-05_model_structure.slides.html#butterfly-bias",
+    "href": "slides/lec-05_model_structure.slides.html#butterfly-bias",
     "title": "How do we build a model?",
     "section": "Butterfly bias",
     "text": "Butterfly bias\n\nRelation{a, m}{b, m}{a, b, m}"
   },
   {
-    "objectID": "slides/lec-05_model_structure.notes.html#selection-bias",
-    "href": "slides/lec-05_model_structure.notes.html#selection-bias",
+    "objectID": "slides/lec-05_model_structure.slides.html#selection-bias",
+    "href": "slides/lec-05_model_structure.slides.html#selection-bias",
     "title": "How do we build a model?",
     "section": "Selection bias",
     "text": "Selection bias\n\nCaseControlled"
   },
   {
-    "objectID": "slides/lec-05_model_structure.notes.html#more-complexity",
-    "href": "slides/lec-05_model_structure.notes.html#more-complexity",
+    "objectID": "slides/lec-05_model_structure.slides.html#more-complexity",
+    "href": "slides/lec-05_model_structure.slides.html#more-complexity",
     "title": "How do we build a model?",
     "section": "More complexity",
     "text": "More complexity\n\nCodePlot\n\n\n\nmy_dag &lt;- dagify(y ~ x + a + b,\n  x ~ a + b,\n  a ~ d,\n  exposure = \"x\",\n  outcome = \"y\"\n)\nmy_dag %&gt;%\n  ggplot(aes(x = x, y = y, xend = xend, yend = yend)) +\n  geom_dag_point() +\n  geom_dag_edges(edge_width = 2) +\n  geom_dag_text(size = 50) +\n  theme_dag()"

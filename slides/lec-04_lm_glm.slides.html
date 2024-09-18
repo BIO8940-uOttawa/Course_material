@@ -7,12 +7,12 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.5.57">
+<link href="../site_libs/quarto-html/quarto-html-68b329da9893e34099c7d8ad5cb9c940.min.css" rel="stylesheet" append-hash="true" data-mode="light">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-79bb3942e891885f9f7af119cd221462.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.6.9">
 
   <meta name="author" content="Julien Martin">
-  <meta name="dcterms.date" content="2024-09-06">
+  <meta name="dcterms.date" content="2024-09-17">
   <title>Bio8940 – Linear models and generalized linear models</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -97,7 +97,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-2e34f1876057a9fdd171e1a563180e8c.css">
   <link rel="stylesheet" href="assets/theme_chalk/whiteboard-blue.css">
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-6LLMGL3T2Q"></script>
 
@@ -419,7 +419,7 @@ Julien Martin
     </div>
 </div>
 
-  <p class="date">2024-09-06</p>
+  <p class="date">2024-09-17</p>
 </section>
 <section>
 <section id="linear-models" class="title-slide slide level1 center">
@@ -554,7 +554,7 @@ ln(L(parameters | data)) = \sum_{i=1}^{n} ln(f(data_i | parameters))
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="lec-04_lm_glm_files/figure-revealjs/plot1-1.png" class="quarto-figure quarto-figure-center" width="3600"></p>
+<p><img data-src="lec-04_lm_glm_files/figure-html/plot1-1.png" class="quarto-figure quarto-figure-center" width="3600"></p>
 </figure>
 </div>
 </div>
@@ -596,7 +596,7 @@ ln(L(parameters | data)) = \sum_{i=1}^{n} ln(f(data_i | parameters))
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="lec-04_lm_glm_files/figure-revealjs/l10-1.png" class="quarto-figure quarto-figure-center" width="3600"></p>
+<p><img data-src="lec-04_lm_glm_files/figure-html/l10-1.png" class="quarto-figure quarto-figure-center" width="3600"></p>
 </figure>
 </div>
 </div>
@@ -660,14 +660,14 @@ Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
 <span id="cb11-2"><a></a><span class="fu">plot</span>(m1)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="lec-04_lm_glm_files/figure-revealjs/unnamed-chunk-10-1.png" class="quarto-figure quarto-figure-center r-stretch" width="3600"></section>
+<img data-src="lec-04_lm_glm_files/figure-html/unnamed-chunk-10-1.png" class="quarto-figure quarto-figure-center r-stretch" width="3600"></section>
 <section id="assumptions-nicer" class="slide level2">
 <h2>Assumptions (Nicer)</h2>
 <div class="cell" data-layout-align="center">
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a></a><span class="fu">check_model</span>(m1)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
-<img data-src="lec-04_lm_glm_files/figure-revealjs/unnamed-chunk-13-1.png" class="quarto-figure quarto-figure-center r-stretch" width="3600"></section>
+<img data-src="lec-04_lm_glm_files/figure-html/unnamed-chunk-13-1.png" class="quarto-figure quarto-figure-center r-stretch" width="3600"></section>
 <section id="formal-tests" class="slide level2">
 <h2>Formal tests</h2>
 <h3 id="normality-of-residuals">Normality of residuals</h3>
@@ -875,7 +875,7 @@ g(\eta) = ln(\mu) \\
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="lec-04_lm_glm_files/figure-revealjs/f_plot-1.png" class="quarto-figure quarto-figure-center" width="3600"></p>
+<p><img data-src="lec-04_lm_glm_files/figure-html/f_plot-1.png" class="quarto-figure quarto-figure-center" width="3600"></p>
 </figure>
 </div>
 </div>
@@ -919,7 +919,7 @@ Number of Fisher Scoring iterations: 4</code></pre>
 <span id="cb23-2"><a></a><span class="fu">plot</span>(simulationOutput)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="lec-04_lm_glm_files/figure-revealjs/unnamed-chunk-21-1.png" class="quarto-figure quarto-figure-center r-stretch" width="3600"></section>
+<img data-src="lec-04_lm_glm_files/figure-html/unnamed-chunk-21-1.png" class="quarto-figure quarto-figure-center r-stretch" width="3600"></section>
 <section id="plotting-predictions-latent-scale" class="slide level2">
 <h2>Plotting predictions (latent scale)</h2>
 <p>plotting the model prediction on the link (latent) scale</p>
@@ -934,7 +934,7 @@ Number of Fisher Scoring iterations: 4</code></pre>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="lec-04_lm_glm_files/figure-revealjs/unnamed-chunk-22-1.png" class="quarto-figure quarto-figure-center" width="3600"></p>
+<p><img data-src="lec-04_lm_glm_files/figure-html/unnamed-chunk-22-1.png" class="quarto-figure quarto-figure-center" width="3600"></p>
 </figure>
 </div>
 </div>
@@ -953,7 +953,7 @@ Number of Fisher Scoring iterations: 4</code></pre>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="lec-04_lm_glm_files/figure-revealjs/unnamed-chunk-23-1.png" class="quarto-figure quarto-figure-center" width="3600"></p>
+<p><img data-src="lec-04_lm_glm_files/figure-html/unnamed-chunk-23-1.png" class="quarto-figure quarto-figure-center" width="3600"></p>
 </figure>
 </div>
 </div>
@@ -982,7 +982,7 @@ Number of Fisher Scoring iterations: 4</code></pre>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="lec-04_lm_glm_files/figure-revealjs/pred_glm-1.png" class="quarto-figure quarto-figure-center" width="3600"></p>
+<p><img data-src="lec-04_lm_glm_files/figure-html/pred_glm-1.png" class="quarto-figure quarto-figure-center" width="3600"></p>
 </figure>
 </div>
 </div>
@@ -1009,7 +1009,7 @@ Number of Fisher Scoring iterations: 4</code></pre>
 <div class="sourceCode cell-code" id="cb28"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a></a><span class="fu">check_model</span>(m2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
-<img data-src="lec-04_lm_glm_files/figure-revealjs/unnamed-chunk-29-1.png" class="quarto-figure quarto-figure-center r-stretch" width="3600"></section>
+<img data-src="lec-04_lm_glm_files/figure-html/unnamed-chunk-29-1.png" class="quarto-figure quarto-figure-center r-stretch" width="3600"></section>
 <section id="with-dharma" class="slide level2">
 <h2>with DHaRMA</h2>
 <div class="cell" data-layout-align="center">
@@ -1017,7 +1017,7 @@ Number of Fisher Scoring iterations: 4</code></pre>
 <span id="cb29-2"><a></a><span class="fu">plot</span>(simulationOutput)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="lec-04_lm_glm_files/figure-revealjs/unnamed-chunk-30-1.png" class="quarto-figure quarto-figure-center r-stretch" width="3600"></section></section>
+<img data-src="lec-04_lm_glm_files/figure-html/unnamed-chunk-30-1.png" class="quarto-figure quarto-figure-center r-stretch" width="3600"></section></section>
 <section>
 <section id="poisson-regression-1" class="title-slide slide level1 center">
 <h1>Poisson regression</h1>
@@ -1040,21 +1040,21 @@ Number of Fisher Scoring iterations: 4</code></pre>
 <span id="cb30-2"><a></a><span class="fu">plot</span>(Species <span class="sc">~</span> Area, gala)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="lec-04_lm_glm_files/figure-revealjs/unnamed-chunk-31-1.png" class="quarto-figure quarto-figure-center r-stretch" width="3600"></section>
+<img data-src="lec-04_lm_glm_files/figure-html/unnamed-chunk-31-1.png" class="quarto-figure quarto-figure-center r-stretch" width="3600"></section>
 <section class="slide level2">
 
 <div class="cell" data-layout-align="center">
 <div class="sourceCode cell-code" id="cb31"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a></a><span class="fu">plot</span>(Species <span class="sc">~</span> <span class="fu">log</span>(Area), gala)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="lec-04_lm_glm_files/figure-revealjs/unnamed-chunk-32-1.png" class="quarto-figure quarto-figure-center r-stretch" width="3600"></section>
+<img data-src="lec-04_lm_glm_files/figure-html/unnamed-chunk-32-1.png" class="quarto-figure quarto-figure-center r-stretch" width="3600"></section>
 <section class="slide level2">
 
 <div class="cell" data-layout-align="center">
 <div class="sourceCode cell-code" id="cb32"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a></a><span class="fu">hist</span>(gala<span class="sc">$</span>Species)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="lec-04_lm_glm_files/figure-revealjs/unnamed-chunk-33-1.png" class="quarto-figure quarto-figure-center r-stretch" width="3600"></section>
+<img data-src="lec-04_lm_glm_files/figure-html/unnamed-chunk-33-1.png" class="quarto-figure quarto-figure-center r-stretch" width="3600"></section>
 <section class="slide level2">
 
 <div class="cell" data-layout-align="center">
@@ -1101,7 +1101,7 @@ dispersion = 110.32, p-value &lt; 2.2e-16
 alternative hypothesis: two.sided</code></pre>
 </div>
 </div>
-<img data-src="lec-04_lm_glm_files/figure-revealjs/unnamed-chunk-35-1.png" class="quarto-figure quarto-figure-center r-stretch" width="3600"></section>
+<img data-src="lec-04_lm_glm_files/figure-html/unnamed-chunk-35-1.png" class="quarto-figure quarto-figure-center r-stretch" width="3600"></section>
 <section class="slide level2">
 
 <div class="cell" data-layout-align="center">
@@ -1114,7 +1114,7 @@ alternative hypothesis: two.sided</code></pre>
 <span id="cb39-3"><a></a><span class="fu">hist</span>(<span class="fu">rpois</span>(<span class="fu">nrow</span>(gala), <span class="fu">mean</span>(gala<span class="sc">$</span>Species)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="lec-04_lm_glm_files/figure-revealjs/unnamed-chunk-36-1.png" class="quarto-figure quarto-figure-center r-stretch" width="3600"></section>
+<img data-src="lec-04_lm_glm_files/figure-html/unnamed-chunk-36-1.png" class="quarto-figure quarto-figure-center r-stretch" width="3600"></section>
 <section class="slide level2">
 
 <div class="cell" data-layout-align="center">
@@ -1130,7 +1130,7 @@ ratioObsSim = NaN, p-value = 1
 alternative hypothesis: two.sided</code></pre>
 </div>
 </div>
-<img data-src="lec-04_lm_glm_files/figure-revealjs/unnamed-chunk-37-1.png" class="quarto-figure quarto-figure-center r-stretch" width="3600"></section>
+<img data-src="lec-04_lm_glm_files/figure-html/unnamed-chunk-37-1.png" class="quarto-figure quarto-figure-center r-stretch" width="3600"></section>
 <section class="slide level2">
 
 <div class="cell" data-layout-align="center">
@@ -1138,7 +1138,7 @@ alternative hypothesis: two.sided</code></pre>
 <span id="cb42-2"><a></a><span class="fu">plot</span>(modpl)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="lec-04_lm_glm_files/figure-revealjs/unnamed-chunk-38-1.png" class="quarto-figure quarto-figure-center r-stretch" width="3600"></section></section>
+<img data-src="lec-04_lm_glm_files/figure-html/unnamed-chunk-38-1.png" class="quarto-figure quarto-figure-center r-stretch" width="3600"></section></section>
 <section id="happy-coding" class="title-slide slide level1 center">
 <h1>Happy coding</h1>
 
@@ -1361,44 +1361,6 @@ alternative hypothesis: two.sided</code></pre>
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
