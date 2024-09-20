@@ -51,7 +51,7 @@ Les objectifs du cours sont:
 <!--   * Gather: https://gather.town/app/MCa0j7kcdaCNSCvS/AdvStatOpenSci
   * Zoom: https://uottawa-ca.zoom.us/j/93306840602?pwd=bWNsR3AzQ25VQXJOWCszNmh6RWI1UT09 -->
 * Info sur le cours: <https://biostats-uottawa.github.io/bio8940/>
-* Manuel labo: <https://biostats-uottawa.github.io/R/fr/>
+* Manuel labo: <https://biostats-uottawa.github.io/enfR>
 
 
 
