@@ -2,7 +2,7 @@
 title: "Writing dynamic and reproducible documents"
 subtitle: "An introduction to R Markdown / Quarto"
 author: Julien Martin
-institute:  BIO 8940 - Lecture 2
+institute:  BIO 8940
 date: today
 from: markdown+emoji
 format:
@@ -14,7 +14,7 @@ format:
     css: [assets/theme_chalk/whiteboard-blue.css]
 #    output-location: column-fragment
 #    logo: assets/MAD_logo_small_rb.png
-    footer: BIO 8940 - Lecture 2
+    footer: BIO 8940
     show-notes: false
     mermaid-format: svg
     mermaid:

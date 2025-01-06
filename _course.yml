@@ -1,12 +1,12 @@
-date_start: "2024-01-09"
-date_read: "2024-02-18"
+date_start: "2025-01-07"
+date_read: "2025-02-16"
 
 schedule:
   - week: 1
     topic: "Introduction"
     topic_fr: "Introduction"
     reading: "@smaldino_natural_2016"
-  - week: 2
+  - week: 4
     topic: "Introduction to Quarto"
     topic_fr: "Introduction  à Quarto"
     reading: "@alston2021"
@@ -17,8 +17,7 @@ schedule:
 #    tools: " "
 #    assessment: "Assessment 2 **due Fri 6 Oct 11:55 PM**"
     reading: "@ivimey-cook_implementing_2023"
-  - week: 4
-#    tools: "`rmarkdown`, `distill`, git & github"
+  - week: 2
     topic: "Generalized linear models (and revision of linear models)"
     topic_fr: "Modèles linéaires généralisés (et révisions modèles linéaires)"
     reading: "@zuur_protocol_2010"
@@ -74,7 +73,7 @@ timetable:
   - class: Lecture
     day: Tuesdays
     when: 1430-1720
-    where: CRX-C323
+    where: VNR-1050
 #  - class: "Practical"
 #    when: Tuesdays 1430-1720
 #    where: CRX-C323
@@ -83,4 +82,4 @@ timetable_fr:
   - class: Cours
     day: Mardis
     when: 1430-1720
-    where: CRX-C323
+    where: VNR-1050

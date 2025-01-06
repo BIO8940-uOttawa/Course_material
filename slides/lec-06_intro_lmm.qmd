@@ -2,7 +2,7 @@
 title: "Introduction to linear mixed models?"
 subtitle: Harnessing random effects
 author: Julien Martin
-institute:  BIO 8940 - Lecture 6
+institute:  BIO 8940
 date: today
 from: markdown+emoji
 format:
@@ -14,7 +14,7 @@ format:
     css: [assets/theme_chalk/whiteboard-blue.css]
 #    output-location: column-fragment
 #    logo: assets/MAD_logo_small_rb.png
-    footer: BIO 8940 - Lecture 6
+    footer: BIO 8940
     show-notes: false
     output-ext: slides.html
   html:

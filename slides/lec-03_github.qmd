@@ -2,7 +2,7 @@
 title: "Introduction to Git and GitHub"
 subtitle: "with RStudio"
 author: Julien Martin
-institute:  BIO 8940 - Lecture 3
+institute:  BIO 8940
 date: today
 from: markdown+emoji
 format:
@@ -14,7 +14,7 @@ format:
     css: [assets/theme_chalk/whiteboard-blue.css]
 #    output-location: column-fragment
 #    logo: assets/MAD_logo_small_rb.png
-    footer: BIO 8940 - Lecture 3
+    footer: BIO 8940
     show-notes: false
     mermaid-format: svg
     mermaid:
@@ -38,6 +38,7 @@ editor:
 ---
 
 ## Learning expectations
+
 ```{r}
 #| label: setup
 #| include: false
@@ -71,7 +72,9 @@ This won't even touch the surface of git... But! Hopefully, you:
 - Where to go for help
 
 ::: aside
+
 Credit: I borrowed slides from [Olivier Gimenez](https://oliviergimenez.github.io)
+
 :::
 
 ## Getting started
@@ -114,9 +117,10 @@ library(usethis)
 
 [Use RStudio projects to keep materials associated with a particular analysis together]{.emph}
 
-:::: {.columns}
+::: {.columns}
 
-::: {.column}
+:::: {.column}
+
 - **Self contained** and **portable**
 
 - **Working directory set to root** of project on launch
@@ -124,16 +128,18 @@ library(usethis)
 - **Fresh session** everytime the project is launched
 
 See Jenny Bryan's post on [**project oriented workflows**](https://www.tidyverse.org/articles/2017/12/workflow-vs-script/) for more details
-:::
 
-::: {.column}
+::::
+
+:::: {.column}
 
 **File > New Project > New Directory**
 
 ![](assets/img_l3/new_project.png){fig-align="center"}
-:::
 
 ::::
+
+:::
 
 
 ## Alternatives to RStudio Projects
@@ -143,6 +149,7 @@ So You don't like `RStudio` `r emoji::emoji("broken_heart")`
 :::: {.columns}
 
 ::: {.column}
+
 Essentially a **Rstudio Project**:
 
 - organise all the files within a given project folder
@@ -150,10 +157,13 @@ Essentially a **Rstudio Project**:
 - set project folder as *working directory*
 
 - ensure a fresh, clean session
+
 :::
 
 ::: {.column}
+
 **simply, do the same without using RStudio `r emoji::emoji("star_struck")`**
+
 :::
 
 ::::
@@ -193,7 +203,9 @@ For more details got to <https://git-scm.com/downloads>
 **Before** git only through the terminal `r emoji::emoji("cry")`
 
 ::: {.content-visible when-format="revealjs"}
+
 . . .
+
 :::
 
 **Now** git can be used via multiple user-friendly interfaces
@@ -202,7 +214,9 @@ RStudio + `usethis` `r emoji::emoji("package")` + `gitcreds` `r emoji::emoji("pa
 `r emoji::emoji("heart")` `Git` & `GitHub` `r emoji::emoji("star_struck")`
 
 ::: {.content-visible when-format="revealjs"}
+
 . . .
+
 :::
 
 But When using VS Code
@@ -256,7 +270,9 @@ Provide your github PAT token in the window
 ![](assets/img_l3/credentials.png){fig-align="center"}
 
 ::: {.content-visible when-format="revealjs"}
+
 . . .
+
 :::
 
 Restart RStudio and R
@@ -270,12 +286,15 @@ Restart RStudio and R
 1. create R project
 
 2. initialise it for git
+
 ```{r, eval = FALSE, echo = TRUE}
 usethis::use_git()
 ```
+
 3. Accept the commit and restart R
 
 4. In R, to create github repo and link it
+
 ```{r, eval = FALSE, echo = TRUE}
 usethis::use_github()
 usethis::git_vaccinate()
@@ -294,6 +313,7 @@ usethis::git_vaccinate()
 2. add at least one file in it (suggest README.md)
 
 3. using terminal/shell
+
 ```{bash, eval = FALSE, echo = TRUE}
 git init
 git add .
@@ -301,6 +321,7 @@ git commit -a -m "first commit"
 ```
 
 4. In R, to create github repo and link it
+
 ```{r, eval = FALSE, echo = TRUE}
 usethis::use_github()
 usethis::git_vaccinate()
@@ -319,6 +340,7 @@ usethis::git_vaccinate()
 2. Set R working directory where you want to save your project
 
 3. To clone (and link) github repo to your computer
+
 ```{r, eval = FALSE, echo = TRUE}
 usethis::create_from_github(
   "https://github.com/your_github/your_repo.git",
@@ -345,7 +367,9 @@ usethis::create_from_github(
 * **pull** get commits from a remote
 
 ::: {.content-visible when-format="revealjs"}
+
 . . .
+
 :::
 
 * **clone** get the repository from the remote for the first time
@@ -358,22 +382,26 @@ usethis::create_from_github(
 
 ## Git RStudio workflow
 
-:::: {.columns}
+::: {.columns}
 
-::: {.column}
+:::: {.column}
+
 [1.view file status]{.large}
 ![](assets/img_l3/git_view.png){fig-align="center"}
 
 [2.stage files]{.large}
 ![](assets/img_l3/git_add.png){fig-align="center"}
-:::
-
-::: {.column}
-[3.commit changes]{.large}
-![](assets/img_l3/git_commit.png){fig-align="center"}
-:::
 
 ::::
+
+:::: {.column}
+
+[3.commit changes]{.large}
+![](assets/img_l3/git_commit.png){fig-align="center"}
+
+::::
+
+:::
 
 ## Share on GitHub
 
@@ -399,7 +427,9 @@ usethis::use_github(protocol = "https")
   - `usethis::use_readme_rmd()`
 
 ::: {.content-visible when-format="revealjs"}
+
 . . .
+
 :::
 
 - **`LICENSE`**. Without a licence, the contents of the repository are technically closed.
@@ -408,7 +438,9 @@ usethis::use_github(protocol = "https")
   - [https://choosealicense.com/](https://choosealicense.com/) help on choosing a licence.
 
 ::: {.content-visible when-format="revealjs"}
+
 . . .
+
 :::
 
 - **`CONTRIBUTING.md`** - guidelines for contributors.
@@ -416,7 +448,9 @@ usethis::use_github(protocol = "https")
 
 
 ::: {.content-visible when-format="revealjs"}
+
 . . .
+
 :::
 
 - **`CODE_OF_CONDUCT.md`** set the tone for discourse between contributors.
@@ -443,8 +477,10 @@ usethis::use_github(protocol = "https")
 
 
 ::: {.emph .center}
+
 one more time just in case
 **Dropbox** is **NOT** a backup
+
 :::
 
 ## Branching and merging
@@ -455,14 +491,17 @@ one more time just in case
 
 ## Branching and merging
 
-:::: {.columns}
+::: {.columns}
 
-::: {.column}
+:::: {.column}
+
 #### Branching in Rstudio
 ![](assets/img_l3/branching.png){fig-align="center"}
-:::
 
-::: {.column}
+::::
+
+:::: {.column}
+
 #### Pull request in Github
 
 When you want to merge branches:
@@ -473,9 +512,9 @@ When you want to merge branches:
 
 * then merge
 
-:::
-
 ::::
+
+:::
 
 ## Resources
 

@@ -2,7 +2,7 @@
 title: "Linear models and generalized linear models"
 subtitle: "in R"
 author: "Julien Martin"
-institute: BIO 8940 - Lecture 4
+institute: BIO 8940
 date: today
 format:
   revealjs: 
@@ -12,7 +12,7 @@ format:
     theme: [default]
     css: assets/theme_chalk/whiteboard-blue.css
 #    logo: assets/MAD_logo_small_rb.png
-    footer: BIO 8940 - Lecture 4
+    footer: BIO 8940
     show-notes: false
     output-ext: "slides.html"
   html:
@@ -30,6 +30,7 @@ editor:
 engine: knitr
 ---
 # Linear models
+
 ```{r}
 #| label: setup
 #| include: FALSE
@@ -212,6 +213,7 @@ library(tidyverse)
 ::: {.panel-tabset}
 
 ## R Code
+
 ```{r plot1, fig.show='hide'}
 ggplot(data = dat, aes(x = age, y = fklngth)) +
   facet_grid(. ~ locate) +
@@ -228,6 +230,7 @@ ggplot(data = dat, aes(x = age, y = fklngth)) +
 ## Plot
 ```{r plot1, echo=FALSE, fig.show='show'}
 ```
+
 :::
 
 
@@ -248,6 +251,7 @@ dat <- dat %>%
 ::: {.panel-tabset}
 
 ## Code
+
 ```{r}
 #| label: l10
 #| eval: false
@@ -263,10 +267,12 @@ ggplot(data = dat, aes(x = lage, y = lfkl)) +
 ```
 
 ## Plot
+
 ```{r}
 #| label: l10
 #| echo: false
 ```
+
 :::
 
 
@@ -282,6 +288,7 @@ summary(m1)
 
 
 ## Anova for factors
+
 ```{r}
 Anova(m1, type = 3)
 ```
@@ -518,6 +525,7 @@ mouflon <- mouflon0 %>%
 ## First plot
 
 ::: {.panel-tabset}
+
 ## Code
 ```{r}
 #| label: f_plot
@@ -563,6 +571,7 @@ plot(simulationOutput)
 ## Plotting predictions (latent scale)
 
 plotting the model prediction on the link (latent) scale
+
 ```{r}
 #| output-location: slide
 mouflon$logit_ypred <- 3.19921 - 0.36685 * mouflon$age
@@ -586,6 +595,7 @@ ggplot(mouflon, aes(x = age, y = reproduction)) +
 ## Plotting predictions (obs scale)
 
 ::: {.panel-tabset}
+
 ## Code
 
 but it can be much simpler
@@ -606,10 +616,12 @@ ggplot(mouflon, aes(x = age, y = reproduction)) +
 ```
 
 ## Plot
+
 ```{r}
 #| label: pred_glm
 #| echo: false
 ```
+
 :::
 
 
@@ -640,6 +652,7 @@ check_model(m2)
 pp <- check_model_w(m2)
 p <- plot(pp)
 ```
+
 ```{r}
 #| echo: false
 #| purl: false
