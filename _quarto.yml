@@ -9,6 +9,7 @@ project:
     - "data/"
 execute:
   freeze: auto
+#  keep-md: true
 website:
   google-analytics: G-6LLMGL3T2Q
   title: "Bio8940"

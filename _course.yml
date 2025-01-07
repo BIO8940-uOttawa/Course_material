@@ -22,31 +22,34 @@ schedule:
     topic_fr: "Modèles linéaires généralisés (et révisions modèles linéaires)"
     reading: "@zuur_protocol_2010"
   - week: 5
+    topic: workshop in Germany, no classes
+    topic_fr: atelier en Allemagne, pas de cours
+  - week: 6
     topic: Causal structure and model building
     topic_fr: Structure causale et construction de modèle
     reading: "@cinelli_crash_2022, \n @wysocki_statistical_2022"
-  - week: 6
+  - week: 7
     topic: Introduction to mixed-models
     topic_fr: Introduction aux modèles mixtes
     reading: "@harrison_brief_2018"
-  - week: 7
+  - week: 8
     topic: Introduction to Bayesian analysis
     topic_fr: Intro analyse Bayesienne
     reading: "@kruschke_bayesian_2018"
-  - week: 8
+  - week: 9
     topic: Generalised linear mixed models
     topic_fr: Modèles mixtes généralisés
     reading: "@bolker_generalized_2009"
-  - week: 9
+  - week: 10
     topic: Discussion on data and plans for written reports 
     topic_fr: Discussion sur les plans pour les projets écrits 
     reading: "@wasserstein_asa_2016"
-  - week: 10
+  - week: 11
     topic: Multivariate mixed models
     topic_fr: Modèles mixtes multivariés
     reading: "@vandepol2009"
-  - week: 11
-    reading: "@schielzeth2009"
+# - week: 12
+#   reading: "@schielzeth2009"
 #    lecturer: Kate
 #    topic: Guest lecture
 #    tools: " "

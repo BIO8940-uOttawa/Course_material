@@ -9,6 +9,7 @@ title: Lectures
 #| include: false
 knitr::opts_chunk$set(echo = FALSE)
 library(gt)
+library(tidyr)
 library(lubridate)
 source("../_yaml_extract.R")
 dat <- read_yaml("../_course.yml")
@@ -38,32 +39,37 @@ schedule <- schedule_df %>%
       )
     ),
     lecture_file = ifelse(!is.na(qmd_file),
-      gsub("qmd","slides.html", qmd_file),
+      gsub("qmd", "slides.html", qmd_file),
       NA
     ),
     notes_file = ifelse(!is.na(qmd_file),
-      gsub("qmd","notes.html", qmd_file),
+      gsub("qmd", "notes.html", qmd_file),
       NA
-    ),,
+    ), ,
     lecture = !is.na(lecture_file)
   ) %>%
   ungroup() %>%
+  arrange(week) %>%
   mutate(
     Slides = case_when(
-      lecture ~ glue("<a class='fa fa-display' href='{lecture_file}' target='_blank'></a> <a class='fa fa-note-sticky' href='{notes_file}' target='_blank'></a>"),
-      TRUE ~ " "
+     lecture == TRUE ~ glue("<a class='fa fa-display' href='{lecture_file}' target='_blank'></a> <a class='fa fa-note-sticky' href='{notes_file}' target='_blank'></a>"),
+     TRUE ~ NA_character_
     ),
-    Topic = ifelse(is.na(topic), " ", topic),
-#    Assessment = ifelse(is.na(assessment), " ", assessment),
-    Reading = ifelse(is.na(reading), " ", reading),
-    Date = as.Date(ifelse(
-      (ymd(dat$date_start) + weeks(week - 1)) > ymd(dat$date_read),
-      ymd(dat$date_start) + weeks(week),
-      ymd(dat$date_start) + weeks(week - 1)
-    ))
+    Topic = topic,
+    #    Assessment = ifelse(is.na(assessment), " ", assessment),
+    Reading = reading,
+    Date =  as.Date(ifelse(
+     (ymd(dat$date_start) + weeks(week - 1)) > ymd(dat$date_read),
+     ymd(dat$date_start) + weeks(week),
+     ymd(dat$date_start) + weeks(week - 1)
+     ))
   ) %>%
-  select(Date, Topic, Slides, Reading)#, Assessment)
+  replace_na(list(Topic = "",  Reading = "none")) %>%
 
+  select(Date, Topic, Slides, Reading) # , Assessment)
+```
+
+```{r}
 midsem_break <- 6 # after which week
 
 read_week <- paste0()
