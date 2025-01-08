@@ -1348,21 +1348,21 @@
     "href": "slides/lec-02_lm_glm.slides.html#linear-regression",
     "title": "Linear models and generalized linear models",
     "section": "Linear regression",
-    "text": "Linear regression\n\nY: continuous\nResponse distribution: Gaussian\nLink function: identity\n\n\\[\ng(\\eta) = \\mu \\\\\n\\mu(X_1, ...,X_k) = \\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k\n\\]"
+    "text": "Linear regression\n\nY: continuous, response distribution: Gaussian\n\n\\[\nY \\sim \\mathcal{N}(\\mu, \\sigma^2_e)\n\\]\n\nlinear predictor\n\n\\[\n\\eta = \\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k\\\\\n\\]\n\nLink function: identity\n\n\\[\ng(\\eta) = \\mu \\\\\n\\mu = \\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k\n\\]"
   },
   {
     "objectID": "slides/lec-02_lm_glm.slides.html#logistic-regression",
     "href": "slides/lec-02_lm_glm.slides.html#logistic-regression",
     "title": "Linear models and generalized linear models",
     "section": "Logistic regression",
-    "text": "Logistic regression\n\nY: binary or proportion\nResponse distribution: Binomial or bernoulli\nLink function: logit\n\n\\[\ng(\\eta) = ln\\left(\\frac{\\mu}{1-\\mu}\\right) \\\\\n\\mu(X_1, ...,X_k) = \\frac{1}{1 + e^{-(\\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k)}}\n\\]"
+    "text": "Logistic regression\n\nY: binary or proportion, Response distribution: Binomial or Bernoulli\n\n\\[\nY \\sim Bernoulli(\\pi)\n\\]\n\nlinear predictor\n\n\\[\n\\eta = \\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k\\\\\n\\]\n\nLink function: logit\n\n\\[\ng(\\eta) = ln\\left(\\frac{\\pi}{1-\\pi}\\right) \\\\\n\\pi = \\frac{1}{1 + e^{-(\\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k)}}\n\\]"
   },
   {
     "objectID": "slides/lec-02_lm_glm.slides.html#poisson-regression",
     "href": "slides/lec-02_lm_glm.slides.html#poisson-regression",
     "title": "Linear models and generalized linear models",
     "section": "Poisson regression",
-    "text": "Poisson regression\n\nY: discrete variable (integers)\nResponse distribution: Poisson or Negative binomial\nLink function: natural logarithm\n\n\\[\ng(\\eta) = ln(\\mu) \\\\\n\\mu(X_1, ...,X_k) = e^{\\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k}\n\\]"
+    "text": "Poisson regression\n\nY: discrete variable (integers), Response distribution: Poisson or Negative binomial\n\n\\[\nY \\sim \\mathcal{P}(\\lambda)\n\\]\n\nlinear predictor\n\n\\[\n\\eta = \\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k\\\\\n\\]\n\nLink function: natural logarithm\n\n\\[\ng(\\eta) = ln(\\lambda) \\\\\n\\lambda = e^{\\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k}\n\\]"
   },
   {
     "objectID": "slides/lec-02_lm_glm.slides.html#model-assumptions",
@@ -1621,21 +1621,21 @@
     "href": "slides/lec-02_lm_glm.notes.html#linear-regression",
     "title": "Linear models and generalized linear models",
     "section": "\n2.4 Linear regression",
-    "text": "2.4 Linear regression\n\nY: continuous\nResponse distribution: Gaussian\nLink function: identity\n\n\\[\ng(\\eta) = \\mu \\\\\n\\mu(X_1, ...,X_k) = \\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k\n\\]"
+    "text": "2.4 Linear regression\n\nY: continuous, response distribution: Gaussian\n\n\\[\nY \\sim \\mathcal{N}(\\mu, \\sigma^2_e)\n\\]\n\nlinear predictor\n\n\\[\n\\eta = \\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k\\\\\n\\]\n\nLink function: identity\n\n\\[\ng(\\eta) = \\mu \\\\\n\\mu = \\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k\n\\]"
   },
   {
     "objectID": "slides/lec-02_lm_glm.notes.html#logistic-regression",
     "href": "slides/lec-02_lm_glm.notes.html#logistic-regression",
     "title": "Linear models and generalized linear models",
     "section": "\n2.5 Logistic regression",
-    "text": "2.5 Logistic regression\n\nY: binary or proportion\nResponse distribution: Binomial or bernoulli\nLink function: logit\n\n\\[\ng(\\eta) = ln\\left(\\frac{\\mu}{1-\\mu}\\right) \\\\\n\\mu(X_1, ...,X_k) = \\frac{1}{1 + e^{-(\\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k)}}\n\\]"
+    "text": "2.5 Logistic regression\n\nY: binary or proportion, Response distribution: Binomial or Bernoulli\n\n\\[\nY \\sim Bernoulli(\\pi)\n\\]\n\nlinear predictor\n\n\\[\n\\eta = \\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k\\\\\n\\]\n\nLink function: logit\n\n\\[\ng(\\eta) = ln\\left(\\frac{\\pi}{1-\\pi}\\right) \\\\\n\\pi = \\frac{1}{1 + e^{-(\\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k)}}\n\\]"
   },
   {
     "objectID": "slides/lec-02_lm_glm.notes.html#poisson-regression",
     "href": "slides/lec-02_lm_glm.notes.html#poisson-regression",
     "title": "Linear models and generalized linear models",
     "section": "\n2.6 Poisson regression",
-    "text": "2.6 Poisson regression\n\nY: discrete variable (integers)\nResponse distribution: Poisson or Negative binomial\nLink function: natural logarithm\n\n\\[\ng(\\eta) = ln(\\mu) \\\\\n\\mu(X_1, ...,X_k) = e^{\\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k}\n\\]"
+    "text": "2.6 Poisson regression\n\nY: discrete variable (integers), Response distribution: Poisson or Negative binomial\n\n\\[\nY \\sim \\mathcal{P}(\\lambda)\n\\]\n\nlinear predictor\n\n\\[\n\\eta = \\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k\\\\\n\\]\n\nLink function: natural logarithm\n\n\\[\ng(\\eta) = ln(\\lambda) \\\\\n\\lambda = e^{\\beta_0 + \\beta_1 X_1 + ... + \\beta_k X_k}\n\\]"
   },
   {
     "objectID": "slides/lec-02_lm_glm.notes.html#model-assumptions",

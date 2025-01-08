@@ -11,7 +11,7 @@
   <meta name="generator" content="quarto-1.7.4">
 
   <meta name="author" content="Julien Martin">
-  <meta name="dcterms.date" content="2025-01-06">
+  <meta name="dcterms.date" content="2025-01-08">
   <title>Bio8940 – Linear models and generalized linear models</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -220,7 +220,7 @@ Julien Martin
     </div>
 </div>
 
-  <p class="date">2025-01-06</p>
+  <p class="date">2025-01-08</p>
 </section>
 <section>
 <section id="linear-models" class="title-slide slide level1 center">
@@ -563,37 +563,67 @@ g(\eta) = log\left(\frac{\mu}{1-\mu}\right)
 <section id="linear-regression" class="slide level2">
 <h2>Linear regression</h2>
 <ul>
-<li><p>Y: continuous</p></li>
-<li><p>Response distribution: Gaussian</p></li>
-<li><p>Link function: identity</p></li>
+<li>Y: continuous, response distribution: Gaussian</li>
+</ul>
+<p><span class="math display">\[
+Y \sim \mathcal{N}(\mu, \sigma^2_e)
+\]</span></p>
+<ul>
+<li>linear predictor</li>
+</ul>
+<p><span class="math display">\[
+\eta = \beta_0 + \beta_1 X_1 + ... + \beta_k X_k\\
+\]</span></p>
+<ul>
+<li>Link function: identity</li>
 </ul>
 <p><span class="math display">\[
 g(\eta) = \mu \\
-\mu(X_1, ...,X_k) = \beta_0 + \beta_1 X_1 + ... + \beta_k X_k
+\mu = \beta_0 + \beta_1 X_1 + ... + \beta_k X_k
 \]</span></p>
 </section>
 <section id="logistic-regression" class="slide level2">
 <h2>Logistic regression</h2>
 <ul>
-<li><p>Y: binary or proportion</p></li>
-<li><p>Response distribution: Binomial or bernoulli</p></li>
-<li><p>Link function: logit</p></li>
+<li>Y: binary or proportion, Response distribution: Binomial or Bernoulli</li>
 </ul>
 <p><span class="math display">\[
-g(\eta) = ln\left(\frac{\mu}{1-\mu}\right) \\
-\mu(X_1, ...,X_k) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 X_1 + ... + \beta_k X_k)}}
+Y \sim Bernoulli(\pi)
+\]</span></p>
+<ul>
+<li>linear predictor</li>
+</ul>
+<p><span class="math display">\[
+\eta = \beta_0 + \beta_1 X_1 + ... + \beta_k X_k\\
+\]</span></p>
+<ul>
+<li>Link function: logit</li>
+</ul>
+<p><span class="math display">\[
+g(\eta) = ln\left(\frac{\pi}{1-\pi}\right) \\
+\pi = \frac{1}{1 + e^{-(\beta_0 + \beta_1 X_1 + ... + \beta_k X_k)}}
 \]</span></p>
 </section>
 <section id="poisson-regression" class="slide level2">
 <h2>Poisson regression</h2>
 <ul>
-<li><p>Y: discrete variable (integers)</p></li>
-<li><p>Response distribution: Poisson or Negative binomial</p></li>
-<li><p>Link function: natural logarithm</p></li>
+<li>Y: discrete variable (integers), Response distribution: Poisson or Negative binomial</li>
 </ul>
 <p><span class="math display">\[
-g(\eta) = ln(\mu) \\
-\mu(X_1, ...,X_k) = e^{\beta_0 + \beta_1 X_1 + ... + \beta_k X_k}
+Y \sim \mathcal{P}(\lambda)
+\]</span></p>
+<ul>
+<li>linear predictor</li>
+</ul>
+<p><span class="math display">\[
+\eta = \beta_0 + \beta_1 X_1 + ... + \beta_k X_k\\
+\]</span></p>
+<ul>
+<li>Link function: natural logarithm</li>
+</ul>
+<p><span class="math display">\[
+g(\eta) = ln(\lambda) \\
+\lambda = e^{\beta_0 + \beta_1 X_1 + ... + \beta_k X_k}
 \]</span></p>
 </section>
 <section id="model-assumptions" class="slide level2">
@@ -1288,7 +1318,7 @@ alternative hypothesis: two.sided</code></pre>
       }
         var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
         var mailtoRegex = new RegExp(/^mailto:/);
-          var filterRegex = new RegExp("https:\/\/Biostats-uOttawa\.github\.io\/bio8940\/");
+          var filterRegex = new RegExp('/' + window.location.host + '/');
         var isInternal = (href) => {
             return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
         }
