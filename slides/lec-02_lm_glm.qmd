@@ -415,45 +415,70 @@ $$
 
 ## Linear regression
 
-* Y: continuous
+* Y: continuous, response distribution: Gaussian
 
-* Response distribution: Gaussian
+$$
+Y \sim \mathcal{N}(\mu, \sigma^2_e)
+$$
+
+* linear predictor 
+
+$$
+\eta = \beta_0 + \beta_1 X_1 + ... + \beta_k X_k\\
+$$
 
 * Link function: identity
 
 $$
 g(\eta) = \mu \\
-\mu(X_1, ...,X_k) = \beta_0 + \beta_1 X_1 + ... + \beta_k X_k
+\mu = \beta_0 + \beta_1 X_1 + ... + \beta_k X_k
 $$
 
 
 
 ## Logistic regression
 
-* Y: binary or proportion
+* Y: binary or proportion, Response distribution: Binomial or Bernoulli
 
-* Response distribution: Binomial or bernoulli
+$$
+Y \sim Bernoulli(\pi)
+$$
+
+* linear predictor 
+
+$$
+\eta = \beta_0 + \beta_1 X_1 + ... + \beta_k X_k\\
+$$
 
 * Link function: logit
 
 $$
-g(\eta) = ln\left(\frac{\mu}{1-\mu}\right) \\
-\mu(X_1, ...,X_k) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 X_1 + ... + \beta_k X_k)}}
+g(\eta) = ln\left(\frac{\pi}{1-\pi}\right) \\
+\pi = \frac{1}{1 + e^{-(\beta_0 + \beta_1 X_1 + ... + \beta_k X_k)}}
 $$
 
 
 
 ## Poisson regression
 
-* Y: discrete variable (integers)
+* Y: discrete variable (integers), Response distribution: Poisson or Negative binomial
 
-* Response distribution: Poisson or Negative binomial
+$$
+Y \sim \mathcal{P}(\lambda)
+$$
+
+* linear predictor 
+
+$$
+\eta = \beta_0 + \beta_1 X_1 + ... + \beta_k X_k\\
+$$
+
 
 * Link function: natural logarithm
 
 $$
-g(\eta) = ln(\mu) \\
-\mu(X_1, ...,X_k) = e^{\beta_0 + \beta_1 X_1 + ... + \beta_k X_k}
+g(\eta) = ln(\lambda) \\
+\lambda = e^{\beta_0 + \beta_1 X_1 + ... + \beta_k X_k}
 $$
 
 
